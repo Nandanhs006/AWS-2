@@ -54,7 +54,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             <img
               src="/logo.png"
               alt="HeatSutra Logo"
-              style={{ height: '42px', width: 'auto', objectFit: 'contain', display: 'block' }}
+              style={{ height: '62px', width: 'auto', objectFit: 'contain', display: 'block' }}
             />
           </div>
 

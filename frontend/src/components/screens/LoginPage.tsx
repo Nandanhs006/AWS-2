@@ -90,7 +90,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onSuccess }) => {
             <img
               src="/logo.png"
               alt="HeatSutra Logo"
-              style={{ height: '70px', width: 'auto', maxWidth: '240px', objectFit: 'contain' }}
+              style={{ height: '110px', width: 'auto', maxWidth: '320px', objectFit: 'contain' }}
             />
           </div>
           <h1 style={{ fontSize: '18px', fontWeight: 700, color: 'var(--text-main)', margin: '4px 0' }}>
