@@ -165,20 +165,20 @@ flowchart TB
     Start --> P3
     Start --> P4
 
-    P1 -->|T at least 44.1°C (2 Days)| P1Full["Full Payout (₹900)"]
-    P1 -->|T at least 43.6°C (2 Days)| P1Part["Partial Payout (₹400)"]
+    P1 -->|T at least 44.1 C - 2 Days| P1Full["Full Payout (₹900)"]
+    P1 -->|T at least 43.6 C - 2 Days| P1Part["Partial Payout (₹400)"]
     P1 -->|Fails Consecutive Rule| Standby["Standby State (₹0)<br/>Audit Trail Logged"]
 
-    P2 -->|T at least 42.74°C (1 Day)| P2Full["Full Payout (₹900)"]
-    P2 -->|Below 42.74°C| Standby
+    P2 -->|T at least 42.74 C - 1 Day| P2Full["Full Payout (₹900)"]
+    P2 -->|Below 42.74 C| Standby
 
-    P3 -->|Tw at least 30.8°C (Lethal)| P3Full["Full Payout (₹900)"]
-    P3 -->|Tw at least 29.8°C (Extreme)| P3Part["Partial Payout (₹400)"]
-    P3 -->|Below 29.8°C| Standby
+    P3 -->|Tw at least 30.8 C - Lethal| P3Full["Full Payout (₹900)"]
+    P3 -->|Tw at least 29.8 C - Extreme| P3Part["Partial Payout (₹400)"]
+    P3 -->|Below 29.8 C| Standby
 
-    P4 -->|T at least 44.1°C OR Tw at least 31.0°C| P4Full["Full Payout (₹900)<br/>Zero Humidity Blind Spot"]
-    P4 -->|T at least 43.2°C OR Tw at least 30.2°C| P4Part["Partial Payout (₹400)"]
-    P4 -->|T at least 42.0°C (Pre-Alert)| P4Adv["Advisory Alert Only<br/>HAP Municipal Action"]
+    P4 -->|T at least 44.1 C OR Tw at least 31.0 C| P4Full["Full Payout (₹900)<br/>Zero Humidity Blind Spot"]
+    P4 -->|T at least 43.2 C OR Tw at least 30.2 C| P4Part["Partial Payout (₹400)"]
+    P4 -->|T at least 42.0 C - Pre-Alert| P4Adv["Advisory Alert Only<br/>HAP Municipal Action"]
     P4 -->|Below All Tiers| Standby
 ```
 

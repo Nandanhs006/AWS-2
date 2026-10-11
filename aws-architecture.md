@@ -63,7 +63,7 @@ flowchart TB
     %% Edge Connections
     User -->|HTTPS GET| CF
     CF -->|Origin Fetch| S3Site
-    User -->|HTTPS POST /api/reprice| APIGW
+    User -->|HTTPS POST Reprice| APIGW
     APIGW -->|Proxy Integration| RepriceLambda
 
     %% Scheduled Evaluation
@@ -76,8 +76,8 @@ flowchart TB
 
     %% Asynchronous Fan-Out
     DailyEvalLambda -->|Enqueue Payout Messages| SQS
-    SQS -->|Failed Messages (Max 3 retries)| DLQ
-    SQS -->|Batch Trigger (10 msgs)| FanoutLambda
+    SQS -->|Failed Messages - Max 3 Retries| DLQ
+    SQS -->|Batch Trigger - 10 Messages| FanoutLambda
 
     %% Outbound Actions
     FanoutLambda -->|Send Advisories| SES
