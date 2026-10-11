@@ -168,7 +168,7 @@ def generate_all_precomputed(
         {
             "id": "hybrid_dual_metric",
             "family": TriggerFamily.HYBRID,
-            "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+            "label": "HeatSutra Hybrid (Extreme Dry Heat OR Humid Spikes)",
             "consecutive_days": 2,
             "dry_bulb_threshold_c": 43.2,
             "wet_bulb_threshold_c": 30.2,
@@ -340,15 +340,17 @@ def generate_all_precomputed(
         "daily_wage_rate_inr": 450.0,
         "cities": desk_cities,
         "worker_message_templates": {
-            "english": "Mausam Dhaal Alert: Extreme heat stress detected today (WBGT > 30.5°C). Your income protection relief payout of ₹400 has been deposited to your registered bank account via UPI. Please rest in the shade from 12 PM to 4 PM and hydrate with ORS.",
-            "hindi": "मौसम ढाल अलर्ट: आज अत्यधिक गर्मी और उमस (WBGT > 30.5°C) दर्ज की गई है। आपके पंजीकृत बैंक खाते में ₹400 की सुरक्षा राशि यूपीआई द्वारा भेज दी गई है। कृपया दोपहर 12 से 4 बजे तक छाया में रहें और ओआरएस पिएं।",
-            "gujarati": "મોસમ ઢાલ એલર્ટ: આજે અતિશય ગરમી અને ભેજ (WBGT > 30.5°C) છે. તમારા બેંક ખાતામાં ₹400 ની સહાય રકમ UPI દ્વારા જમા થઈ ગઈ છે. કૃપા કરીને બપોરે 12 થી 4 છાંયડામાં આરામ કરો અને પાણી તેમજ ORS પીવો.",
-            "tamil": "மௌசம் தால் எச்சரிக்கை: இன்று அதீத வெப்ப அழுத்தம் பதிவாகியுள்ளது (WBGT > 30.5°C). உங்கள் நிவாரணத் தொகை ₹400 உங்கள் வங்கிக் கணக்கில் UPI மூலம் செலுத்தப்பட்டுள்ளது. மதியம் 12 முதல் 4 வரை நிழலில் ஓய்வெடுக்கவும்.",
-            "bengali": "মৌসম ঢাল সতর্কতা: আজ মারাত্মক তাপপ্রবাহ শনাক্ত হয়েছে (WBGT > 30.5°C)। আপনার ব্যাংক অ্যাকাউন্টে ₹400 সহায়তা পাঠানো হয়েছে। দুপুর ১২টা থেকে ৪টে ছায়ায় বিশ্রাম নিন ও ওআরএস খান।"
+            "english": "HeatSutra Alert: Extreme heat stress detected today (WBGT > 30.5°C). Your income protection relief payout of ₹400 has been deposited to your registered bank account via UPI. Please rest in the shade from 12 PM to 4 PM and hydrate with ORS.",
+            "kannada": "ಹೀಟ್ಸೂತ್ರ ಎಚ್ಚರಿಕೆ: ಇಂದು ತೀವ್ರ ಉಷ್ಣಾಂಶ ಮತ್ತು ತೇವಾಂಶ (WBGT > 30.5°C) ದಾಖಲಾಗಿದೆ. ನಿಮ್ಮ ₹400 ದಿನಗೂಲಿ ರಕ್ಷಣಾ ಪರಿಹಾರ ಹಣವನ್ನು ನಿಮ್ಮ ಯುಪಿಐ ಖಾತೆಗೆ ಜಮೆ ಮಾಡಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಮಧ್ಯಾಹ್ನ 12 ರಿಂದ 4 ರವರೆಗೆ ನೆರಳಿನಲ್ಲಿ ವಿಶ್ರಮಿಸಿ ಮತ್ತು ನೀರು ಕುಡಿಯಿರಿ.",
+            "marathi": "हीटसूत्रा अलर्ट: आज तीव्र उष्णता आणि आर्द्रता (WBGT > 30.5°C) नोंदवली गेली आहे. तुमची ₹400 ची उत्पन्न संरक्षण मदत रक्कम थेट तुमच्या बँक खात्यात यूपीआय द्वारे जमा झाली आहे. कृपया दुपारी 12 ते 4 सावलीत विश्रांती घ्या आणि ओआरएस प्या.",
+            "telugu": "హీట్సూత్ర హెచ్చరిక: ఈరోజు అత్యధిక తేమతో కూడిన ఎండ (WBGT > 30.5°C) నమోదైంది. మీ ₹400 ఆదాయ రక్షణ చెల్లింపు మీ యూపీఐ ఖాతాకు జమ చేయబడింది. దయచేసి మధ్యాహ్నం 12 నుండి 4 వరకు నీడలో విశ్రాంతి తీసుకోండి.",
+            "hindi": "हीटसूत्रा अलर्ट: आज अत्यधिक गर्मी और उमस (WBGT > 30.5°C) दर्ज की गई है। आपके पंजीकृत बैंक खाते में ₹400 की सुरक्षा राशि यूपीआई द्वारा भेज दी गई है। कृपया दोपहर 12 से 4 बजे तक छाया में रहें और ओआरएस पिएं।",
+            "gujarati": "હીટસૂત્ર એલર્ટ: આજે અતિશય ગરમી અને ભેજ (WBGT > 30.5°C) છે. તમારા બેંક ખાતામાં ₹400 ની સહાય રકમ UPI દ્વારા જમા થઈ ગઈ છે. કૃપા કરીને બપોરે 12 થી 4 છાંયડામાં આરામ કરો અને પાણી તેમજ ORS પીવો.",
+            "tamil": "ஹீட்சூத்ரா எச்சரிக்கை: இன்று அதீத வெப்ப அழுத்தம் பதிவாகியுள்ளது (WBGT > 30.5°C). உங்கள் நிவாரணத் தொகை ₹400 உங்கள் வங்கிக் கணக்கில் UPI மூலம் செலுத்தப்பட்டுள்ளது. மதியம் 12 முதல் 4 வரை நிழலில் ஓய்வெடுக்கவும்."
         },
         "employer_advisory": {
             "subject": "National Heat Advisory: Informal Worker Workplace Heat Protection Mandate",
-            "body": "This is an automated heat protection advisory issued under the Mausam Dhaal framework. Wet-bulb temperatures across active pilot hubs have breached physiological tolerance limits (High Heat Stress). Employers and gig platform operators are requested to: (1) Suspend heavy outdoor labor between 12:00 PM and 4:00 PM, (2) Provide free shaded resting points and ORS solution, (3) Do not penalize delivery partners or field staff for slower service during peak heat hours."
+            "body": "This is an automated heat protection advisory issued under the HeatSutra framework. Wet-bulb temperatures across active pilot hubs have breached physiological tolerance limits (High Heat Stress). Employers and gig platform operators are requested to: (1) Suspend heavy outdoor labor between 12:00 PM and 4:00 PM, (2) Provide free shaded resting points and ORS solution, (3) Do not penalize delivery partners or field staff for slower service during peak heat hours."
         },
         "city_action_checklist": [
             {"task": "Activate municipal cool-roof shelters and public water kiosks", "department": "Municipal Health Cell", "status": "Ready"},
@@ -369,7 +371,7 @@ def generate_all_precomputed(
     # -------------------------------------------------------------
     datasets_catalog = {
         "catalog_title": "Freely Available Open Climate & Worker Datasets",
-        "description": "Exhaustive registry of open-access public meteorological, satellite, and labour datasets ingested by Mausam Dhaal.",
+        "description": "Exhaustive registry of open-access public meteorological, satellite, and labour datasets ingested by HeatSutra.",
         "last_synced": datetime.now(timezone.utc).isoformat(),
         "datasets": [
             {
@@ -509,7 +511,7 @@ def generate_all_precomputed(
                 "license": "Government Open Document",
                 "api_access": "NDMA Portal",
                 "source_url": "https://ndma.gov.in/",
-                "role_in_engine": "Aligns Mausam Dhaal operational triggers with municipal Heat Action Plan alert protocols and inter-departmental checklists.",
+                "role_in_engine": "Aligns HeatSutra operational triggers with municipal Heat Action Plan alert protocols and inter-departmental checklists.",
                 "sample_record": {
                     "alert_level": "Red Alert (Severe Heatwave)",
                     "action_required": "Activate municipal cooling centres, suspend outdoor work 12-4 PM, initiate relief cash disbursement"

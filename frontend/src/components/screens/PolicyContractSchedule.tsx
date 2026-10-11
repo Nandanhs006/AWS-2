@@ -181,7 +181,7 @@ export const PolicyContractSchedule: React.FC = () => {
             4. Tamper-Evident Settlement & Arbitration
           </h3>
           <p style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
-            Every trigger evaluation is immutably published to the Mausam Dhaal Decision Record with SHA-256 evidence hashes locked under Object Lock governance mode. Claims settlement requires zero claims paperwork from individual workers; payouts are executed automatically to Aadhaar-linked UPI VPAs upon verified trigger firing.
+            Every trigger evaluation is immutably published to the HeatSutra Decision Record with SHA-256 evidence hashes locked under Object Lock governance mode. Claims settlement requires zero claims paperwork from individual workers; payouts are executed automatically to Aadhaar-linked UPI VPAs upon verified trigger firing.
           </p>
         </div>
 

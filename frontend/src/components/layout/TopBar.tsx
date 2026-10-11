@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useAuth } from '../../context/AuthContext';
-import { LogOut, ShieldCheck, UserCheck } from 'lucide-react';
+import { useLanguage, SUPPORTED_LANGUAGES, SupportedLanguage } from '../../context/LanguageContext';
+import { LogOut, ShieldCheck, UserCheck, Globe } from 'lucide-react';
 
 interface TopBarProps {
   activeScreen: string;
@@ -9,7 +10,8 @@ interface TopBarProps {
 
 interface ScreenTab {
   id: string;
-  label: string;
+  labelKey: string;
+  fallbackLabel: string;
   group: 'workbench' | 'science' | 'operations';
 }
 
@@ -18,24 +20,24 @@ export const TopBar: React.FC<TopBarProps> = ({
   onSelectScreen,
 }) => {
   const { user, logout } = useAuth();
-  const [logoLoaded, setLogoLoaded] = useState(true);
+  const { language, setLanguage, t } = useLanguage();
 
   const screens: ScreenTab[] = [
     // Group 1: Core Workbench
-    { id: 'studio', label: 'Trigger Studio', group: 'workbench' },
-    { id: 'distress', label: 'Distress Map', group: 'workbench' },
-    { id: 'desk', label: 'Heat-Day Desk', group: 'workbench' },
-    { id: 'replay', label: 'Season Replay', group: 'workbench' },
+    { id: 'studio', labelKey: 'nav.studio', fallbackLabel: 'Trigger Studio', group: 'workbench' },
+    { id: 'distress', labelKey: 'nav.distress', fallbackLabel: 'Distress Map', group: 'workbench' },
+    { id: 'desk', labelKey: 'nav.desk', fallbackLabel: 'Heat-Day Desk', group: 'workbench' },
+    { id: 'replay', labelKey: 'nav.replay', fallbackLabel: 'Season Replay', group: 'workbench' },
     // Group 2: Climate Science & Data Trust
-    { id: 'datatrust', label: 'Data Trust', group: 'science' },
-    { id: 'datasets', label: 'Open Datasets', group: 'science' },
-    { id: 'microclimate', label: 'Ward Heat Islands', group: 'science' },
+    { id: 'datatrust', labelKey: 'nav.datatrust', fallbackLabel: 'Data Trust', group: 'science' },
+    { id: 'datasets', labelKey: 'nav.datasets', fallbackLabel: 'Open Datasets', group: 'science' },
+    { id: 'microclimate', labelKey: 'nav.microclimate', fallbackLabel: 'Ward Heat Islands', group: 'science' },
     // Group 3: Operations & Governance
-    { id: 'cohorts', label: 'Cohort Registry', group: 'operations' },
-    { id: 'actuarial', label: 'Actuarial Solvency', group: 'operations' },
-    { id: 'disbursement', label: 'UPI Disbursement', group: 'operations' },
-    { id: 'decisions', label: 'Decision Record', group: 'operations' },
-    { id: 'contract', label: 'Policy Schedule', group: 'operations' },
+    { id: 'cohorts', labelKey: 'nav.cohorts', fallbackLabel: 'Cohort Registry', group: 'operations' },
+    { id: 'actuarial', labelKey: 'nav.actuarial', fallbackLabel: 'Actuarial Solvency', group: 'operations' },
+    { id: 'disbursement', labelKey: 'nav.disbursement', fallbackLabel: 'UPI Disbursement', group: 'operations' },
+    { id: 'decisions', labelKey: 'nav.decisions', fallbackLabel: 'Decision Record', group: 'operations' },
+    { id: 'contract', labelKey: 'nav.contract', fallbackLabel: 'Policy Schedule', group: 'operations' },
   ];
 
   return (
@@ -43,65 +45,98 @@ export const TopBar: React.FC<TopBarProps> = ({
       {/* Primary Top Bar */}
       <div className="top-nav">
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-          {/* Logo Container */}
-          <div className="logo-container" style={{ width: 220, height: 44, cursor: 'pointer' }} onClick={() => onSelectScreen('studio')}>
-            {logoLoaded ? (
-              <img
-                src="/logo.svg"
-                alt="Mausam Dhaal Logo"
-                className="logo-img"
-                onError={() => setLogoLoaded(false)}
-              />
-            ) : (
-              <div className="logo-fallback">
-                <span className="logo-fallback-title">Mausam Dhaal · मौसम ढाल</span>
-                <span className="logo-fallback-sub">Parametric Heat-Cover Workbench</span>
-              </div>
-            )}
+          {/* Logo */}
+          <div
+            style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}
+            onClick={() => onSelectScreen('studio')}
+            title="HeatSutra Home"
+          >
+            <img
+              src="/logo.png"
+              alt="HeatSutra Logo"
+              style={{ height: '42px', width: 'auto', objectFit: 'contain', display: 'block' }}
+            />
           </div>
 
-          <div style={{ borderLeft: '1px solid rgba(255, 255, 255, 0.2)', height: '24px' }} />
+          <div style={{ borderLeft: '1px solid var(--border-color)', height: '24px' }} />
 
           {/* Program Context */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <span style={{ fontSize: '10px', color: '#AAB7B8', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-              Active Union Cohort
+            <span style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.04em', fontWeight: 600 }}>
+              {t('activeCohort')}
             </span>
-            <span style={{ fontSize: '12px', fontWeight: 600, color: '#FFFFFF' }}>
-              SEWA Informal Workers Protection · 31 Pilot Hubs
+            <span style={{ fontSize: '12.5px', fontWeight: 700, color: 'var(--text-main)' }}>
+              {t('cohortSubtitle')}
             </span>
           </div>
         </div>
 
         {/* Top Right Controls & Role Management */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-          {/* Authenticated User Profile & Static Non-Switchable Role Badge */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          {/* Regional Language Switcher */}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              backgroundColor: 'var(--bg-surface-alt)',
+              padding: '4px 8px',
+              borderRadius: 'var(--radius-sm)',
+              border: '1px solid var(--border-color)',
+            }}
+          >
+            <Globe size={14} color="var(--aws-orange)" />
+            <select
+              id="select-language"
+              value={language}
+              onChange={(e) => setLanguage(e.target.value as SupportedLanguage)}
+              style={{
+                backgroundColor: 'transparent',
+                color: 'var(--text-main)',
+                border: 'none',
+                fontSize: '11.5px',
+                fontWeight: 600,
+                outline: 'none',
+                cursor: 'pointer',
+              }}
+              title="Change Interface Language"
+            >
+              {SUPPORTED_LANGUAGES.map((lang) => (
+                <option key={lang.code} value={lang.code} style={{ color: '#0F172A', backgroundColor: '#FFFFFF' }}>
+                  {lang.nativeName} ({lang.name})
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Authenticated User Profile & Static Role Badge */}
           {user && (
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <div style={{ textAlign: 'right' }}>
-                <div style={{ fontSize: '12px', fontWeight: 600, color: '#FFFFFF' }}>
+                <div style={{ fontSize: '12px', fontWeight: 700, color: 'var(--text-main)' }}>
                   {user.name}
                 </div>
-                <div style={{ fontSize: '10px', color: '#AAB7B8' }}>{user.organization}</div>
+                <div style={{ fontSize: '10.5px', color: 'var(--text-secondary)' }}>{user.organization}</div>
               </div>
 
-              {/* Static Role Badge - Cannot be toggled on the fly */}
+              {/* Static Role Badge */}
               <div
                 id="badge-role-display"
                 style={{
                   padding: '4px 8px',
                   fontSize: '11px',
-                  fontWeight: 600,
-                  backgroundColor: user.role === 'officer' ? '#FF9900' : '#1E4620',
-                  color: user.role === 'officer' ? '#111827' : '#C8E6C9',
-                  borderRadius: '2px',
+                  fontWeight: 700,
+                  backgroundColor: user.role === 'officer' ? '#FEF3C7' : '#DCFCE7',
+                  color: user.role === 'officer' ? '#92400E' : '#166534',
+                  border: `1px solid ${user.role === 'officer' ? '#FCD34D' : '#86EFAC'}`,
+                  borderRadius: 'var(--radius-sm)',
                   display: 'flex',
                   alignItems: 'center',
                   gap: '4px',
                 }}
               >
                 {user.role === 'officer' ? <UserCheck size={12} /> : <ShieldCheck size={12} />}
-                {user.badge}
+                {user.role === 'officer' ? t('officer') : t('reviewer')}
               </div>
 
               <button
@@ -112,9 +147,9 @@ export const TopBar: React.FC<TopBarProps> = ({
                 title="Log Out (Switch Account)"
                 style={{
                   padding: '5px 8px',
-                  backgroundColor: 'transparent',
-                  color: '#FFFFFF',
-                  borderColor: 'rgba(255, 255, 255, 0.25)',
+                  backgroundColor: 'var(--bg-surface-alt)',
+                  color: 'var(--text-main)',
+                  borderColor: 'var(--border-color)',
                   fontSize: '11px',
                   display: 'flex',
                   alignItems: 'center',
@@ -122,7 +157,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                 }}
               >
                 <LogOut size={13} />
-                <span>Log Out</span>
+                <span>{t('logout')}</span>
               </button>
             </div>
           )}
@@ -144,7 +179,7 @@ export const TopBar: React.FC<TopBarProps> = ({
                 className={`nav-tab-btn ${activeScreen === screen.id ? 'active' : ''}`}
                 onClick={() => onSelectScreen(screen.id)}
               >
-                {screen.label}
+                {t(screen.labelKey) || screen.fallbackLabel}
               </button>
             </React.Fragment>
           );

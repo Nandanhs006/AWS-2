@@ -272,10 +272,10 @@ export const UrbanMicroclimateAudit: React.FC = () => {
         </div>
 
         <div style={{ marginTop: '16px', padding: '12px 16px', backgroundColor: 'rgba(9, 114, 211, 0.06)', borderLeft: '4px solid var(--aws-blue)', fontSize: '12px', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
-          <strong>Mausam Dhaal Microclimate Calibration:</strong> While the airport registered {simAmbientTemp.toFixed(1)}°C
+          <strong>HeatSutra Microclimate Calibration:</strong> While the airport registered {simAmbientTemp.toFixed(1)}°C
           (often below the arbitrary 43.6°C pilot threshold), workers in {activeWard.ward_name} experienced {effectiveWardTemp.toFixed(1)}°C
           with WBGT reaching {effectiveWbgt.toFixed(1)}°C. By implementing Stull wet-bulb triggers or microclimate offset correction,
-          Mausam Dhaal guarantees relief payouts fire on these dangerous uncompensated heat days.
+          HeatSutra guarantees relief payouts fire on these dangerous uncompensated heat days.
         </div>
       </div>
     </div>

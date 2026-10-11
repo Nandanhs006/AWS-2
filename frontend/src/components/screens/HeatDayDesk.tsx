@@ -42,7 +42,7 @@ export const HeatDayDesk: React.FC = () => {
   const [data, setData] = useState<any>(null);
   const [diurnalData, setDiurnalData] = useState<Record<string, { curve: DiurnalPoint[] }>>({});
   const [selectedCityId, setSelectedCityId] = useState<string>('kolkata'); // Default to Kolkata where trigger fired
-  const [activeLang, setActiveLang] = useState<'english' | 'hindi' | 'gujarati' | 'tamil' | 'bengali'>('english');
+  const [activeLang, setActiveLang] = useState<'english' | 'kannada' | 'marathi' | 'telugu' | 'hindi' | 'gujarati' | 'tamil' | 'bengali'>('english');
   const [emailStatus, setEmailStatus] = useState<string | null>(null);
   const [checklist, setChecklist] = useState<ChecklistItem[]>([]);
   const [viewTab, setViewTab] = useState<'active_city' | 'nationwide_matrix'>('active_city');
@@ -97,7 +97,7 @@ export const HeatDayDesk: React.FC = () => {
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement('a');
     link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `mausam_dhaal_payout_${currentCity.city_id}_${currentCity.date}.csv`);
+    link.setAttribute('download', `heatsutra_payout_${currentCity.city_id}_${currentCity.date}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -352,25 +352,32 @@ export const HeatDayDesk: React.FC = () => {
                   <Globe size={15} color="var(--aws-orange)" />
                   Worker SMS Advisory Dispatch
                 </div>
-                <div style={{ display: 'flex', gap: '4px' }}>
-                  {(['english', 'hindi', 'gujarati', 'tamil', 'bengali'] as const).map((lang) => (
+                <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                  {([
+                    { id: 'english', label: 'English' },
+                    { id: 'kannada', label: 'ಕನ್ನಡ' },
+                    { id: 'marathi', label: 'मराठी' },
+                    { id: 'telugu', label: 'తెలుగు' },
+                    { id: 'hindi', label: 'हिन्दी' },
+                    { id: 'gujarati', label: 'ગુજરાતી' },
+                    { id: 'tamil', label: 'தமிழ்' },
+                  ] as const).map((lang) => (
                     <button
-                      key={lang}
+                      key={lang.id}
                       type="button"
-                      onClick={() => setActiveLang(lang)}
+                      onClick={() => setActiveLang(lang.id as any)}
                       style={{
                         padding: '3px 8px',
                         fontSize: '11px',
                         fontWeight: 600,
-                        textTransform: 'capitalize',
                         borderRadius: '2px',
                         border: 'none',
                         cursor: 'pointer',
-                        backgroundColor: activeLang === lang ? 'var(--aws-orange)' : 'var(--bg-app)',
-                        color: activeLang === lang ? '#111827' : 'var(--text-secondary)',
+                        backgroundColor: activeLang === lang.id ? 'var(--aws-orange)' : 'var(--bg-app)',
+                        color: activeLang === lang.id ? '#111827' : 'var(--text-secondary)',
                       }}
                     >
-                      {lang}
+                      {lang.label}
                     </button>
                   ))}
                 </div>

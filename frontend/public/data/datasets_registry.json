@@ -1,7 +1,7 @@
 {
   "catalog_title": "Freely Available Open Climate & Worker Datasets",
-  "description": "Exhaustive registry of open-access public meteorological, satellite, and labour datasets ingested by Mausam Dhaal.",
-  "last_synced": "2026-10-11T16:37:18.559331+00:00",
+  "description": "Exhaustive registry of open-access public meteorological, satellite, and labour datasets ingested by HeatSutra.",
+  "last_synced": "2026-10-11T17:03:59.678677+00:00",
   "datasets": [
     {
       "id": "copernicus-era5-land",
@@ -177,7 +177,7 @@
       "license": "Government Open Document",
       "api_access": "NDMA Portal",
       "source_url": "https://ndma.gov.in/",
-      "role_in_engine": "Aligns Mausam Dhaal operational triggers with municipal Heat Action Plan alert protocols and inter-departmental checklists.",
+      "role_in_engine": "Aligns HeatSutra operational triggers with municipal Heat Action Plan alert protocols and inter-departmental checklists.",
       "sample_record": {
         "alert_level": "Red Alert (Severe Heatwave)",
         "action_required": "Activate municipal cooling centres, suspend outdoor work 12-4 PM, initiate relief cash disbursement"

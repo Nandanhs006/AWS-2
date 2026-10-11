@@ -144,7 +144,7 @@ export const TriggerStudio: React.FC = () => {
               <option value="dry_bulb_sewa_pilot">Published SEWA 2-Day Dry-Bulb Pilot (43.6°C / 44.1°C)</option>
               <option value="dry_bulb_lowered_2026">Revised Gujarat 2026 Standard (42.74°C)</option>
               <option value="wet_bulb_standard">Stull Wet-Bulb Physiological Stress (29.8°C / 30.8°C)</option>
-              <option value="hybrid_dual_metric">Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)</option>
+              <option value="hybrid_dual_metric">HeatSutra Hybrid (Extreme Dry Heat OR Humid Spikes)</option>
             </select>
           </div>
 

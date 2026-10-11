@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 import { TopBar } from './components/layout/TopBar';
 import { TriggerStudio } from './components/screens/TriggerStudio';
 import { DistressMap } from './components/screens/DistressMap';
@@ -73,9 +74,11 @@ const MainWorkbench: React.FC = () => {
 export const App: React.FC = () => {
   return (
     <ThemeProvider>
-      <AuthProvider>
-        <MainWorkbench />
-      </AuthProvider>
+      <LanguageProvider>
+        <AuthProvider>
+          <MainWorkbench />
+        </AuthProvider>
+      </LanguageProvider>
     </ThemeProvider>
   );
 };

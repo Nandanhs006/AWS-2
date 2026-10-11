@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth, UserRole } from '../../context/AuthContext';
-import { ShieldCheck, UserCheck, Lock, Mail, ArrowRight, AlertCircle } from 'lucide-react';
+import { useLanguage, SUPPORTED_LANGUAGES, SupportedLanguage } from '../../context/LanguageContext';
+import { ShieldCheck, UserCheck, Lock, Mail, ArrowRight, AlertCircle, Globe } from 'lucide-react';
 
 interface LoginPageProps {
   onSuccess: () => void;
@@ -8,6 +9,7 @@ interface LoginPageProps {
 
 export const LoginPage: React.FC<LoginPageProps> = ({ onSuccess }) => {
   const { login } = useAuth();
+  const { language, setLanguage } = useLanguage();
   const [selectedRole, setSelectedRole] = useState<UserRole>('officer');
   const [email, setEmail] = useState('ramilaben@sewa.org');
   const [password, setPassword] = useState('officer2026');
@@ -55,21 +57,47 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onSuccess }) => {
           padding: '24px 28px',
           borderTop: '4px solid var(--primary-action)',
           backgroundColor: 'var(--bg-surface)',
+          position: 'relative',
         }}
       >
+        {/* Language selector in top right of login card */}
+        <div style={{ position: 'absolute', top: '16px', right: '16px', display: 'flex', alignItems: 'center', gap: '4px' }}>
+          <Globe size={13} color="var(--text-muted)" />
+          <select
+            value={language}
+            onChange={(e) => setLanguage(e.target.value as SupportedLanguage)}
+            style={{
+              fontSize: '11px',
+              padding: '2px 4px',
+              border: '1px solid var(--border-color)',
+              borderRadius: 'var(--radius-sm)',
+              backgroundColor: 'var(--bg-surface)',
+              color: 'var(--text-main)',
+              cursor: 'pointer',
+            }}
+            title="Select Language"
+          >
+            {SUPPORTED_LANGUAGES.map((l) => (
+              <option key={l.code} value={l.code}>
+                {l.nativeName}
+              </option>
+            ))}
+          </select>
+        </div>
+
         <div style={{ textAlign: 'center', marginBottom: '20px' }}>
           <div style={{ display: 'inline-flex', justifyContent: 'center', marginBottom: '8px' }}>
             <img
-              src="/logo.svg"
-              alt="Mausam Dhaal Logo"
-              style={{ width: 220, height: 44, objectFit: 'contain' }}
+              src="/logo.png"
+              alt="HeatSutra Logo"
+              style={{ height: '70px', width: 'auto', maxWidth: '240px', objectFit: 'contain' }}
             />
           </div>
           <h1 style={{ fontSize: '18px', fontWeight: 700, color: 'var(--text-main)', margin: '4px 0' }}>
             Institutional Portal Login
           </h1>
           <p style={{ fontSize: '12px', color: 'var(--text-secondary)', margin: 0 }}>
-            Parametric Heat-Cover Operations & Risk Audit
+            HeatSutra · Parametric Heat-Cover Operations & Risk Audit
           </p>
         </div>
 

@@ -26,27 +26,21 @@
     <path d="M 14 34 Q 19 29 24 34 T 34 34" 
           fill="none" stroke="#EF4444" stroke-width="2" stroke-linecap="round" />
 
-    <!-- Stull Wet-Bulb Mercury Droplet -->
+    <!-- Wet-Bulb Mercury Droplet -->
     <circle cx="24" cy="22" r="3.5" fill="url(#shieldGrad)" />
   </g>
 
   <!-- Text Group -->
-  <g transform="translate(64, 14)">
+  <g transform="translate(64, 15)">
     <!-- Primary Brand Title -->
-    <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
-          font-size="20" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">
-      Mausam Dhaal
-    </text>
-    
-    <!-- Hindi Subtitle Badge -->
-    <text x="145" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
-          font-size="13" font-weight="600" fill="#FFB347">
-      मौसम ढाल
+    <text x="0" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-size="22" font-weight="800" letter-spacing="0.5">
+      <tspan fill="#0F172A">Heat</tspan><tspan fill="#D97706">Sutra</tspan>
     </text>
 
     <!-- Descriptor Subtitle -->
-    <text x="0" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
-          font-size="10.5" font-weight="500" fill="#94A3B8" letter-spacing="0.3">
+    <text x="0" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-size="9.5" font-weight="700" fill="#64748B" letter-spacing="0.8">
       PARAMETRIC HEAT-COVER WORKBENCH
     </text>
   </g>
