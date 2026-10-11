@@ -190,7 +190,7 @@ HeatSutra/
 │       └── fanout_handler.py     # SQS queue consumer for SES and alert broadcast
 ├── infra/                        # AWS Cloud Development Kit (CDK) Infrastructure
 │   ├── lib/
-│   │   └── mausam-dhaal-stack.ts # CDK Stack definition for full AWS deployment
+│   │   └── heatsutra-stack.ts    # CDK Stack definition for full AWS deployment
 │   ├── bin/infra.ts              # CDK entry point
 │   └── cdk.json                  # CDK configuration
 ├── aws-architecture.md           # Exhaustive AWS Cloud Architecture Deep Dive

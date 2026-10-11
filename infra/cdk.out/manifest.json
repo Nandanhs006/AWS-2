@@ -1,28 +1,28 @@
 {
   "version": "54.0.0",
   "artifacts": {
-    "MausamDhaalStack.assets": {
+    "HeatSutraStack.assets": {
       "type": "cdk:asset-manifest",
       "properties": {
-        "file": "MausamDhaalStack.assets.json",
+        "file": "HeatSutraStack.assets.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
       }
     },
-    "MausamDhaalStack": {
+    "HeatSutraStack": {
       "type": "aws:cloudformation:stack",
       "environment": "aws://123456789012/us-east-1",
       "properties": {
-        "templateFile": "MausamDhaalStack.template.json",
+        "templateFile": "HeatSutraStack.template.json",
         "terminationProtection": false,
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::123456789012:role/cdk-hnb659fds-deploy-role-123456789012-us-east-1",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::123456789012:role/cdk-hnb659fds-cfn-exec-role-123456789012-us-east-1",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-123456789012-us-east-1/ff61210144f13cc4ee08b23762cba2298ef1b8576168f181d7ea6f53201f3e81.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-123456789012-us-east-1/a851db09842c1af4b881faafdabc97bf1074c67002eee23ed1c6086ba1a7f774.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
-          "MausamDhaalStack.assets"
+          "HeatSutraStack.assets"
         ],
         "lookupRole": {
           "arn": "arn:${AWS::Partition}:iam::123456789012:role/cdk-hnb659fds-lookup-role-123456789012-us-east-1",
@@ -31,10 +31,10 @@
         }
       },
       "dependencies": [
-        "MausamDhaalStack.assets"
+        "HeatSutraStack.assets"
       ],
-      "additionalMetadataFile": "MausamDhaalStack.metadata.json",
-      "displayName": "MausamDhaalStack"
+      "additionalMetadataFile": "HeatSutraStack.metadata.json",
+      "displayName": "HeatSutraStack"
     },
     "Tree": {
       "type": "cdk:tree",

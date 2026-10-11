@@ -15,7 +15,7 @@ const ThemeContext = createContext<ThemeContextType>({
 export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', 'light');
-    localStorage.removeItem('mausam_dhaal_theme');
+    localStorage.removeItem('heatsutra_theme');
   }, []);
 
   return (

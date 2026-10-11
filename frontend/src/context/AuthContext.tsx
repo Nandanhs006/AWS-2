@@ -54,7 +54,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   // Always initialize to null so landing page is strictly the Login Page
   const [user, setUser] = useState<UserProfile | null>(() => {
-    const saved = sessionStorage.getItem('mausam_dhaal_session_role');
+    const saved = sessionStorage.getItem('heatsutra_session_role');
     if (saved === 'officer' || saved === 'reviewer') {
       return DEMO_USERS[saved];
     }
@@ -82,13 +82,13 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
     const profile = DEMO_USERS[role];
     setUser(profile);
-    sessionStorage.setItem('mausam_dhaal_session_role', role);
+    sessionStorage.setItem('heatsutra_session_role', role);
     return { success: true };
   };
 
   const logout = () => {
     setUser(null);
-    sessionStorage.removeItem('mausam_dhaal_session_role');
+    sessionStorage.removeItem('heatsutra_session_role');
   };
 
   return (

@@ -16,7 +16,7 @@ import * as cloudwatch from 'aws-cdk-lib/aws-cloudwatch';
 import * as budgets from 'aws-cdk-lib/aws-budgets';
 import * as path from 'path';
 
-export class MausamDhaalStack extends cdk.Stack {
+export class HeatSutraStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 

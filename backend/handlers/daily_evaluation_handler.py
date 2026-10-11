@@ -19,8 +19,8 @@ dynamodb = boto3.resource("dynamodb", region_name=os.environ.get("AWS_REGION", "
 s3 = boto3.client("s3", region_name=os.environ.get("AWS_REGION", "ap-south-1"))
 sqs = boto3.client("sqs", region_name=os.environ.get("AWS_REGION", "ap-south-1"))
 
-TABLE_NAME = os.environ.get("DECISIONS_TABLE_NAME", "MausamDhaalDecisions")
-EVIDENCE_BUCKET = os.environ.get("EVIDENCE_BUCKET_NAME", "mausam-dhaal-evidence")
+TABLE_NAME = os.environ.get("DECISIONS_TABLE_NAME", "HeatSutraDecisions")
+EVIDENCE_BUCKET = os.environ.get("EVIDENCE_BUCKET_NAME", "heatsutra-evidence")
 QUEUE_URL = os.environ.get("DISBURSEMENT_QUEUE_URL", "")
 
 

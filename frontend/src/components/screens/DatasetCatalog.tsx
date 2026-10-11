@@ -71,7 +71,7 @@ export const DatasetCatalog: React.FC = () => {
               Open Climate & Worker Datasets Registry
             </h1>
             <p style={{ margin: 0, fontSize: '13px', color: 'var(--text-secondary)', maxWidth: '820px', lineHeight: 1.5 }}>
-              Mausam Dhaal grounds all parametric calculations in freely accessible, peer-reviewed global climate reanalyses,
+              HeatSutra grounds all parametric calculations in freely accessible, peer-reviewed global climate reanalyses,
               official India Meteorological Department gridded observations, NASA insolation records, and national informal labour databases.
             </p>
           </div>
@@ -297,7 +297,7 @@ export const DatasetCatalog: React.FC = () => {
 
             <div style={{ marginBottom: '20px' }}>
               <div style={{ fontSize: '12px', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '6px' }}>
-                Role in Mausam Dhaal Engine
+                Role in HeatSutra Engine
               </div>
               <p style={{ fontSize: '12px', color: 'var(--text-secondary)', lineHeight: 1.5, margin: 0 }}>
                 {selectedDataset.role_in_engine}
@@ -363,7 +363,7 @@ export const DatasetCatalog: React.FC = () => {
               Data Triangulation & Basis Risk Attribution Matrix
             </h2>
             <p style={{ margin: 0, fontSize: '12px', color: 'var(--text-secondary)' }}>
-              How Mausam Dhaal reconciles differences between official meteorological instruments and informal worker microclimates.
+              How HeatSutra reconciles differences between official meteorological instruments and informal worker microclimates.
             </p>
           </div>
 
@@ -375,7 +375,7 @@ export const DatasetCatalog: React.FC = () => {
                   <th>Primary Source</th>
                   <th>Spatial Scale</th>
                   <th>Known Basis Risk Blind Spot</th>
-                  <th>Mausam Dhaal Mitigation Engine</th>
+                  <th>HeatSutra Mitigation Engine</th>
                 </tr>
               </thead>
               <tbody>

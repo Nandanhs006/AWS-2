@@ -57,7 +57,7 @@
       "city_id": "kolkata",
       "city_name": "Kolkata",
       "policy_id": "hybrid_dual_metric",
-      "policy_name": "Mausam Dhaal Hybrid",
+      "policy_name": "HeatSutra Hybrid",
       "tier_triggered": "Full",
       "payout_per_member_inr": 900.0,
       "cohort_count": 22000,
