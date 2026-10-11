@@ -655,6 +655,621 @@
           "status": "Agreed Unpaid"
         }
       ]
+    },
+    {
+      "city_id": "pune",
+      "city_name": "Pune",
+      "station_name": "Pune Airport Lohegaon (VAPO / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Pune Airport Lohegaon (VAPO / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "kanpur",
+      "city_name": "Kanpur",
+      "station_name": "Kanpur Chakeri Airport (VIKA / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.28,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 14.2,
+      "assessment": "Audit of Kanpur Chakeri Airport (VIKA / IMD) reveals 14.2% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "bhopal",
+      "city_name": "Bhopal",
+      "station_name": "Raja Bhoj Airport (VABP / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Raja Bhoj Airport (VABP / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "indore",
+      "city_name": "Indore",
+      "station_name": "Devi Ahilya Bai Holkar Airport (VAID / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Devi Ahilya Bai Holkar Airport (VAID / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "vadodara",
+      "city_name": "Vadodara",
+      "station_name": "Vadodara Civil Airport (VABO / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.28,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Vadodara Civil Airport (VABO / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "visakhapatnam",
+      "city_name": "Visakhapatnam",
+      "station_name": "Visakhapatnam International Airport (VOVZ / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Visakhapatnam International Airport (VOVZ / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "coimbatore",
+      "city_name": "Coimbatore",
+      "station_name": "Coimbatore International Airport (VOCB / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Coimbatore International Airport (VOCB / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "ranchi",
+      "city_name": "Ranchi",
+      "station_name": "Birsa Munda Airport (VERC / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Birsa Munda Airport (VERC / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "raipur",
+      "city_name": "Raipur",
+      "station_name": "Swami Vivekananda Airport (VARP / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Swami Vivekananda Airport (VARP / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "ludhiana",
+      "city_name": "Ludhiana",
+      "station_name": "Sahnewal Airport (VILD / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.28,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 14.2,
+      "assessment": "Audit of Sahnewal Airport (VILD / IMD) reveals 14.2% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "agra",
+      "city_name": "Agra",
+      "station_name": "Kheria Air Base Enclave (VIAG / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Kheria Air Base Enclave (VIAG / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "nashik",
+      "city_name": "Nashik",
+      "station_name": "Ozar Airport (VAOZ / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Ozar Airport (VAOZ / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "chandigarh",
+      "city_name": "Chandigarh",
+      "station_name": "Shaheed Bhagat Singh Airport (VICG / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Shaheed Bhagat Singh Airport (VICG / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "guwahati",
+      "city_name": "Guwahati",
+      "station_name": "Lokpriya Gopinath Bordoloi Airport (VEGT / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Lokpriya Gopinath Bordoloi Airport (VEGT / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "kota",
+      "city_name": "Kota",
+      "station_name": "Kota Airport (VIKO / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.28,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 14.2,
+      "assessment": "Audit of Kota Airport (VIKO / IMD) reveals 14.2% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
     }
   ]
 }

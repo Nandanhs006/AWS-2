@@ -14,18 +14,15 @@ import { DecisionRecord } from './components/screens/DecisionRecord';
 import { PolicyContractSchedule } from './components/screens/PolicyContractSchedule';
 import { DatasetCatalog } from './components/screens/DatasetCatalog';
 import { UrbanMicroclimateAudit } from './components/screens/UrbanMicroclimateAudit';
-import { SeminarPitchModal } from './components/screens/SeminarPitchModal';
 import { LoginPage } from './components/screens/LoginPage';
 
 const MainWorkbench: React.FC = () => {
   const { user } = useAuth();
   const [activeScreen, setActiveScreen] = useState<string>('studio');
-  const [showLoginModal, setShowLoginModal] = useState<boolean>(false);
-  const [showSeminarPitch, setShowSeminarPitch] = useState<boolean>(false);
 
-  // If user is explicitly logged out, show the Login Page
-  if (!user && !showLoginModal) {
-    return <LoginPage onSuccess={() => setShowLoginModal(false)} />;
+  // Landing page is strictly the Login Page when not authenticated
+  if (!user) {
+    return <LoginPage onSuccess={() => {}} />;
   }
 
   const renderActiveScreen = () => {
@@ -64,24 +61,11 @@ const MainWorkbench: React.FC = () => {
       <TopBar
         activeScreen={activeScreen}
         onSelectScreen={setActiveScreen}
-        onOpenLogin={() => setShowLoginModal(true)}
-        onOpenSeminarPitch={() => setShowSeminarPitch(true)}
       />
 
       <main className="main-content">
-        {showLoginModal ? (
-          <LoginPage onSuccess={() => setShowLoginModal(false)} />
-        ) : (
-          renderActiveScreen()
-        )}
+        {renderActiveScreen()}
       </main>
-
-      {/* Executive Seminar Pitch Deck Modal */}
-      <SeminarPitchModal
-        isOpen={showSeminarPitch}
-        onClose={() => setShowSeminarPitch(false)}
-        onNavigateToScreen={(sId) => setActiveScreen(sId)}
-      />
     </div>
   );
 };

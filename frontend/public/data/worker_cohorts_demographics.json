@@ -1,7 +1,7 @@
 {
   "title": "National Informal Worker Cohort Demographics (e-Shram Linked)",
-  "total_enrolled_workers": 366000,
-  "total_cities": 16,
+  "total_enrolled_workers": 632000,
+  "total_cities": 31,
   "wage_protection_mandate_inr": 450.0,
   "cities": [
     {
@@ -718,6 +718,711 @@
       "average_daily_loss_on_heatday_inr": 420.0,
       "verified_upi_dbt_pct": 98.7,
       "primary_trades": "Sandstone Quarry Cutters, Handicraft Artisans, Salt Workers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "pune",
+      "city_name": "Pune",
+      "state": "Maharashtra",
+      "enrolled_members": 24000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Automotive Ancillary Laborers, Delivery Fleets, Waste Pickers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "kanpur",
+      "city_name": "Kanpur",
+      "state": "Uttar Pradesh",
+      "enrolled_members": 22000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Tannery Units, Metal Fabrication, Headload Loaders",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "bhopal",
+      "city_name": "Bhopal",
+      "state": "Madhya Pradesh",
+      "enrolled_members": 18000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Bidi Rollers, Brick Kiln Operators, Pavement Hawkers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "indore",
+      "city_name": "Indore",
+      "state": "Madhya Pradesh",
+      "enrolled_members": 20000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Wholesale Grain Hamals, Street Food Vendors, Loaders",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "vadodara",
+      "city_name": "Vadodara",
+      "state": "Gujarat",
+      "enrolled_members": 16000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Chemical Ancillary Laborers, Street Vendors, Scaffolders",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "visakhapatnam",
+      "city_name": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "enrolled_members": 19000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Fishery Harbor Porters, Shipbreaking Laborers, Auto Drivers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "coimbatore",
+      "city_name": "Coimbatore",
+      "state": "Tamil Nadu",
+      "enrolled_members": 15000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Cotton Spinning Sheds, Foundry Laborers, Hawkers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "ranchi",
+      "city_name": "Ranchi",
+      "state": "Jharkhand",
+      "enrolled_members": 17000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Mining Haulage Porters, Brick Kiln Laborers, Day Laborers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "raipur",
+      "city_name": "Raipur",
+      "state": "Chhattisgarh",
+      "enrolled_members": 16000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Rice Mill Loaders, Rolling Mill Laborers, Forest Produce Collectors",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "ludhiana",
+      "city_name": "Ludhiana",
+      "state": "Punjab",
+      "enrolled_members": 21000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Hosiery Pressers, Combine Harvester Laborers, Rickshaw Pullers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "agra",
+      "city_name": "Agra",
+      "state": "Uttar Pradesh",
+      "enrolled_members": 18000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Footwear Home-Workers, Pavement Marble Carvers, Hawkers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "nashik",
+      "city_name": "Nashik",
+      "state": "Maharashtra",
+      "enrolled_members": 15000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Onion Mandi Hamals, Vineyard Harvesters, Road Laborers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "chandigarh",
+      "city_name": "Chandigarh",
+      "state": "Punjab & Haryana",
+      "enrolled_members": 14000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Municipal Sanitation Workers, Construction Scaffolders, Hawkers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "guwahati",
+      "city_name": "Guwahati",
+      "state": "Assam",
+      "enrolled_members": 15000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "River Inland Loading Porters, Tea Warehouse Laborers, Hawkers",
+      "trade_breakdown": [
+        {
+          "trade": "Street Hawkers & Vegetable Vendors",
+          "pct": 28,
+          "exposure_hours": "07:00 - 19:00",
+          "shade_access": "Poor",
+          "hydration_point": "Public Kiosk"
+        },
+        {
+          "trade": "Building & Scaffolding Construction",
+          "pct": 26,
+          "exposure_hours": "08:00 - 17:00",
+          "shade_access": "None",
+          "hydration_point": "Site Tanker"
+        },
+        {
+          "trade": "Headload Porters & Wholesale Cart Pullers",
+          "pct": 18,
+          "exposure_hours": "06:00 - 15:00",
+          "shade_access": "Minimal",
+          "hydration_point": "Ganj Tap"
+        },
+        {
+          "trade": "Home-Based Garment & Asbestos Shed Workers",
+          "pct": 16,
+          "exposure_hours": "09:00 - 20:00",
+          "shade_access": "Tin Roof",
+          "hydration_point": "Domestic"
+        },
+        {
+          "trade": "Gig Transport & App Delivery Couriers",
+          "pct": 12,
+          "exposure_hours": "11:00 - 23:00",
+          "shade_access": "Intermittent",
+          "hydration_point": "Commercial"
+        }
+      ]
+    },
+    {
+      "city_id": "kota",
+      "city_name": "Kota",
+      "state": "Rajasthan",
+      "enrolled_members": 16000,
+      "women_membership_pct": 49.2,
+      "average_daily_loss_on_heatday_inr": 420.0,
+      "verified_upi_dbt_pct": 98.7,
+      "primary_trades": "Kota Stone Cutters, River Sand Laborers, Street Vendors",
       "trade_breakdown": [
         {
           "trade": "Street Hawkers & Vegetable Vendors",

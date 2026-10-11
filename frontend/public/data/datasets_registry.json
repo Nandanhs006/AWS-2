@@ -1,7 +1,7 @@
 {
   "catalog_title": "Freely Available Open Climate & Worker Datasets",
   "description": "Exhaustive registry of open-access public meteorological, satellite, and labour datasets ingested by Mausam Dhaal.",
-  "last_synced": "2026-10-11T10:31:00.862547+00:00",
+  "last_synced": "2026-10-11T16:37:18.559331+00:00",
   "datasets": [
     {
       "id": "copernicus-era5-land",

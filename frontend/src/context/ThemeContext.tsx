@@ -1,39 +1,28 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-
-type Theme = 'light' | 'dark';
+import React, { createContext, useContext, useEffect, ReactNode } from 'react';
 
 interface ThemeContextType {
-  theme: Theme;
+  theme: 'light';
   toggleTheme: () => void;
-  setTheme: (theme: Theme) => void;
+  setTheme: (theme: 'light') => void;
 }
 
-const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+const ThemeContext = createContext<ThemeContextType>({
+  theme: 'light',
+  toggleTheme: () => {},
+  setTheme: () => {},
+});
 
 export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [theme, setThemeState] = useState<Theme>(() => {
-    const saved = localStorage.getItem('mausam_dhaal_theme');
-    if (saved === 'light' || saved === 'dark') return saved;
-    return 'light'; // Light console default as requested
-  });
-
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('mausam_dhaal_theme', theme);
-  }, [theme]);
-
-  const toggleTheme = () => setThemeState((prev) => (prev === 'light' ? 'dark' : 'light'));
-  const setTheme = (next: Theme) => setThemeState(next);
+    document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.removeItem('mausam_dhaal_theme');
+  }, []);
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
+    <ThemeContext.Provider value={{ theme: 'light', toggleTheme: () => {}, setTheme: () => {} }}>
       {children}
     </ThemeContext.Provider>
   );
 };
 
-export const useTheme = (): ThemeContextType => {
-  const ctx = useContext(ThemeContext);
-  if (!ctx) throw new Error('useTheme must be used within ThemeProvider');
-  return ctx;
-};
+export const useTheme = (): ThemeContextType => useContext(ThemeContext);

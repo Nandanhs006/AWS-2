@@ -211,8 +211,8 @@ export const DataTrust: React.FC = () => {
       <div className="panel">
         <div className="panel-header">
           <div>
-            <h3 className="panel-title">Nationwide 16-City Station Basis Risk Leaderboard</h3>
-            <p className="panel-subtitle">Comparative audit ranking all 16 Indian hubs by trigger disagreement rate</p>
+            <h3 className="panel-title">Nationwide {cities.length || 31}-City Station Basis Risk Leaderboard</h3>
+            <p className="panel-subtitle">Comparative audit ranking all {cities.length || 31} Indian hubs by trigger disagreement rate</p>
           </div>
         </div>
 

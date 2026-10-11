@@ -20,7 +20,58 @@ const CITY_COORDINATES: Record<string, { center: [number, number]; zoom: number 
   mumbai: { center: [19.0760, 72.8777], zoom: 12 },
   varanasi: { center: [25.3176, 82.9739], zoom: 12 },
   jodhpur: { center: [26.2389, 73.0243], zoom: 12 },
+  pune: { center: [18.5204, 73.8567], zoom: 12 },
+  kanpur: { center: [26.4499, 80.3319], zoom: 12 },
+  bhopal: { center: [23.2599, 77.4126], zoom: 12 },
+  indore: { center: [22.7196, 75.8577], zoom: 12 },
+  vadodara: { center: [22.3072, 73.1812], zoom: 12 },
+  visakhapatnam: { center: [17.6868, 83.2185], zoom: 12 },
+  coimbatore: { center: [11.0168, 76.9558], zoom: 12 },
+  ranchi: { center: [23.3441, 85.3096], zoom: 12 },
+  raipur: { center: [21.2514, 81.6296], zoom: 12 },
+  ludhiana: { center: [30.9010, 75.8573], zoom: 12 },
+  agra: { center: [27.1767, 78.0081], zoom: 12 },
+  nashik: { center: [19.9975, 73.7898], zoom: 12 },
+  chandigarh: { center: [30.7333, 76.7794], zoom: 12 },
+  guwahati: { center: [26.1445, 91.7362], zoom: 12 },
+  kota: { center: [25.1825, 75.8342], zoom: 12 },
 };
+
+const ALL_CITIES = [
+  { id: 'all', name: 'All 31 Indian Hubs', state: 'National' },
+  { id: 'ahmedabad', name: 'Ahmedabad', state: 'Gujarat' },
+  { id: 'kolkata', name: 'Kolkata', state: 'West Bengal' },
+  { id: 'sholapur', name: 'Sholapur', state: 'Maharashtra' },
+  { id: 'delhi', name: 'Delhi NCR', state: 'National Capital' },
+  { id: 'nagpur', name: 'Nagpur', state: 'Maharashtra' },
+  { id: 'chennai', name: 'Chennai', state: 'Tamil Nadu' },
+  { id: 'jaipur', name: 'Jaipur', state: 'Rajasthan' },
+  { id: 'surat', name: 'Surat', state: 'Gujarat' },
+  { id: 'hyderabad', name: 'Hyderabad', state: 'Telangana' },
+  { id: 'bhubaneswar', name: 'Bhubaneswar', state: 'Odisha' },
+  { id: 'patna', name: 'Patna', state: 'Bihar' },
+  { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh' },
+  { id: 'bengaluru', name: 'Bengaluru', state: 'Karnataka' },
+  { id: 'mumbai', name: 'Mumbai', state: 'Maharashtra' },
+  { id: 'varanasi', name: 'Varanasi', state: 'Uttar Pradesh' },
+  { id: 'jodhpur', name: 'Jodhpur', state: 'Rajasthan' },
+  { id: 'pune', name: 'Pune', state: 'Maharashtra' },
+  { id: 'kanpur', name: 'Kanpur', state: 'Uttar Pradesh' },
+  { id: 'bhopal', name: 'Bhopal', state: 'Madhya Pradesh' },
+  { id: 'indore', name: 'Indore', state: 'Madhya Pradesh' },
+  { id: 'vadodara', name: 'Vadodara', state: 'Gujarat' },
+  { id: 'visakhapatnam', name: 'Visakhapatnam', state: 'Andhra Pradesh' },
+  { id: 'coimbatore', name: 'Coimbatore', state: 'Tamil Nadu' },
+  { id: 'ranchi', name: 'Ranchi', state: 'Jharkhand' },
+  { id: 'raipur', name: 'Raipur', state: 'Chhattisgarh' },
+  { id: 'ludhiana', name: 'Ludhiana', state: 'Punjab' },
+  { id: 'agra', name: 'Agra', state: 'Uttar Pradesh' },
+  { id: 'nashik', name: 'Nashik', state: 'Maharashtra' },
+  { id: 'chandigarh', name: 'Chandigarh', state: 'Punjab & Haryana' },
+  { id: 'guwahati', name: 'Guwahati', state: 'Assam' },
+  { id: 'kota', name: 'Kota', state: 'Rajasthan' },
+];
+
 
 function MapController({ center, zoom }: { center: [number, number]; zoom: number }) {
   const map = useMap();
@@ -462,30 +513,18 @@ export const DistressMap: React.FC = () => {
           </label>
           <select
             className="form-select"
-            style={{ width: '220px' }}
+            style={{ width: '260px' }}
             value={selectedCity}
             onChange={(e) => {
               setSelectedCity(e.target.value);
               setSelectedReport(null);
             }}
           >
-            <option value="all">All 16 Pilot Territories</option>
-            <option value="ahmedabad">Ahmedabad (Gujarat)</option>
-            <option value="kolkata">Kolkata (West Bengal)</option>
-            <option value="sholapur">Sholapur (Maharashtra)</option>
-            <option value="delhi">Delhi NCR (National Capital)</option>
-            <option value="nagpur">Nagpur (Maharashtra)</option>
-            <option value="chennai">Chennai (Tamil Nadu)</option>
-            <option value="jaipur">Jaipur (Rajasthan)</option>
-            <option value="surat">Surat (Gujarat)</option>
-            <option value="hyderabad">Hyderabad (Telangana)</option>
-            <option value="bhubaneswar">Bhubaneswar (Odisha)</option>
-            <option value="patna">Patna (Bihar)</option>
-            <option value="lucknow">Lucknow (Uttar Pradesh)</option>
-            <option value="bengaluru">Bengaluru (Karnataka)</option>
-            <option value="mumbai">Mumbai (Maharashtra)</option>
-            <option value="varanasi">Varanasi (Uttar Pradesh)</option>
-            <option value="jodhpur">Jodhpur (Rajasthan)</option>
+            {ALL_CITIES.map((c) => (
+              <option key={c.id} value={c.id}>
+                {c.name} ({c.state})
+              </option>
+            ))}
           </select>
         </div>
       </div>

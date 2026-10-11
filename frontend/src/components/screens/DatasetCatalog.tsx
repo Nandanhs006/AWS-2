@@ -251,7 +251,7 @@ export const DatasetCatalog: React.FC = () => {
           </div>
 
           {/* Right Inspection Details */}
-          <div className="card" style={{ padding: '24px' }}>
+          <div className="card">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
               <div>
                 <span className="badge badge-success" style={{ marginBottom: '6px' }}>{selectedDataset.license}</span>
@@ -357,7 +357,7 @@ export const DatasetCatalog: React.FC = () => {
       )}
 
       {viewTab === 'matrix' && (
-        <div className="card" style={{ padding: '24px' }}>
+        <div className="card">
           <div style={{ marginBottom: '16px' }}>
             <h2 style={{ fontSize: '18px', fontWeight: 700, margin: '0 0 6px 0', color: 'var(--text-primary)' }}>
               Data Triangulation & Basis Risk Attribution Matrix

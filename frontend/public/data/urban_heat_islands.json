@@ -815,6 +815,771 @@
           "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
         }
       ]
+    },
+    {
+      "city_id": "pune",
+      "city_name": "Pune",
+      "state": "Maharashtra",
+      "official_airport_station": "Pune Airport Lohegaon (VAPO / IMD)",
+      "climate_zone": "Western Ghats lee-side plateau thermal zone",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Pune Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Pune Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Pune Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Pune Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "kanpur",
+      "city_name": "Kanpur",
+      "state": "Uttar Pradesh",
+      "official_airport_station": "Kanpur Chakeri Airport (VIKA / IMD)",
+      "climate_zone": "Upper Indo-Gangetic industrial basin extreme dry heat",
+      "average_urban_heat_island_offset_c": 3.8,
+      "max_microclimate_discrepancy_c": 5.2,
+      "wards": [
+        {
+          "ward_name": "Kanpur Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 4.6,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Kanpur Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 5.2,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Kanpur Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.9,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Kanpur Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "bhopal",
+      "city_name": "Bhopal",
+      "state": "Madhya Pradesh",
+      "official_airport_station": "Raja Bhoj Airport (VABP / IMD)",
+      "climate_zone": "Central Malwa plateau severe summer heatwave",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Bhopal Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Bhopal Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Bhopal Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Bhopal Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "indore",
+      "city_name": "Indore",
+      "state": "Madhya Pradesh",
+      "official_airport_station": "Devi Ahilya Bai Holkar Airport (VAID / IMD)",
+      "climate_zone": "Central Indian commercial transit thermal belt",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Indore Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Indore Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Indore Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Indore Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "vadodara",
+      "city_name": "Vadodara",
+      "state": "Gujarat",
+      "official_airport_station": "Vadodara Civil Airport (VABO / IMD)",
+      "climate_zone": "Mahi-Narmada industrial corridor dry-to-humid heat",
+      "average_urban_heat_island_offset_c": 3.8,
+      "max_microclimate_discrepancy_c": 5.2,
+      "wards": [
+        {
+          "ward_name": "Vadodara Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 4.6,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Vadodara Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 5.2,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Vadodara Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.9,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Vadodara Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "visakhapatnam",
+      "city_name": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "official_airport_station": "Visakhapatnam International Airport (VOVZ / IMD)",
+      "climate_zone": "Eastern Seaboard humid maritime heat spike zone",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Visakhapatnam Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Visakhapatnam Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Visakhapatnam Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Visakhapatnam Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "coimbatore",
+      "city_name": "Coimbatore",
+      "state": "Tamil Nadu",
+      "official_airport_station": "Coimbatore International Airport (VOCB / IMD)",
+      "climate_zone": "Palghat Gap inland thermal corridor",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Coimbatore Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Coimbatore Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Coimbatore Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Coimbatore Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "ranchi",
+      "city_name": "Ranchi",
+      "state": "Jharkhand",
+      "official_airport_station": "Birsa Munda Airport (VERC / IMD)",
+      "climate_zone": "Chota Nagpur plateau mineral mining belt heat",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Ranchi Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Ranchi Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Ranchi Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Ranchi Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "raipur",
+      "city_name": "Raipur",
+      "state": "Chhattisgarh",
+      "official_airport_station": "Swami Vivekananda Airport (VARP / IMD)",
+      "climate_zone": "Mahanadi basin severe solar radiation zone",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Raipur Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Raipur Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Raipur Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Raipur Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "ludhiana",
+      "city_name": "Ludhiana",
+      "state": "Punjab",
+      "official_airport_station": "Sahnewal Airport (VILD / IMD)",
+      "climate_zone": "North-western agrarian & hosiery hub dry furnace heat",
+      "average_urban_heat_island_offset_c": 3.8,
+      "max_microclimate_discrepancy_c": 5.2,
+      "wards": [
+        {
+          "ward_name": "Ludhiana Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 4.6,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Ludhiana Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 5.2,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Ludhiana Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.9,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Ludhiana Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "agra",
+      "city_name": "Agra",
+      "state": "Uttar Pradesh",
+      "official_airport_station": "Kheria Air Base Enclave (VIAG / IMD)",
+      "climate_zone": "Semi-arid Yamuna ravines intense reflection heat",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Agra Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Agra Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Agra Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Agra Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "nashik",
+      "city_name": "Nashik",
+      "state": "Maharashtra",
+      "official_airport_station": "Ozar Airport (VAOZ / IMD)",
+      "climate_zone": "Upper Godavari agricultural harvest heat zone",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Nashik Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Nashik Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Nashik Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Nashik Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "chandigarh",
+      "city_name": "Chandigarh",
+      "state": "Punjab & Haryana",
+      "official_airport_station": "Shaheed Bhagat Singh Airport (VICG / IMD)",
+      "climate_zone": "Shivalik foothills summer continental heatwave",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Chandigarh Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Chandigarh Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Chandigarh Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Chandigarh Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "guwahati",
+      "city_name": "Guwahati",
+      "state": "Assam",
+      "official_airport_station": "Lokpriya Gopinath Bordoloi Airport (VEGT / IMD)",
+      "climate_zone": "Brahmaputra valley extreme humid tropical heat",
+      "average_urban_heat_island_offset_c": 3.5,
+      "max_microclimate_discrepancy_c": 4.5,
+      "wards": [
+        {
+          "ward_name": "Guwahati Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 3.8,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Guwahati Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 4.4,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Guwahati Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.4,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Guwahati Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
+    },
+    {
+      "city_id": "kota",
+      "city_name": "Kota",
+      "state": "Rajasthan",
+      "official_airport_station": "Kota Airport (VIKO / IMD)",
+      "climate_zone": "Hadoti sandstone basin dry scorching heatwave",
+      "average_urban_heat_island_offset_c": 3.8,
+      "max_microclimate_discrepancy_c": 5.2,
+      "wards": [
+        {
+          "ward_name": "Kota Central Railway / Wholesale Ganj",
+          "category": "Informal Wholesale & Porter Hub",
+          "roof_type": "Corrugated Tin & Tarpaulin",
+          "vegetation_cover_pct": 4.2,
+          "lst_anomaly_c": 4.6,
+          "wbgt_offset_c": 2.8,
+          "worker_density_sqkm": 14200,
+          "basis_risk_impact": "Severe Under-reporting by Airport Station"
+        },
+        {
+          "ward_name": "Kota Industrial Belt / Brick Kiln Cluster",
+          "category": "High Radiation Industrial Worksite",
+          "roof_type": "Asbestos Sheet & Uninsulated Sheds",
+          "vegetation_cover_pct": 2.1,
+          "lst_anomaly_c": 5.2,
+          "wbgt_offset_c": 3.2,
+          "worker_density_sqkm": 8900,
+          "basis_risk_impact": "Critical Physiological Heat Failure Risk"
+        },
+        {
+          "ward_name": "Kota Pavement & Street Vendor Market Corridor",
+          "category": "Unshaded Asphalt Outdoor Commercial Zone",
+          "roof_type": "Direct Sun & Plastic Canopies",
+          "vegetation_cover_pct": 5.8,
+          "lst_anomaly_c": 3.9,
+          "wbgt_offset_c": 2.4,
+          "worker_density_sqkm": 18500,
+          "basis_risk_impact": "Direct Solar Insolation Exceeds Model Baseline"
+        },
+        {
+          "ward_name": "Kota Cantonment / University Garden Sector",
+          "category": "Canopy-Buffered Residential Baseline",
+          "roof_type": "Concrete Slab with Dense Trees",
+          "vegetation_cover_pct": 38.5,
+          "lst_anomaly_c": -1.2,
+          "wbgt_offset_c": -0.8,
+          "worker_density_sqkm": 2100,
+          "basis_risk_impact": "Reference Baseline (Closest to Airport Sensor)"
+        }
+      ]
     }
   ]
 }

@@ -200,7 +200,7 @@ export const UrbanMicroclimateAudit: React.FC = () => {
       </div>
 
       {/* Interactive Microclimate Heat Stress Simulator */}
-      <div className="card" style={{ padding: '24px' }}>
+      <div className="card">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px', flexWrap: 'wrap', gap: '16px' }}>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>

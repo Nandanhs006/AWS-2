@@ -3198,5 +3198,3005 @@
         "danger_zone": false
       }
     ]
+  },
+  "pune": {
+    "city_id": "pune",
+    "city_name": "Pune",
+    "state": "Maharashtra",
+    "climate_type": "Western Ghats lee-side plateau thermal zone",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "kanpur": {
+    "city_id": "kanpur",
+    "city_name": "Kanpur",
+    "state": "Uttar Pradesh",
+    "climate_type": "Upper Indo-Gangetic industrial basin extreme dry heat",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "bhopal": {
+    "city_id": "bhopal",
+    "city_name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "climate_type": "Central Malwa plateau severe summer heatwave",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "indore": {
+    "city_id": "indore",
+    "city_name": "Indore",
+    "state": "Madhya Pradesh",
+    "climate_type": "Central Indian commercial transit thermal belt",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "vadodara": {
+    "city_id": "vadodara",
+    "city_name": "Vadodara",
+    "state": "Gujarat",
+    "climate_type": "Mahi-Narmada industrial corridor dry-to-humid heat",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 29.6,
+        "rh_pct": 88.0,
+        "tw_c": 27.93,
+        "wbgt_c": 28.43,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 31.4,
+        "rh_pct": 84.2,
+        "tw_c": 29.12,
+        "wbgt_c": 29.8,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 33.1,
+        "rh_pct": 80.8,
+        "tw_c": 30.23,
+        "wbgt_c": 31.09,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 34.5,
+        "rh_pct": 77.9,
+        "tw_c": 31.11,
+        "wbgt_c": 32.13,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 35.6,
+        "rh_pct": 75.8,
+        "tw_c": 31.8,
+        "wbgt_c": 32.94,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 36.3,
+        "rh_pct": 74.5,
+        "tw_c": 32.25,
+        "wbgt_c": 33.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 36.5,
+        "rh_pct": 74.0,
+        "tw_c": 32.35,
+        "wbgt_c": 33.59,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 36.3,
+        "rh_pct": 74.5,
+        "tw_c": 32.25,
+        "wbgt_c": 33.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 35.6,
+        "rh_pct": 75.8,
+        "tw_c": 31.8,
+        "wbgt_c": 32.94,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 34.5,
+        "rh_pct": 77.9,
+        "tw_c": 31.11,
+        "wbgt_c": 32.13,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 33.1,
+        "rh_pct": 80.8,
+        "tw_c": 30.23,
+        "wbgt_c": 31.09,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 31.4,
+        "rh_pct": 84.2,
+        "tw_c": 29.12,
+        "wbgt_c": 29.8,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 29.6,
+        "rh_pct": 88.0,
+        "tw_c": 27.93,
+        "wbgt_c": 28.43,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      }
+    ]
+  },
+  "visakhapatnam": {
+    "city_id": "visakhapatnam",
+    "city_name": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "climate_type": "Eastern Seaboard humid maritime heat spike zone",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 29.6,
+        "rh_pct": 88.0,
+        "tw_c": 27.93,
+        "wbgt_c": 28.43,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 31.4,
+        "rh_pct": 84.2,
+        "tw_c": 29.12,
+        "wbgt_c": 29.8,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 33.1,
+        "rh_pct": 80.8,
+        "tw_c": 30.23,
+        "wbgt_c": 31.09,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 34.5,
+        "rh_pct": 77.9,
+        "tw_c": 31.11,
+        "wbgt_c": 32.13,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 35.6,
+        "rh_pct": 75.8,
+        "tw_c": 31.8,
+        "wbgt_c": 32.94,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 36.3,
+        "rh_pct": 74.5,
+        "tw_c": 32.25,
+        "wbgt_c": 33.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 36.5,
+        "rh_pct": 74.0,
+        "tw_c": 32.35,
+        "wbgt_c": 33.59,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 36.3,
+        "rh_pct": 74.5,
+        "tw_c": 32.25,
+        "wbgt_c": 33.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 35.6,
+        "rh_pct": 75.8,
+        "tw_c": 31.8,
+        "wbgt_c": 32.94,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 34.5,
+        "rh_pct": 77.9,
+        "tw_c": 31.11,
+        "wbgt_c": 32.13,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 33.1,
+        "rh_pct": 80.8,
+        "tw_c": 30.23,
+        "wbgt_c": 31.09,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 31.4,
+        "rh_pct": 84.2,
+        "tw_c": 29.12,
+        "wbgt_c": 29.8,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 29.6,
+        "rh_pct": 88.0,
+        "tw_c": 27.93,
+        "wbgt_c": 28.43,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      }
+    ]
+  },
+  "coimbatore": {
+    "city_id": "coimbatore",
+    "city_name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "climate_type": "Palghat Gap inland thermal corridor",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "ranchi": {
+    "city_id": "ranchi",
+    "city_name": "Ranchi",
+    "state": "Jharkhand",
+    "climate_type": "Chota Nagpur plateau mineral mining belt heat",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "raipur": {
+    "city_id": "raipur",
+    "city_name": "Raipur",
+    "state": "Chhattisgarh",
+    "climate_type": "Mahanadi basin severe solar radiation zone",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "ludhiana": {
+    "city_id": "ludhiana",
+    "city_name": "Ludhiana",
+    "state": "Punjab",
+    "climate_type": "North-western agrarian & hosiery hub dry furnace heat",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 32.1,
+        "rh_pct": 59.3,
+        "tw_c": 25.76,
+        "wbgt_c": 27.66,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 49.2,
+        "tw_c": 26.52,
+        "wbgt_c": 29.09,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 37.9,
+        "rh_pct": 40.1,
+        "tw_c": 26.9,
+        "wbgt_c": 30.2,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 40.4,
+        "rh_pct": 32.5,
+        "tw_c": 26.93,
+        "wbgt_c": 30.97,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 42.2,
+        "rh_pct": 26.8,
+        "tw_c": 26.58,
+        "wbgt_c": 31.27,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 43.4,
+        "rh_pct": 23.2,
+        "tw_c": 26.22,
+        "wbgt_c": 31.37,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 43.8,
+        "rh_pct": 22.0,
+        "tw_c": 26.06,
+        "wbgt_c": 31.38,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 43.4,
+        "rh_pct": 23.2,
+        "tw_c": 26.22,
+        "wbgt_c": 31.37,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 42.2,
+        "rh_pct": 26.8,
+        "tw_c": 26.58,
+        "wbgt_c": 31.27,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 40.4,
+        "rh_pct": 32.5,
+        "tw_c": 26.93,
+        "wbgt_c": 30.97,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 37.9,
+        "rh_pct": 40.1,
+        "tw_c": 26.9,
+        "wbgt_c": 30.2,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 49.2,
+        "tw_c": 26.52,
+        "wbgt_c": 29.09,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 32.1,
+        "rh_pct": 59.3,
+        "tw_c": 25.76,
+        "wbgt_c": 27.66,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      }
+    ]
+  },
+  "agra": {
+    "city_id": "agra",
+    "city_name": "Agra",
+    "state": "Uttar Pradesh",
+    "climate_type": "Semi-arid Yamuna ravines intense reflection heat",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 32.1,
+        "rh_pct": 59.3,
+        "tw_c": 25.76,
+        "wbgt_c": 27.66,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 49.2,
+        "tw_c": 26.52,
+        "wbgt_c": 29.09,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 37.9,
+        "rh_pct": 40.1,
+        "tw_c": 26.9,
+        "wbgt_c": 30.2,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 40.4,
+        "rh_pct": 32.5,
+        "tw_c": 26.93,
+        "wbgt_c": 30.97,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 42.2,
+        "rh_pct": 26.8,
+        "tw_c": 26.58,
+        "wbgt_c": 31.27,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 43.4,
+        "rh_pct": 23.2,
+        "tw_c": 26.22,
+        "wbgt_c": 31.37,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 43.8,
+        "rh_pct": 22.0,
+        "tw_c": 26.06,
+        "wbgt_c": 31.38,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 43.4,
+        "rh_pct": 23.2,
+        "tw_c": 26.22,
+        "wbgt_c": 31.37,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 42.2,
+        "rh_pct": 26.8,
+        "tw_c": 26.58,
+        "wbgt_c": 31.27,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 40.4,
+        "rh_pct": 32.5,
+        "tw_c": 26.93,
+        "wbgt_c": 30.97,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 37.9,
+        "rh_pct": 40.1,
+        "tw_c": 26.9,
+        "wbgt_c": 30.2,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 49.2,
+        "tw_c": 26.52,
+        "wbgt_c": 29.09,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 32.1,
+        "rh_pct": 59.3,
+        "tw_c": 25.76,
+        "wbgt_c": 27.66,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 29.3,
+        "rh_pct": 70.0,
+        "tw_c": 24.94,
+        "wbgt_c": 26.25,
+        "danger_zone": false
+      }
+    ]
+  },
+  "nashik": {
+    "city_id": "nashik",
+    "city_name": "Nashik",
+    "state": "Maharashtra",
+    "climate_type": "Upper Godavari agricultural harvest heat zone",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "chandigarh": {
+    "city_id": "chandigarh",
+    "city_name": "Chandigarh",
+    "state": "Punjab & Haryana",
+    "climate_type": "Shivalik foothills summer continental heatwave",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
+  },
+  "guwahati": {
+    "city_id": "guwahati",
+    "city_name": "Guwahati",
+    "state": "Assam",
+    "climate_type": "Brahmaputra valley extreme humid tropical heat",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 29.6,
+        "rh_pct": 88.0,
+        "tw_c": 27.93,
+        "wbgt_c": 28.43,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 31.4,
+        "rh_pct": 84.2,
+        "tw_c": 29.12,
+        "wbgt_c": 29.8,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 33.1,
+        "rh_pct": 80.8,
+        "tw_c": 30.23,
+        "wbgt_c": 31.09,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 34.5,
+        "rh_pct": 77.9,
+        "tw_c": 31.11,
+        "wbgt_c": 32.13,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 35.6,
+        "rh_pct": 75.8,
+        "tw_c": 31.8,
+        "wbgt_c": 32.94,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 36.3,
+        "rh_pct": 74.5,
+        "tw_c": 32.25,
+        "wbgt_c": 33.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 36.5,
+        "rh_pct": 74.0,
+        "tw_c": 32.35,
+        "wbgt_c": 33.59,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 36.3,
+        "rh_pct": 74.5,
+        "tw_c": 32.25,
+        "wbgt_c": 33.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 35.6,
+        "rh_pct": 75.8,
+        "tw_c": 31.8,
+        "wbgt_c": 32.94,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 34.5,
+        "rh_pct": 77.9,
+        "tw_c": 31.11,
+        "wbgt_c": 32.13,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 33.1,
+        "rh_pct": 80.8,
+        "tw_c": 30.23,
+        "wbgt_c": 31.09,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 31.4,
+        "rh_pct": 84.2,
+        "tw_c": 29.12,
+        "wbgt_c": 29.8,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 29.6,
+        "rh_pct": 88.0,
+        "tw_c": 27.93,
+        "wbgt_c": 28.43,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 28.0,
+        "rh_pct": 92.0,
+        "tw_c": 26.93,
+        "wbgt_c": 27.25,
+        "danger_zone": false
+      }
+    ]
+  },
+  "kota": {
+    "city_id": "kota",
+    "city_name": "Kota",
+    "state": "Rajasthan",
+    "climate_type": "Hadoti sandstone basin dry scorching heatwave",
+    "curve": [
+      {
+        "hour": "00:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "01:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "02:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "03:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "04:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "05:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "06:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "07:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "08:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": false
+      },
+      {
+        "hour": "09:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": false
+      },
+      {
+        "hour": "10:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": false
+      },
+      {
+        "hour": "11:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "12:00",
+        "t_max_c": 40.2,
+        "rh_pct": 42.0,
+        "tw_c": 29.23,
+        "wbgt_c": 32.52,
+        "danger_zone": true
+      },
+      {
+        "hour": "13:00",
+        "t_max_c": 40.0,
+        "rh_pct": 42.5,
+        "tw_c": 29.18,
+        "wbgt_c": 32.43,
+        "danger_zone": true
+      },
+      {
+        "hour": "14:00",
+        "t_max_c": 39.3,
+        "rh_pct": 44.0,
+        "tw_c": 28.96,
+        "wbgt_c": 32.06,
+        "danger_zone": true
+      },
+      {
+        "hour": "15:00",
+        "t_max_c": 38.2,
+        "rh_pct": 46.4,
+        "tw_c": 28.57,
+        "wbgt_c": 31.46,
+        "danger_zone": true
+      },
+      {
+        "hour": "16:00",
+        "t_max_c": 36.8,
+        "rh_pct": 49.5,
+        "tw_c": 28.04,
+        "wbgt_c": 30.67,
+        "danger_zone": true
+      },
+      {
+        "hour": "17:00",
+        "t_max_c": 35.1,
+        "rh_pct": 53.3,
+        "tw_c": 27.32,
+        "wbgt_c": 29.65,
+        "danger_zone": false
+      },
+      {
+        "hour": "18:00",
+        "t_max_c": 33.3,
+        "rh_pct": 57.5,
+        "tw_c": 26.52,
+        "wbgt_c": 28.55,
+        "danger_zone": false
+      },
+      {
+        "hour": "19:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "20:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "21:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "22:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      },
+      {
+        "hour": "23:00",
+        "t_max_c": 31.7,
+        "rh_pct": 62.0,
+        "tw_c": 25.86,
+        "wbgt_c": 27.61,
+        "danger_zone": false
+      }
+    ]
   }
 }

@@ -233,7 +233,7 @@ export const DecisionRecord: React.FC = () => {
         </div>
 
         {/* Right: Detailed Audit Inspector */}
-        <div className="card" style={{ padding: '24px' }}>
+        <div className="card">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
             <div>
               <h2 style={{ fontSize: '16px', fontWeight: 700, margin: '0 0 2px 0', color: 'var(--text-primary)' }}>

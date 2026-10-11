@@ -153,19 +153,19 @@ export const HeatDayDesk: React.FC = () => {
               onClick={() => setViewTab('nationwide_matrix')}
               style={{ fontSize: '12px', padding: '6px 12px' }}
             >
-              16-City Nationwide Shield ({cities.length})
+              Nationwide Shield ({cities.length} Hubs)
             </button>
           </div>
         </div>
       </div>
 
       {viewTab === 'nationwide_matrix' ? (
-        /* 16-City Multi-Territory Overview Table */
-        <div className="card" style={{ padding: '24px' }}>
+        /* Multi-Territory Overview Table */
+        <div className="card">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
             <div>
               <h2 style={{ fontSize: '16px', fontWeight: 700, margin: 0, color: 'var(--text-primary)' }}>
-                National 16-City Parametric Trigger Matrix (Season 2026)
+                National Parametric Trigger Matrix ({cities.length} Hubs — Season 2026)
               </h2>
               <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
                 Total Enrolled Workers: {totalCohort.toLocaleString()} | Today's Committed Relief: ₹{totalPayoutDue.toLocaleString()}

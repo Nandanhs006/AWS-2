@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
-import { useTheme } from '../../context/ThemeContext';
-import { Sun, Moon, LogOut, ShieldCheck, UserCheck, Presentation } from 'lucide-react';
+import { LogOut, ShieldCheck, UserCheck } from 'lucide-react';
 
 interface TopBarProps {
   activeScreen: string;
   onSelectScreen: (screenId: string) => void;
-  onOpenLogin: () => void;
-  onOpenSeminarPitch: () => void;
 }
 
 interface ScreenTab {
@@ -19,11 +16,8 @@ interface ScreenTab {
 export const TopBar: React.FC<TopBarProps> = ({
   activeScreen,
   onSelectScreen,
-  onOpenLogin,
-  onOpenSeminarPitch,
 }) => {
-  const { user, logout, loginAs } = useAuth();
-  const { theme, toggleTheme } = useTheme();
+  const { user, logout } = useAuth();
   const [logoLoaded, setLogoLoaded] = useState(true);
 
   const screens: ScreenTab[] = [
@@ -50,7 +44,7 @@ export const TopBar: React.FC<TopBarProps> = ({
       <div className="top-nav">
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
           {/* Logo Container */}
-          <div className="logo-container" style={{ width: 240, height: 48, cursor: 'pointer' }} onClick={() => onSelectScreen('studio')}>
+          <div className="logo-container" style={{ width: 220, height: 44, cursor: 'pointer' }} onClick={() => onSelectScreen('studio')}>
             {logoLoaded ? (
               <img
                 src="/logo.svg"
@@ -66,7 +60,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             )}
           </div>
 
-          <div style={{ borderLeft: '1px solid rgba(255, 255, 255, 0.2)', height: '26px' }} />
+          <div style={{ borderLeft: '1px solid rgba(255, 255, 255, 0.2)', height: '24px' }} />
 
           {/* Program Context */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -74,59 +68,15 @@ export const TopBar: React.FC<TopBarProps> = ({
               Active Union Cohort
             </span>
             <span style={{ fontSize: '12px', fontWeight: 600, color: '#FFFFFF' }}>
-              SEWA Informal Workers Protection · 16 Pilot Hubs
+              SEWA Informal Workers Protection · 31 Pilot Hubs
             </span>
           </div>
         </div>
 
         {/* Top Right Controls & Role Management */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-          {/* Executive Seminar Pitch Deck Launch Button */}
-          <button
-            id="btn-seminar-pitch-deck"
-            type="button"
-            className="btn-primary"
-            onClick={onOpenSeminarPitch}
-            style={{
-              padding: '6px 14px',
-              fontSize: '12px',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              backgroundColor: '#FF9900',
-              color: '#111827',
-              fontWeight: 700,
-              boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
-            }}
-          >
-            <Presentation size={15} />
-            Seminar Pitch Deck
-          </button>
-
-          {/* Theme Toggle (Light / Dark) */}
-          <button
-            id="btn-theme-toggle"
-            type="button"
-            className="btn-secondary"
-            onClick={toggleTheme}
-            title={`Switch to ${theme === 'dark' ? 'Light Console' : 'Dark Operations'} theme`}
-            style={{
-              padding: '6px 10px',
-              backgroundColor: 'transparent',
-              color: '#FFFFFF',
-              borderColor: 'rgba(255, 255, 255, 0.25)',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              fontSize: '12px',
-            }}
-          >
-            {theme === 'dark' ? <Sun size={15} color="#FF9900" /> : <Moon size={15} color="#AAB7B8" />}
-            <span style={{ fontSize: '11px' }}>{theme === 'dark' ? 'Night Ops' : 'Console Light'}</span>
-          </button>
-
-          {/* User Profile & Role Switcher */}
-          {user ? (
+          {/* Authenticated User Profile & Static Non-Switchable Role Badge */}
+          {user && (
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <div style={{ textAlign: 'right' }}>
                 <div style={{ fontSize: '12px', fontWeight: 600, color: '#FFFFFF' }}>
@@ -135,12 +85,9 @@ export const TopBar: React.FC<TopBarProps> = ({
                 <div style={{ fontSize: '10px', color: '#AAB7B8' }}>{user.organization}</div>
               </div>
 
-              {/* Role Badge & Quick Switch */}
-              <button
-                id="btn-role-switcher"
-                type="button"
-                onClick={() => loginAs(user.role === 'officer' ? 'reviewer' : 'officer')}
-                title="Click to toggle role between Programme Officer and Auditor/Reviewer"
+              {/* Static Role Badge - Cannot be toggled on the fly */}
+              <div
+                id="badge-role-display"
                 style={{
                   padding: '4px 8px',
                   fontSize: '11px',
@@ -148,8 +95,6 @@ export const TopBar: React.FC<TopBarProps> = ({
                   backgroundColor: user.role === 'officer' ? '#FF9900' : '#1E4620',
                   color: user.role === 'officer' ? '#111827' : '#C8E6C9',
                   borderRadius: '2px',
-                  border: 'none',
-                  cursor: 'pointer',
                   display: 'flex',
                   alignItems: 'center',
                   gap: '4px',
@@ -157,34 +102,29 @@ export const TopBar: React.FC<TopBarProps> = ({
               >
                 {user.role === 'officer' ? <UserCheck size={12} /> : <ShieldCheck size={12} />}
                 {user.badge}
-              </button>
+              </div>
 
               <button
                 id="btn-logout"
                 type="button"
                 className="btn-secondary"
                 onClick={logout}
-                title="Log Out"
+                title="Log Out (Switch Account)"
                 style={{
-                  padding: '6px 8px',
+                  padding: '5px 8px',
                   backgroundColor: 'transparent',
                   color: '#FFFFFF',
                   borderColor: 'rgba(255, 255, 255, 0.25)',
+                  fontSize: '11px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '4px',
                 }}
               >
-                <LogOut size={14} />
+                <LogOut size={13} />
+                <span>Log Out</span>
               </button>
             </div>
-          ) : (
-            <button
-              id="btn-login"
-              type="button"
-              className="btn-primary"
-              onClick={onOpenLogin}
-              style={{ fontSize: '12px', padding: '6px 14px' }}
-            >
-              Sign In
-            </button>
           )}
         </div>
       </div>
