@@ -1,6 +1,35 @@
-import React, { useState } from 'react';
-import { MapContainer, TileLayer, CircleMarker, Popup, Tooltip } from 'react-leaflet';
+import React, { useState, useEffect } from 'react';
+import { MapContainer, TileLayer, CircleMarker, Popup, Tooltip, useMap } from 'react-leaflet';
 import { Plus } from 'lucide-react';
+
+const CITY_COORDINATES: Record<string, { center: [number, number]; zoom: number }> = {
+  all: { center: [22.8, 77.0], zoom: 5 },
+  ahmedabad: { center: [23.0258, 72.5873], zoom: 12 },
+  kolkata: { center: [22.5726, 88.3639], zoom: 12 },
+  sholapur: { center: [17.6599, 75.9064], zoom: 12 },
+  delhi: { center: [28.6139, 77.2090], zoom: 11 },
+  nagpur: { center: [21.1458, 79.0882], zoom: 12 },
+  chennai: { center: [13.0827, 80.2707], zoom: 12 },
+  jaipur: { center: [26.9124, 75.7873], zoom: 12 },
+  surat: { center: [21.1702, 72.8311], zoom: 12 },
+  hyderabad: { center: [17.3850, 78.4867], zoom: 12 },
+  bhubaneswar: { center: [20.2961, 85.8245], zoom: 12 },
+  patna: { center: [25.5941, 85.1376], zoom: 12 },
+  lucknow: { center: [26.8467, 80.9462], zoom: 12 },
+  bengaluru: { center: [12.9716, 77.5946], zoom: 12 },
+  mumbai: { center: [19.0760, 72.8777], zoom: 12 },
+  varanasi: { center: [25.3176, 82.9739], zoom: 12 },
+  jodhpur: { center: [26.2389, 73.0243], zoom: 12 },
+};
+
+function MapController({ center, zoom }: { center: [number, number]; zoom: number }) {
+  const map = useMap();
+  useEffect(() => {
+    map.flyTo(center, zoom, { duration: 1.2 });
+  }, [center, zoom, map]);
+  return null;
+}
+
 
 interface DistressReport {
   id: string;
@@ -435,7 +464,10 @@ export const DistressMap: React.FC = () => {
             className="form-select"
             style={{ width: '220px' }}
             value={selectedCity}
-            onChange={(e) => setSelectedCity(e.target.value)}
+            onChange={(e) => {
+              setSelectedCity(e.target.value);
+              setSelectedReport(null);
+            }}
           >
             <option value="all">All 16 Pilot Territories</option>
             <option value="ahmedabad">Ahmedabad (Gujarat)</option>
@@ -501,6 +533,18 @@ export const DistressMap: React.FC = () => {
               zoom={5}
               style={{ width: '100%', height: '100%', borderRadius: '4px' }}
             >
+              <MapController
+                center={
+                  selectedReport
+                    ? [selectedReport.lat, selectedReport.lng]
+                    : (CITY_COORDINATES[selectedCity] || CITY_COORDINATES.all).center
+                }
+                zoom={
+                  selectedReport
+                    ? 13
+                    : (CITY_COORDINATES[selectedCity] || CITY_COORDINATES.all).zoom
+                }
+              />
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

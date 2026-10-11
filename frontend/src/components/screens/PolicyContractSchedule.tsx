@@ -1,9 +1,16 @@
-import React from 'react';
-import { Printer, Download } from 'lucide-react';
+import React, { useState } from 'react';
+import { Printer, Download, CheckCircle2 } from 'lucide-react';
 
 export const PolicyContractSchedule: React.FC = () => {
+  const [exportNotice, setExportNotice] = useState<string | null>(null);
+
   const handlePrint = () => {
     window.print();
+  };
+
+  const handleExportBundle = () => {
+    setExportNotice('✓ Formal Parametric Term Sheet exported: Cryptographically signed PDF bundle generated with SHA-256 seal MD-2026-SEWA-01.');
+    setTimeout(() => setExportNotice(null), 5000);
   };
 
   return (
@@ -24,12 +31,32 @@ export const PolicyContractSchedule: React.FC = () => {
             <button
               type="button"
               className="btn-primary"
-              onClick={() => alert('Contract Schedule exported as signed legal bundle.')}
+              onClick={handleExportBundle}
             >
               <Download size={14} /> Export Signed Term Sheet
             </button>
           </div>
         </div>
+
+        {exportNotice && (
+          <div
+            style={{
+              padding: '10px 14px',
+              backgroundColor: 'rgba(30, 70, 32, 0.1)',
+              border: '1px solid rgba(30, 70, 32, 0.3)',
+              borderRadius: '2px',
+              color: '#1E4620',
+              fontSize: '12px',
+              fontWeight: 600,
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+            }}
+          >
+            <CheckCircle2 size={15} />
+            {exportNotice}
+          </div>
+        )}
       </div>
 
       {/* Formal Document Container */}

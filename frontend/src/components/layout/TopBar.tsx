@@ -1,36 +1,47 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
-import { Sun, Moon, LogOut, ShieldCheck, UserCheck } from 'lucide-react';
+import { Sun, Moon, LogOut, ShieldCheck, UserCheck, Presentation } from 'lucide-react';
 
 interface TopBarProps {
   activeScreen: string;
   onSelectScreen: (screenId: string) => void;
   onOpenLogin: () => void;
+  onOpenSeminarPitch: () => void;
+}
+
+interface ScreenTab {
+  id: string;
+  label: string;
+  group: 'workbench' | 'science' | 'operations';
 }
 
 export const TopBar: React.FC<TopBarProps> = ({
   activeScreen,
   onSelectScreen,
   onOpenLogin,
+  onOpenSeminarPitch,
 }) => {
   const { user, logout, loginAs } = useAuth();
   const { theme, toggleTheme } = useTheme();
   const [logoLoaded, setLogoLoaded] = useState(true);
 
-  const screens = [
-    { id: 'studio', label: 'Trigger Studio' },
-    { id: 'distress', label: 'Distress Map' },
-    { id: 'datatrust', label: 'Data Trust' },
-    { id: 'datasets', label: 'Open Datasets' },
-    { id: 'microclimate', label: 'Ward Heat Islands' },
-    { id: 'replay', label: 'Season Replay' },
-    { id: 'desk', label: 'Heat-Day Desk' },
-    { id: 'cohorts', label: 'Cohort Registry' },
-    { id: 'actuarial', label: 'Actuarial Solvency' },
-    { id: 'disbursement', label: 'UPI Disbursement' },
-    { id: 'decisions', label: 'Decision Record' },
-    { id: 'contract', label: 'Policy Schedule' },
+  const screens: ScreenTab[] = [
+    // Group 1: Core Workbench
+    { id: 'studio', label: 'Trigger Studio', group: 'workbench' },
+    { id: 'distress', label: 'Distress Map', group: 'workbench' },
+    { id: 'desk', label: 'Heat-Day Desk', group: 'workbench' },
+    { id: 'replay', label: 'Season Replay', group: 'workbench' },
+    // Group 2: Climate Science & Data Trust
+    { id: 'datatrust', label: 'Data Trust', group: 'science' },
+    { id: 'datasets', label: 'Open Datasets', group: 'science' },
+    { id: 'microclimate', label: 'Ward Heat Islands', group: 'science' },
+    // Group 3: Operations & Governance
+    { id: 'cohorts', label: 'Cohort Registry', group: 'operations' },
+    { id: 'actuarial', label: 'Actuarial Solvency', group: 'operations' },
+    { id: 'disbursement', label: 'UPI Disbursement', group: 'operations' },
+    { id: 'decisions', label: 'Decision Record', group: 'operations' },
+    { id: 'contract', label: 'Policy Schedule', group: 'operations' },
   ];
 
   return (
@@ -38,19 +49,19 @@ export const TopBar: React.FC<TopBarProps> = ({
       {/* Primary Top Bar */}
       <div className="top-nav">
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-          {/* Logo Placeholder (240x50 horizontal rectangle) */}
-          <div className="logo-container" style={{ width: 220, height: 46 }}>
+          {/* Logo Container */}
+          <div className="logo-container" style={{ width: 240, height: 48, cursor: 'pointer' }} onClick={() => onSelectScreen('studio')}>
             {logoLoaded ? (
               <img
-                src="/logo.png"
+                src="/logo.svg"
                 alt="Mausam Dhaal Logo"
                 className="logo-img"
                 onError={() => setLogoLoaded(false)}
               />
             ) : (
               <div className="logo-fallback">
-                <span className="logo-fallback-title">Mausam Dhaal</span>
-                <span className="logo-fallback-sub">Heat Cover Workbench</span>
+                <span className="logo-fallback-title">Mausam Dhaal · मौसम ढाल</span>
+                <span className="logo-fallback-sub">Parametric Heat-Cover Workbench</span>
               </div>
             )}
           </div>
@@ -60,18 +71,41 @@ export const TopBar: React.FC<TopBarProps> = ({
           {/* Program Context */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: '10px', color: '#AAB7B8', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-              Programme Cohort
+              Active Union Cohort
             </span>
             <span style={{ fontSize: '12px', fontWeight: 600, color: '#FFFFFF' }}>
-              SEWA Informal Workers Protection · Season 2026
+              SEWA Informal Workers Protection · 16 Pilot Hubs
             </span>
           </div>
         </div>
 
         {/* Top Right Controls & Role Management */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          {/* Executive Seminar Pitch Deck Launch Button */}
+          <button
+            id="btn-seminar-pitch-deck"
+            type="button"
+            className="btn-primary"
+            onClick={onOpenSeminarPitch}
+            style={{
+              padding: '6px 14px',
+              fontSize: '12px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              backgroundColor: '#FF9900',
+              color: '#111827',
+              fontWeight: 700,
+              boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            }}
+          >
+            <Presentation size={15} />
+            Seminar Pitch Deck
+          </button>
+
           {/* Theme Toggle (Light / Dark) */}
           <button
+            id="btn-theme-toggle"
             type="button"
             className="btn-secondary"
             onClick={toggleTheme}
@@ -103,11 +137,12 @@ export const TopBar: React.FC<TopBarProps> = ({
 
               {/* Role Badge & Quick Switch */}
               <button
+                id="btn-role-switcher"
                 type="button"
                 onClick={() => loginAs(user.role === 'officer' ? 'reviewer' : 'officer')}
-                title="Click to toggle role"
+                title="Click to toggle role between Programme Officer and Auditor/Reviewer"
                 style={{
-                  padding: '3px 8px',
+                  padding: '4px 8px',
                   fontSize: '11px',
                   fontWeight: 600,
                   backgroundColor: user.role === 'officer' ? '#FF9900' : '#1E4620',
@@ -125,6 +160,7 @@ export const TopBar: React.FC<TopBarProps> = ({
               </button>
 
               <button
+                id="btn-logout"
                 type="button"
                 className="btn-secondary"
                 onClick={logout}
@@ -141,6 +177,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             </div>
           ) : (
             <button
+              id="btn-login"
               type="button"
               className="btn-primary"
               onClick={onOpenLogin}
@@ -152,18 +189,26 @@ export const TopBar: React.FC<TopBarProps> = ({
         </div>
       </div>
 
-      {/* Secondary Navigation Tabs Bar */}
+      {/* Secondary Navigation Tabs Bar with Pillar Badges */}
       <nav className="nav-tabs-bar">
-        {screens.map((screen) => (
-          <button
-            key={screen.id}
-            type="button"
-            className={`nav-tab-btn ${activeScreen === screen.id ? 'active' : ''}`}
-            onClick={() => onSelectScreen(screen.id)}
-          >
-            {screen.label}
-          </button>
-        ))}
+        {screens.map((screen, idx) => {
+          const isGroupStart = idx === 0 || screens[idx - 1].group !== screen.group;
+          return (
+            <React.Fragment key={screen.id}>
+              {isGroupStart && idx !== 0 && (
+                <div style={{ width: '1px', backgroundColor: 'var(--border-color)', margin: '8px 6px', height: '24px' }} />
+              )}
+              <button
+                id={`nav-tab-${screen.id}`}
+                type="button"
+                className={`nav-tab-btn ${activeScreen === screen.id ? 'active' : ''}`}
+                onClick={() => onSelectScreen(screen.id)}
+              >
+                {screen.label}
+              </button>
+            </React.Fragment>
+          );
+        })}
       </nav>
     </header>
   );

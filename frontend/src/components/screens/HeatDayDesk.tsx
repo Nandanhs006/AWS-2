@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Download, Send, Globe, Clock, UserCheck, ChevronRight } from 'lucide-react';
+import { Download, Send, Globe, UserCheck, ChevronRight } from 'lucide-react';
+import { DiurnalHeatCurve } from '../common/DiurnalHeatCurve';
+
 
 interface CityForecast {
   city_id: string;
@@ -338,67 +340,7 @@ export const HeatDayDesk: React.FC = () => {
 
           {/* 24-Hour Diurnal Heat Curve (11:30 AM - 4:30 PM Red Danger Band) */}
           <div className="card" style={{ padding: '20px 24px' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '14px' }}>
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <Clock size={16} color="var(--aws-orange)" />
-                  <h3 style={{ fontSize: '15px', fontWeight: 700, margin: 0, color: 'var(--text-primary)' }}>
-                    24-Hour Diurnal Heat Curve ({currentCity.city_name})
-                  </h3>
-                </div>
-                <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '2px' }}>
-                  Highlights the 11:30 AM – 4:30 PM physiological danger band where outdoor labor capacity drops &gt;30%
-                </div>
-              </div>
-
-              <div style={{ display: 'flex', gap: '12px', fontSize: '11px' }}>
-                <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <span style={{ width: '10px', height: '10px', backgroundColor: '#D13212', borderRadius: '2px' }} />
-                  Danger Band (WBGT &ge; 30°C)
-                </span>
-                <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <span style={{ width: '10px', height: '10px', backgroundColor: '#0972D3', borderRadius: '2px' }} />
-                  Safe Operational Zone
-                </span>
-              </div>
-            </div>
-
-            {/* Diurnal Bar Chart Visualizer */}
-            <div style={{ display: 'flex', alignItems: 'flex-end', height: '160px', gap: '4px', paddingTop: '20px', borderBottom: '1px solid var(--border-color)' }}>
-              {currentCurve.map((point) => {
-                const heightPct = Math.min(100, Math.max(15, (point.wbgt_c - 18) * 5.5));
-                return (
-                  <div
-                    key={point.hour}
-                    style={{
-                      flex: 1,
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'center',
-                      height: '100%',
-                      justifyContent: 'flex-end',
-                    }}
-                    title={`${point.hour}: Dry-Bulb ${point.t_max_c}°C, Wet-Bulb ${point.tw_c}°C, WBGT ${point.wbgt_c}°C`}
-                  >
-                    <div style={{ fontSize: '9px', color: 'var(--text-secondary)', marginBottom: '2px' }}>
-                      {point.wbgt_c.toFixed(0)}°
-                    </div>
-                    <div
-                      style={{
-                        width: '100%',
-                        height: `${heightPct}%`,
-                        backgroundColor: point.danger_zone ? '#D13212' : point.wbgt_c >= 28 ? '#FF9900' : '#0972D3',
-                        borderRadius: '2px 2px 0 0',
-                        transition: 'height 0.3s ease',
-                      }}
-                    />
-                    <div style={{ fontSize: '9px', color: 'var(--text-secondary)', marginTop: '4px' }}>
-                      {point.hour.slice(0, 2)}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+            <DiurnalHeatCurve curve={currentCurve} cityName={currentCity.city_name} />
           </div>
 
           {/* Operational Communications & Checklists Grid */}

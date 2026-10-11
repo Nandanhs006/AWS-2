@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9900" />
+      <stop offset="100%" stop-color="#D13212" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF9900" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shield Icon -->
+  <g transform="translate(10, 8)">
+    <!-- Shield Outline & Background -->
+    <path d="M 24 2 L 44 10 L 44 26 C 44 38 34 46 24 50 C 14 46 4 38 4 26 L 4 10 Z" 
+          fill="#1A2332" stroke="url(#shieldGrad)" stroke-width="2.5" />
+    
+    <!-- Sunburst behind peak -->
+    <path d="M 24 8 L 24 14 M 18 10 L 20 15 M 30 10 L 28 15" 
+          stroke="#FFE082" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Radiant Heat Wave within Shield -->
+    <path d="M 12 28 Q 18 22 24 28 T 36 28" 
+          fill="none" stroke="#FF9900" stroke-width="2" stroke-linecap="round" />
+    <path d="M 14 34 Q 19 29 24 34 T 34 34" 
+          fill="none" stroke="#EF4444" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Stull Wet-Bulb Mercury Droplet -->
+    <circle cx="24" cy="22" r="3.5" fill="url(#shieldGrad)" />
+  </g>
+
+  <!-- Text Group -->
+  <g transform="translate(64, 14)">
+    <!-- Primary Brand Title -->
+    <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-size="20" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">
+      Mausam Dhaal
+    </text>
+    
+    <!-- Hindi Subtitle Badge -->
+    <text x="145" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-size="13" font-weight="600" fill="#FFB347">
+      मौसम ढाल
+    </text>
+
+    <!-- Descriptor Subtitle -->
+    <text x="0" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-size="10.5" font-weight="500" fill="#94A3B8" letter-spacing="0.3">
+      PARAMETRIC HEAT-COVER WORKBENCH
+    </text>
+  </g>
+</svg>
