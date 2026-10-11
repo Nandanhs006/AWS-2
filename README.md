@@ -88,12 +88,12 @@ The daily execution lifecycle evaluates 31 Indian territory hubs at 06:00 IST be
 ```mermaid
 sequenceDiagram
     autonumber
-    participant EB as EventBridge (06:00 IST)
-    participant Engine as HeatSutra Core Engine
-    participant Model as Stull & WBGT Evaluator
-    participant Ledger as Cryptographic Ledger (S3/DynamoDB)
-    participant SQS as Disbursement Queue (SQS)
-    participant Workers as Beneficiary Workers (UPI/SMS)
+    participant EB as "EventBridge (06:00 IST)"
+    participant Engine as "HeatSutra Core Engine"
+    participant Model as "Stull & WBGT Evaluator"
+    participant Ledger as "Cryptographic Ledger (S3/DynamoDB)"
+    participant SQS as "Disbursement Queue (SQS)"
+    participant Workers as "Beneficiary Workers (UPI/SMS)"
 
     EB->>Engine: Trigger Morning Operational Run
     Engine->>Engine: Ingest IMD Station & ERA5 Forecast for 31 Hubs
@@ -111,7 +111,76 @@ sequenceDiagram
 
 ---
 
-### 2. Multi-Tier Parametric Policy Models
+### 2. Physiological & Actuarial Calculation Flow
+
+```mermaid
+flowchart LR
+    subgraph Inputs["Meteorological Ingestion"]
+        T["Surface Air Temp (T_max °C)"]
+        RH["Relative Humidity (RH %)"]
+        Solar["Direct Insolation (W/m²)"]
+    end
+
+    subgraph ThermoPhysics["Roland Stull Physiological Model"]
+        TwCalc["Stull Wet-Bulb Equation (2011)<br/>Tw = T*atan(...) + ..."]
+        WBGTCalc["Outdoor WBGT Model<br/>0.7*Tw + 0.2*Tg + 0.1*Td"]
+        UHIAdj["Microclimate UHI Penalty<br/>(+1.5°C to +4.5°C for Informal Workers)"]
+    end
+
+    subgraph RiskQuant["Actuarial Monte Carlo Engine"]
+        HistDist["35-Year Reanalysis Distribution<br/>(ERA5-Land 1991–2025)"]
+        BurnRate["Empirical Payout Frequency<br/>(Expected Heat Days / Season)"]
+        Loading["Safety & Solvency Loading<br/>(Solvency Buffer + Expense Ratio)"]
+        Premium["Actuarial Indicative Premium<br/>(₹ / Member / Season)"]
+    end
+
+    T --> TwCalc
+    RH --> TwCalc
+    TwCalc --> WBGTCalc
+    Solar --> WBGTCalc
+    WBGTCalc --> UHIAdj
+    UHIAdj --> RiskQuant
+    HistDist --> BurnRate
+    BurnRate --> Loading
+    Loading --> Premium
+```
+
+---
+
+### 3. Multi-Tier Parametric Policy Decision Tree
+
+```mermaid
+flowchart TB
+    Start["Morning Forecast Assessment (06:00 IST)"]
+    
+    subgraph PolicyBranches["Configured Policy Evaluation"]
+        P1["SEWA Pilot Benchmark<br/>(Dry-Bulb Consecutive)"]
+        P2["Gujarat 2026 Model<br/>(Dry-Bulb Single-Day)"]
+        P3["Stull Physiological<br/>(Wet-Bulb Tw)"]
+        P4["HeatSutra Hybrid Shield<br/>(Dual Metric T_max OR Tw)"]
+    end
+
+    Start --> P1
+    Start --> P2
+    Start --> P3
+    Start --> P4
+
+    P1 -->|T at least 44.1°C (2 Days)| P1Full["Full Payout (₹900)"]
+    P1 -->|T at least 43.6°C (2 Days)| P1Part["Partial Payout (₹400)"]
+    P1 -->|Fails Consecutive Rule| Standby["Standby State (₹0)<br/>Audit Trail Logged"]
+
+    P2 -->|T at least 42.74°C (1 Day)| P2Full["Full Payout (₹900)"]
+    P2 -->|Below 42.74°C| Standby
+
+    P3 -->|Tw at least 30.8°C (Lethal)| P3Full["Full Payout (₹900)"]
+    P3 -->|Tw at least 29.8°C (Extreme)| P3Part["Partial Payout (₹400)"]
+    P3 -->|Below 29.8°C| Standby
+
+    P4 -->|T at least 44.1°C OR Tw at least 31.0°C| P4Full["Full Payout (₹900)<br/>Zero Humidity Blind Spot"]
+    P4 -->|T at least 43.2°C OR Tw at least 30.2°C| P4Part["Partial Payout (₹400)"]
+    P4 -->|T at least 42.0°C (Pre-Alert)| P4Adv["Advisory Alert Only<br/>HAP Municipal Action"]
+    P4 -->|Below All Tiers| Standby
+```
 
 HeatSutra supports 4 primary trigger families designed to prevent the catastrophic pilot failures of 2023–2025:
 
@@ -124,7 +193,7 @@ HeatSutra supports 4 primary trigger families designed to prevent the catastroph
 
 ---
 
-### 3. Cryptographic Tamper-Evidence & Audit Pipeline
+### 4. Cryptographic Tamper-Evidence & Audit Pipeline
 
 To satisfy insurance underwriters, international climate funds, and municipal auditors, every single decision (whether paid or unpaid) produces an immutable cryptographic audit record.
 
@@ -145,7 +214,83 @@ flowchart LR
 
 ---
 
-## Repository Structure
+### 5. Multi-Channel Disbursement & Multilingual Outreach Architecture
+
+```mermaid
+flowchart LR
+    Queue["HeatSutraDisbursementQueue<br/>(Amazon SQS)"] --> FanoutLambda["FanoutHandler Lambda<br/>(Batch Size: 10)"]
+    
+    subgraph Channels["Disbursement & Advisory Channels"]
+        UPICSV["NPCI UPI Direct Benefit Transfer<br/>(VPA Settlement CSV Batch)"]
+        SESEmail["Amazon SES Dispatch<br/>(Municipal & Employer Heat Advisories)"]
+        SMSGateway["SMS & WhatsApp Notification<br/>(7 Regional Languages)"]
+    end
+
+    subgraph Languages["Supported Regional Languages"]
+        L1["English (EN)"]
+        L2["Kannada (KN)"]
+        L3["Marathi (MR)"]
+        L4["Telugu (TE)"]
+        L5["Hindi (HI)"]
+        L6["Gujarati (GU)"]
+        L7["Tamil (TA)"]
+    end
+
+    FanoutLambda --> UPICSV
+    FanoutLambda --> SESEmail
+    FanoutLambda --> SMSGateway
+    SMSGateway --> Languages
+
+    FanoutLambda -.->|3 Failed Retries| DLQ["HeatSutraDisbursementDLQ<br/>(14-Day Forensic Replay)"]
+```
+
+---
+
+## Repository Structure & Modular Hierarchy
+
+```mermaid
+graph TB
+    Root["HeatSutra Platform Root"]
+    
+    subgraph EngineModule["1. Python Climate & Actuarial Engine (engine/)"]
+        Pipeline["climate_pipeline.py<br/>(ERA5 & IMD Ingest)"]
+        WetBulb["wet_bulb.py<br/>(Stull 2011 Tw Equation)"]
+        Models["models.py<br/>(Pydantic Schema & Contracts)"]
+        Solver["actuarial_solver.py<br/>(Monte Carlo & Solvency Solver)"]
+        Export["export_precomputed.py<br/>(Multi-City JSON Generator)"]
+    end
+
+    subgraph FrontendModule["2. Institutional Workbench Frontend (frontend/)"]
+        Components["12 Role-Gated Screens<br/>(DistressMap, TriggerStudio, HeatDayDesk...)"]
+        Contexts["Context Providers<br/>(Auth, Theme, 7-Language Switcher)"]
+        PublicData["Precomputed Data Vault<br/>(31 Hubs, Diurnal Cycles, Replays)"]
+        BrandAssets["Emblem & Typography<br/>(logo.png, index.css)"]
+    end
+
+    subgraph BackendModule["3. AWS Serverless Microservices (backend/)"]
+        RepriceFn["reprice_handler.py<br/>(Sub-Second Pricing API)"]
+        DailyFn["daily_evaluation_handler.py<br/>(EventBridge Morning Ingest)"]
+        FanoutFn["fanout_handler.py<br/>(SQS Fan-Out & SES Consumer)"]
+    end
+
+    subgraph InfraModule["4. Cloud Development Kit (infra/)"]
+        StackDef["heatsutra-stack.ts<br/>(AWS CDK Stack Definition)"]
+        BinEntry["infra.ts<br/>(CDK Entrypoint)"]
+        CDKJson["cdk.json<br/>(CDK Synthesis Config)"]
+    end
+
+    Root --> EngineModule
+    Root --> FrontendModule
+    Root --> BackendModule
+    Root --> InfraModule
+
+    EngineModule -->|Generates JSON Datasets| PublicData
+    BackendModule -->|Implements API Routes| Components
+    InfraModule -->|Deploys Serverless Infrastructure| BackendModule
+    InfraModule -->|Hosts Static Web Bundle| FrontendModule
+```
+
+### Directory Tree Overview
 
 ```
 HeatSutra/

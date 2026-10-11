@@ -106,6 +106,32 @@ flowchart TB
 ---
 
 ### B. Ingestion & Daily Evaluation Pipeline
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant EB as "Amazon EventBridge (06:00 IST)"
+    participant Lambda as "DailyEvaluationHandler (Lambda)"
+    participant MetAPI as "IMD & ERA5 Data Feeds"
+    participant DDB as "Amazon DynamoDB (Decisions)"
+    participant S3Lock as "Amazon S3 Object Lock (Vault)"
+    participant SQS as "Amazon SQS (Disbursement Queue)"
+
+    EB->>Lambda: Fire Scheduled Ingestion Trigger
+    Lambda->>MetAPI: Fetch Morning T_max and Humidity (31 Hubs)
+    MetAPI-->>Lambda: Return 31-Hub Observational Matrix
+    Lambda->>Lambda: Calculate Wet-Bulb (Tw) via Roland Stull Formulation
+    Lambda->>Lambda: Evaluate Active Multi-Tier Trigger Criteria
+    Lambda->>Lambda: Generate SHA-256 Hashes (inputs_hash + evidence_hash)
+    par Atomic Immutable Logging
+        Lambda->>DDB: PutItem Decision Record (PITR Protected)
+        Lambda->>S3Lock: PutObject Evidence Bundle (WORM Retained)
+    end
+    opt Payout Conditions Satisfied (Partial or Full)
+        Lambda->>SQS: SendMessageBatch Disbursement Payload
+    end
+```
+
 - **Amazon EventBridge (`HeatSutraDailyEvaluation`)**:
   - Configured with cron rule `cron(30 0 * * ? *)` (00:30 UTC = 06:00 IST).
   - Fires every morning ahead of informal worker day-labor shifts.
@@ -158,6 +184,30 @@ flowchart TB
 ---
 
 ### D. Asynchronous Fan-Out & Notification Pipeline
+
+```mermaid
+flowchart LR
+    Queue["Amazon SQS Queue<br/>(HeatSutraDisbursementQueue)"] --> FanoutLambda["FanoutHandler Lambda<br/>(Batch Size: 10)"]
+    
+    subgraph OutboundDispatch["Disbursement & Advisory Channels"]
+        SES["Amazon SES<br/>(Municipal Advisories)"]
+        SMS["SMS & WhatsApp Gateway<br/>(7 Regional Languages)"]
+        NPCI["NPCI UPI Banking Instruction<br/>(Direct Benefit Transfer CSV)"]
+    end
+
+    subgraph ErrorHandling["Resilience & Dead-Letter Isolation"]
+        DLQ["Amazon SQS Dead-Letter Queue<br/>(HeatSutraDisbursementDLQ)"]
+        CWAlarm["CloudWatch DLQ Alarm<br/>(HeatSutra-DLQ-Messages)"]
+    end
+
+    FanoutLambda --> SES
+    FanoutLambda --> SMS
+    FanoutLambda --> NPCI
+
+    Queue -->|Max Receive Count Exceeded: 3| DLQ
+    DLQ --> CWAlarm
+```
+
 - **Amazon SQS (`HeatSutraDisbursementQueue`)**:
   - Decouples evaluation from payout and notification execution.
   - Visibility timeout: 300 seconds.
@@ -174,6 +224,26 @@ flowchart TB
 ---
 
 ### E. Dynamic Re-Pricing API
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant Client as "Institutional User (Browser)"
+    participant CF as "Amazon CloudFront"
+    participant APIGW as "Amazon API Gateway (/api/reprice)"
+    participant RepriceLambda as "RepriceHandler (Lambda)"
+    participant Solver as "Monte Carlo Solver"
+
+    Client->>CF: User adjusts trigger threshold or loading
+    CF->>APIGW: HTTPS POST /api/reprice
+    APIGW->>RepriceLambda: Proxy Event (Payload: thresholds, cohorts, budget)
+    RepriceLambda->>Solver: Execute Frequency-Severity Solvency Model
+    Solver-->>RepriceLambda: Return Indicative Premium, Burn Rate, Solvency Gap
+    RepriceLambda-->>APIGW: HTTP 200 JSON Response (sub-120ms)
+    APIGW-->>CF: CORS Headers + JSON
+    CF-->>Client: Real-Time Actuarial Recalibration Displayed
+```
+
 - **Amazon API Gateway HTTP API (`HeatSutraApi`)**:
   - Lightweight, cost-effective HTTP API v2 with sub-10ms routing latency.
   - CORS preflight configured to accept requests from the frontend domain.
@@ -187,15 +257,12 @@ flowchart TB
 ## 4. Security, Identity & Compliance Architecture
 
 ```mermaid
-flowchart LR
-    subgraph SecurityControls["Defense-in-Depth Security Controls"]
-        direction TB
-        TLS["TLS 1.3 / EnforceSSL<br/>(All in-flight traffic encrypted)"]
-        KMS["AWS KMS Encryption<br/>(Resting data encrypted)"]
-        IAM["Least-Privilege IAM Roles<br/>(Resource-scoped grants)"]
-        WORM["S3 Object Lock<br/>(Tamper-evident WORM retention)"]
-        PITR["DynamoDB PITR<br/>(Continuous compliance audit)"]
-    end
+flowchart TD
+    Client["Client Request (Edge Layer)"] --> TLS["1. TLS 1.3 / EnforceSSL<br/>In-flight traffic encrypted"]
+    TLS --> IAM["2. Least-Privilege IAM Roles<br/>Scoped function execution"]
+    IAM --> KMS["3. AWS KMS Encryption<br/>Resting data encrypted"]
+    KMS --> WORM["4. S3 Object Lock Vault<br/>WORM Governance Retention"]
+    KMS --> PITR["5. DynamoDB PITR<br/>Continuous Point-in-Time Recovery"]
 ```
 
 | Security Dimension | AWS Implementation | Governance & Compliance Benefit |
@@ -209,6 +276,44 @@ flowchart LR
 ---
 
 ## 5. Observability, Monitoring & FinOps Controls
+
+```mermaid
+flowchart TB
+    subgraph Workloads["Serverless Microservices"]
+        DailyLambda["DailyEvaluationHandler"]
+        RepriceLambda["RepriceHandler"]
+        DisburseQueue["Disbursement SQS & DLQ"]
+    end
+
+    subgraph CloudWatchMetrics["CloudWatch Metrics & Telemetry"]
+        Invocations["Errors & Invocations Metric"]
+        Latency["Duration & Latency Metric"]
+        QueueDepth["Queue Visible Messages Metric"]
+    end
+
+    subgraph AlarmsDashboard["CloudWatch Alarms & Dashboards"]
+        EvalAlarm["HeatSutra Evaluation Errors Alarm<br/>(Errors: 1 or more in 5 min)"]
+        DLQAlarm["HeatSutra DLQ Messages Alarm<br/>(DLQ Messages: 1 or more)"]
+        OpsDash["HeatSutra Operational Dashboard<br/>(Unified Operational Metrics)"]
+    end
+
+    subgraph CostGovernance["Automated FinOps Control"]
+        Budgets["AWS Budgets ($5.00 Hard Limit)<br/>(Alerts at 80% / $4.00)"]
+        EmailAlert["Email Dispatch<br/>(engineering@heatsutra.org)"]
+    end
+
+    DailyLambda --> Invocations
+    RepriceLambda --> Latency
+    DisburseQueue --> QueueDepth
+
+    Invocations --> EvalAlarm
+    Invocations --> OpsDash
+    Latency --> OpsDash
+    QueueDepth --> DLQAlarm
+    QueueDepth --> OpsDash
+
+    Budgets --> EmailAlert
+```
 
 ### A. CloudWatch Operational Dashboard
 The CDK stack deploys a unified operational dashboard (`HeatSutraOperationalDashboard`):
