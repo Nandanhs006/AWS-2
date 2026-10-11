@@ -11,7 +11,7 @@ from typing import Dict, Any
 import boto3
 
 ses = boto3.client("ses", region_name=os.environ.get("AWS_REGION", "ap-south-1"))
-SENDER_EMAIL = os.environ.get("SES_SENDER_EMAIL", "advisory@mausamdhaal.org")
+SENDER_EMAIL = os.environ.get("SES_SENDER_EMAIL", "advisory@heatsutra.org")
 
 
 def handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
@@ -28,7 +28,7 @@ def handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
             payout = payload.get("payout_per_member_inr", "0")
 
             # Dispatch advisory email if SES configured
-            subject = f"Mausam Dhaal Heat Advisory: {city_name} Breached {tier} Threshold"
+            subject = f"HeatSutra Heat Advisory: {city_name} Breached {tier} Threshold"
             message_body = (
                 f"Automated Alert: Extreme heat stress detected for {city_name}. "
                 f"Income protection payout of INR {payout} triggered for enrolled workers. "

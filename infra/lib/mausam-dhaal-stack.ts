@@ -1,17 +1,17 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as s3 from 'aws-cdk-lib/aws-s3';
-import * as s3deploy from 'aws-cdk-lib/aws-s3-deployment';
-import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
-import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as dynamodb from 'aws-cdk-lib/aws-dynamodb';
 import * as sqs from 'aws-cdk-lib/aws-sqs';
 import * as lambda from 'aws-cdk-lib/aws-lambda';
+import * as iam from 'aws-cdk-lib/aws-iam';
 import * as apigwv2 from 'aws-cdk-lib/aws-apigatewayv2';
 import * as apigwv2_integrations from 'aws-cdk-lib/aws-apigatewayv2-integrations';
 import * as events from 'aws-cdk-lib/aws-events';
 import * as targets from 'aws-cdk-lib/aws-events-targets';
-import * as iam from 'aws-cdk-lib/aws-iam';
+import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
+import * as origins from 'aws-cdk-lib/aws-cloudfront-origins';
+import * as s3deploy from 'aws-cdk-lib/aws-s3-deployment';
 import * as cloudwatch from 'aws-cdk-lib/aws-cloudwatch';
 import * as budgets from 'aws-cdk-lib/aws-budgets';
 import * as path from 'path';
@@ -24,7 +24,7 @@ export class MausamDhaalStack extends cdk.Stack {
     // 1. S3 Evidence & Tamper-Evident Ledger Bucket (Object Lock)
     // -------------------------------------------------------------
     const evidenceBucket = new s3.Bucket(this, 'EvidenceBucket', {
-      bucketName: `mausam-dhaal-evidence-${this.account}-${this.region}`,
+      bucketName: `heatsutra-evidence-${this.account}-${this.region}`,
       versioned: true,
       objectLockDefaultRetention: s3.ObjectLockRetention.governance(cdk.Duration.days(1)),
       encryption: s3.BucketEncryption.S3_MANAGED,
@@ -37,7 +37,7 @@ export class MausamDhaalStack extends cdk.Stack {
     // 2. DynamoDB Decisions Ledger Table
     // -------------------------------------------------------------
     const decisionsTable = new dynamodb.Table(this, 'DecisionsTable', {
-      tableName: 'MausamDhaalDecisions',
+      tableName: 'HeatSutraDecisions',
       partitionKey: { name: 'decision_id', type: dynamodb.AttributeType.STRING },
       billingMode: dynamodb.BillingMode.PAY_PER_REQUEST,
       pointInTimeRecovery: true,
@@ -49,13 +49,13 @@ export class MausamDhaalStack extends cdk.Stack {
     // 3. SQS Queue + Dead-Letter Queue (DLQ) for Payout Fan-Out
     // -------------------------------------------------------------
     const deadLetterQueue = new sqs.Queue(this, 'DisbursementDLQ', {
-      queueName: 'MausamDhaalDisbursementDLQ',
+      queueName: 'HeatSutraDisbursementDLQ',
       retentionPeriod: cdk.Duration.days(14),
       encryption: sqs.QueueEncryption.SQS_MANAGED,
     });
 
     const disbursementQueue = new sqs.Queue(this, 'DisbursementQueue', {
-      queueName: 'MausamDhaalDisbursementQueue',
+      queueName: 'HeatSutraDisbursementQueue',
       visibilityTimeout: cdk.Duration.seconds(300),
       deadLetterQueue: {
         maxReceiveCount: 3,
@@ -67,7 +67,6 @@ export class MausamDhaalStack extends cdk.Stack {
     // -------------------------------------------------------------
     // 4. Lambda Functions with Least-Privilege IAM Roles
     // -------------------------------------------------------------
-    // Shared backend path
     const backendPath = path.join(__dirname, '../../backend');
 
     // (A) Re-Pricing & Budget Solver Lambda (API Gateway Integration)
@@ -109,7 +108,7 @@ export class MausamDhaalStack extends cdk.Stack {
       memorySize: 256,
       timeout: cdk.Duration.seconds(30),
       environment: {
-        SES_SENDER_EMAIL: 'advisory@mausamdhaal.org',
+        SES_SENDER_EMAIL: 'advisory@heatsutra.org',
       },
     });
 
@@ -124,8 +123,8 @@ export class MausamDhaalStack extends cdk.Stack {
     // -------------------------------------------------------------
     // 5. API Gateway HTTP API
     // -------------------------------------------------------------
-    const httpApi = new apigwv2.HttpApi(this, 'MausamDhaalApi', {
-      apiName: 'MausamDhaalServiceApi',
+    const httpApi = new apigwv2.HttpApi(this, 'HeatSutraApi', {
+      apiName: 'HeatSutraServiceApi',
       corsPreflight: {
         allowOrigins: ['*'],
         allowMethods: [
@@ -152,7 +151,7 @@ export class MausamDhaalStack extends cdk.Stack {
     // 6. EventBridge Daily Forecast Evaluation Schedule (06:00 IST / 00:30 UTC)
     // -------------------------------------------------------------
     const dailyRule = new events.Rule(this, 'DailyHeatEvaluationRule', {
-      ruleName: 'MausamDhaalDailyEvaluation',
+      ruleName: 'HeatSutraDailyEvaluation',
       description: 'Daily morning forecast heat evaluation for registered worker cohorts',
       schedule: events.Schedule.cron({ minute: '30', hour: '0' }), // 00:30 UTC = 06:00 IST
     });
@@ -162,7 +161,7 @@ export class MausamDhaalStack extends cdk.Stack {
     // 7. S3 + CloudFront Static Web Hosting for Frontend
     // -------------------------------------------------------------
     const siteBucket = new s3.Bucket(this, 'SiteBucket', {
-      bucketName: `mausam-dhaal-site-${this.account}-${this.region}`,
+      bucketName: `heatsutra-site-${this.account}-${this.region}`,
       websiteIndexDocument: 'index.html',
       websiteErrorDocument: 'index.html',
       publicReadAccess: false,
@@ -193,8 +192,8 @@ export class MausamDhaalStack extends cdk.Stack {
     const frontendDistPath = path.join(__dirname, '../../frontend/dist');
     new s3deploy.BucketDeployment(this, 'DeployWorkbenchSite', {
       sources: [s3deploy.Source.asset(frontendDistPath)],
-      destinationBucket: siteBucket,
       distribution,
+      destinationBucket: siteBucket,
       distributionPaths: ['/*'],
     });
 
@@ -202,7 +201,7 @@ export class MausamDhaalStack extends cdk.Stack {
     // 8. CloudWatch Alarms & Operational Dashboard
     // -------------------------------------------------------------
     const evalErrorAlarm = new cloudwatch.Alarm(this, 'EvaluationErrorsAlarm', {
-      alarmName: 'MausamDhaal-Evaluation-Errors',
+      alarmName: 'HeatSutra-Evaluation-Errors',
       metric: dailyEvalFn.metricErrors({ period: cdk.Duration.minutes(5) }),
       threshold: 1,
       evaluationPeriods: 1,
@@ -210,7 +209,7 @@ export class MausamDhaalStack extends cdk.Stack {
     });
 
     const dlqAlarm = new cloudwatch.Alarm(this, 'DisbursementDLQAlarm', {
-      alarmName: 'MausamDhaal-DLQ-Messages',
+      alarmName: 'HeatSutra-DLQ-Messages',
       metric: deadLetterQueue.metricApproximateNumberOfMessagesVisible({
         period: cdk.Duration.minutes(5),
       }),
@@ -219,8 +218,8 @@ export class MausamDhaalStack extends cdk.Stack {
       comparisonOperator: cloudwatch.ComparisonOperator.GREATER_THAN_OR_EQUAL_TO_THRESHOLD,
     });
 
-    const dashboard = new cloudwatch.Dashboard(this, 'MausamDhaalOperationalDashboard', {
-      dashboardName: 'MausamDhaal-Operational-Metrics',
+    const dashboard = new cloudwatch.Dashboard(this, 'HeatSutraOperationalDashboard', {
+      dashboardName: 'HeatSutra-Operational-Metrics',
       widgets: [
         [
           new cloudwatch.GraphWidget({
@@ -251,7 +250,7 @@ export class MausamDhaalStack extends cdk.Stack {
     // -------------------------------------------------------------
     new budgets.CfnBudget(this, 'CostBudgetAlarm', {
       budget: {
-        budgetName: 'MausamDhaal-Monthly-Budget',
+        budgetName: 'HeatSutra-Monthly-Budget',
         budgetLimit: {
           amount: 5,
           unit: 'USD',
@@ -270,7 +269,7 @@ export class MausamDhaalStack extends cdk.Stack {
           subscribers: [
             {
               subscriptionType: 'EMAIL',
-              address: 'engineering@mausamdhaal.org',
+              address: 'engineering@heatsutra.org',
             },
           ],
         },
@@ -282,7 +281,7 @@ export class MausamDhaalStack extends cdk.Stack {
     // -------------------------------------------------------------
     new cdk.CfnOutput(this, 'CloudFrontDistributionUrl', {
       value: `https://${distribution.distributionDomainName}`,
-      description: 'CloudFront URL for Mausam Dhaal static workbench site',
+      description: 'CloudFront URL for HeatSutra static workbench site',
     });
 
     new cdk.CfnOutput(this, 'ApiGatewayEndpointUrl', {

@@ -1,4 +1,4 @@
-"""Data models for Mausam Dhaal Heat Coverage Workbench.
+"""Data models for HeatSutra Heat Coverage Workbench.
 
 All models are strictly typed and validation-backed using Pydantic.
 """

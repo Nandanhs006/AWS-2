@@ -11,6 +11,11 @@ node_modules/
 frontend/node_modules/
 frontend/dist/
 dist/
+infra/node_modules/
+infra/cdk.out/
+infra/**/*.d.ts
+infra/lib/*.js
+infra/bin/*.js
 
 # Logs
 *.log
