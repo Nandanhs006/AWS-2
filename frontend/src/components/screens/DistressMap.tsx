@@ -112,6 +112,111 @@ const INITIAL_REPORTS: DistressReport[] = [
     gap_status: 'Official Station Blind Spot',
     timestamp: '13:15 IST',
   },
+  {
+    id: 'REP-DEL-01',
+    lat: 28.6562,
+    lng: 77.2310,
+    city_id: 'delhi',
+    location_name: 'Chandni Chowk Wholesale Ganj',
+    worker_trade: 'Handcart Pullers & Hamals',
+    workers_affected: 64,
+    symptom: 'Fainting / Syncope',
+    local_wet_bulb_c: 32.1,
+    station_dry_bulb_c: 43.2,
+    official_station_payout: 'Unpaid (Zero Payout)',
+    gap_status: 'Official Station Blind Spot',
+    timestamp: '14:05 IST',
+  },
+  {
+    id: 'REP-NAG-01',
+    lat: 21.1498,
+    lng: 79.1120,
+    city_id: 'nagpur',
+    location_name: 'Itwari Grain Market Yard',
+    worker_trade: 'Grain Loading Day Laborers',
+    workers_affected: 58,
+    symptom: 'Work Halted',
+    local_wet_bulb_c: 31.8,
+    station_dry_bulb_c: 44.2,
+    official_station_payout: 'Unpaid (Zero Payout)',
+    gap_status: 'Official Station Blind Spot',
+    timestamp: '13:40 IST',
+  },
+  {
+    id: 'REP-CHN-01',
+    lat: 13.0900,
+    lng: 80.2900,
+    city_id: 'chennai',
+    location_name: 'George Town Harbor Headload Docks',
+    worker_trade: 'Dock Porters & Auto Drivers',
+    workers_affected: 46,
+    symptom: 'Severe Dehydration',
+    local_wet_bulb_c: 32.4,
+    station_dry_bulb_c: 38.4,
+    official_station_payout: 'Unpaid (Zero Payout)',
+    gap_status: 'Official Station Blind Spot',
+    timestamp: '14:50 IST',
+  },
+  {
+    id: 'REP-SUR-01',
+    lat: 21.1950,
+    lng: 72.8400,
+    city_id: 'surat',
+    location_name: 'Ring Road Textile Market Corridor',
+    worker_trade: 'Textile Loading Workers',
+    workers_affected: 75,
+    symptom: 'Fainting / Syncope',
+    local_wet_bulb_c: 32.0,
+    station_dry_bulb_c: 39.2,
+    official_station_payout: 'Unpaid (Zero Payout)',
+    gap_status: 'Official Station Blind Spot',
+    timestamp: '13:30 IST',
+  },
+  {
+    id: 'REP-HYD-01',
+    lat: 17.3616,
+    lng: 78.4747,
+    city_id: 'hyderabad',
+    location_name: 'Charminar Street Hawkers Bazaar',
+    worker_trade: 'Pavement Bangle & Apparel Hawkers',
+    workers_affected: 42,
+    symptom: 'Heat Cramps',
+    local_wet_bulb_c: 31.1,
+    station_dry_bulb_c: 41.5,
+    official_station_payout: 'Unpaid (Zero Payout)',
+    gap_status: 'Official Station Blind Spot',
+    timestamp: '15:10 IST',
+  },
+  {
+    id: 'REP-MUM-01',
+    lat: 18.9480,
+    lng: 72.8340,
+    city_id: 'mumbai',
+    location_name: 'Crawford Market Loading Terminus',
+    worker_trade: 'Headload Porters (Hamals)',
+    workers_affected: 68,
+    symptom: 'Work Halted',
+    local_wet_bulb_c: 32.6,
+    station_dry_bulb_c: 37.6,
+    official_station_payout: 'Unpaid (Zero Payout)',
+    gap_status: 'Official Station Blind Spot',
+    timestamp: '14:15 IST',
+  },
+  {
+    id: 'REP-JOD-01',
+    lat: 26.2950,
+    lng: 73.0400,
+    city_id: 'jodhpur',
+    location_name: 'Mandore Sandstone Quarries',
+    worker_trade: 'Stone Cutters & Quarry Laborers',
+    workers_affected: 82,
+    symptom: 'Fainting / Syncope',
+    local_wet_bulb_c: 30.8,
+    station_dry_bulb_c: 45.4,
+    official_station_payout: 'Paid',
+    gap_status: 'Corroborated Heatwave',
+    timestamp: '12:45 IST',
+  },
 ];
 
 const AIRPORT_STATIONS = [
@@ -141,6 +246,123 @@ const AIRPORT_STATIONS = [
     current_temp: 40.0,
     humidity: '53%',
     status: 'Official Station (No Payout Triggered)',
+  },
+  {
+    name: 'Indira Gandhi International Airport (IMD Station VIDP)',
+    city_id: 'delhi',
+    lat: 28.5562,
+    lng: 77.1000,
+    current_temp: 43.0,
+    humidity: '34%',
+    status: 'Official Station (Dry-Bulb Consecutive Unmet)',
+  },
+  {
+    name: 'Dr. Babasaheb Ambedkar Airport (IMD Station VANP)',
+    city_id: 'nagpur',
+    lat: 21.0922,
+    lng: 79.0472,
+    current_temp: 44.8,
+    humidity: '28%',
+    status: 'Official Station (Trigger Fired: Full ₹800)',
+  },
+  {
+    name: 'Chennai International Airport (IMD Station VOMM)',
+    city_id: 'chennai',
+    lat: 12.9941,
+    lng: 80.1709,
+    current_temp: 38.1,
+    humidity: '74%',
+    status: 'Official Station (Humidity Spike Blind Spot)',
+  },
+  {
+    name: 'Jaipur International Airport (IMD Station VIJP)',
+    city_id: 'jaipur',
+    lat: 26.8242,
+    lng: 75.8122,
+    current_temp: 42.6,
+    humidity: '31%',
+    status: 'Official Station (No Payout Triggered)',
+  },
+  {
+    name: 'Surat Airport (IMD Station VASU)',
+    city_id: 'surat',
+    lat: 21.1141,
+    lng: 72.7417,
+    current_temp: 37.8,
+    humidity: '72%',
+    status: 'Official Station (Trigger Fired: Partial ₹400)',
+  },
+  {
+    name: 'Rajiv Gandhi International Airport (IMD Station VOHS)',
+    city_id: 'hyderabad',
+    lat: 17.2403,
+    lng: 78.4294,
+    current_temp: 41.2,
+    humidity: '44%',
+    status: 'Official Station (No Payout Triggered)',
+  },
+  {
+    name: 'Biju Patnaik International Airport (IMD Station VEBS)',
+    city_id: 'bhubaneswar',
+    lat: 20.2444,
+    lng: 85.8178,
+    current_temp: 39.4,
+    humidity: '68%',
+    status: 'Official Station (Coastal Delta Stress)',
+  },
+  {
+    name: 'Jay Prakash Narayan Airport (IMD Station VEPT)',
+    city_id: 'patna',
+    lat: 25.5913,
+    lng: 85.0880,
+    current_temp: 40.5,
+    humidity: '56%',
+    status: 'Official Station (Standby)',
+  },
+  {
+    name: 'Chaudhary Charan Singh Airport (IMD Station VILK)',
+    city_id: 'lucknow',
+    lat: 26.7606,
+    lng: 80.8893,
+    current_temp: 41.8,
+    humidity: '48%',
+    status: 'Official Station (Standby)',
+  },
+  {
+    name: 'Kempegowda International Airport (IMD Station VOBL)',
+    city_id: 'bengaluru',
+    lat: 13.1986,
+    lng: 77.7066,
+    current_temp: 36.4,
+    humidity: '52%',
+    status: 'Official Station (Standby)',
+  },
+  {
+    name: 'Chhatrapati Shivaji Maharaj Airport (IMD Station VABB)',
+    city_id: 'mumbai',
+    lat: 19.0896,
+    lng: 72.8656,
+    current_temp: 37.2,
+    humidity: '78%',
+    status: 'Official Station (Maritime Heat Blind Spot)',
+  },
+  {
+    name: 'Lal Bahadur Shastri Airport (IMD Station VEBN)',
+    city_id: 'varanasi',
+    lat: 25.4524,
+    lng: 82.8592,
+    current_temp: 42.1,
+    humidity: '51%',
+    status: 'Official Station (Standby)',
+  },
+  {
+    name: 'Jodhpur Air Base Civil Enclave (IMD Station VIJO)',
+    city_id: 'jodhpur',
+    lat: 26.2511,
+    lng: 73.0489,
+    current_temp: 45.2,
+    humidity: '26%',
+    status: 'Official Station (Trigger Fired: Full ₹800)',
   },
 ];
 
@@ -215,10 +437,23 @@ export const DistressMap: React.FC = () => {
             value={selectedCity}
             onChange={(e) => setSelectedCity(e.target.value)}
           >
-            <option value="all">All Pilot Territories</option>
-            <option value="ahmedabad">Ahmedabad</option>
-            <option value="kolkata">Kolkata</option>
-            <option value="sholapur">Sholapur</option>
+            <option value="all">All 16 Pilot Territories</option>
+            <option value="ahmedabad">Ahmedabad (Gujarat)</option>
+            <option value="kolkata">Kolkata (West Bengal)</option>
+            <option value="sholapur">Sholapur (Maharashtra)</option>
+            <option value="delhi">Delhi NCR (National Capital)</option>
+            <option value="nagpur">Nagpur (Maharashtra)</option>
+            <option value="chennai">Chennai (Tamil Nadu)</option>
+            <option value="jaipur">Jaipur (Rajasthan)</option>
+            <option value="surat">Surat (Gujarat)</option>
+            <option value="hyderabad">Hyderabad (Telangana)</option>
+            <option value="bhubaneswar">Bhubaneswar (Odisha)</option>
+            <option value="patna">Patna (Bihar)</option>
+            <option value="lucknow">Lucknow (Uttar Pradesh)</option>
+            <option value="bengaluru">Bengaluru (Karnataka)</option>
+            <option value="mumbai">Mumbai (Maharashtra)</option>
+            <option value="varanasi">Varanasi (Uttar Pradesh)</option>
+            <option value="jodhpur">Jodhpur (Rajasthan)</option>
           </select>
         </div>
       </div>

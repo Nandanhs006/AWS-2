@@ -111,6 +111,90 @@ const BENEFICIARIES: Beneficiary[] = [
     sewa_union_id: 'SEWA-SP-1092',
     last_payout_date: '2024-05-24',
   },
+  {
+    id: 'BEN-DEL-40112',
+    name: 'Mohammad Rais',
+    city: 'Delhi NCR',
+    trade: 'Chandni Chowk Handcart Porter',
+    vulnerability_tier: 'Critical',
+    heat_exposure_multiplier: 1.35,
+    aadhaar_verified: true,
+    upi_vpa: 'rais.cart@sbi',
+    sewa_union_id: 'DEL-TRP-4012',
+    last_payout_date: '2024-05-28',
+  },
+  {
+    id: 'BEN-NAG-50021',
+    name: 'Shankar Lal Shahu',
+    city: 'Nagpur',
+    trade: 'Brick Kiln & Stone Cutter',
+    vulnerability_tier: 'Critical',
+    heat_exposure_multiplier: 1.45,
+    aadhaar_verified: true,
+    upi_vpa: 'shankarlal@paytm',
+    sewa_union_id: 'MH-BKL-5021',
+    last_payout_date: '2024-05-26',
+  },
+  {
+    id: 'BEN-CHN-60034',
+    name: 'M. Selvam',
+    city: 'Chennai',
+    trade: 'Harbor Headload Porter',
+    vulnerability_tier: 'Critical',
+    heat_exposure_multiplier: 1.30,
+    aadhaar_verified: true,
+    upi_vpa: 'selvam@indianbank',
+    sewa_union_id: 'TN-HBR-6034',
+    last_payout_date: '2024-06-02',
+  },
+  {
+    id: 'BEN-SUR-70018',
+    name: 'Dineshbhai Patel',
+    city: 'Surat',
+    trade: 'Textile Market Porter',
+    vulnerability_tier: 'High',
+    heat_exposure_multiplier: 1.25,
+    aadhaar_verified: true,
+    upi_vpa: 'dinesh.surat@sbi',
+    sewa_union_id: 'GJ-SRT-7018',
+    last_payout_date: '2024-05-24',
+  },
+  {
+    id: 'BEN-BLR-80045',
+    name: 'Kavitha R.',
+    city: 'Bengaluru',
+    trade: 'App-Based Delivery Partner',
+    vulnerability_tier: 'High',
+    heat_exposure_multiplier: 1.25,
+    aadhaar_verified: true,
+    upi_vpa: 'kavitha.gig@okaxis',
+    sewa_union_id: 'KA-GIG-8045',
+    last_payout_date: '2024-04-18',
+  },
+  {
+    id: 'BEN-MUM-90056',
+    name: 'Santosh Gawde',
+    city: 'Mumbai',
+    trade: 'Dock Headload Porter (Hamal)',
+    vulnerability_tier: 'Critical',
+    heat_exposure_multiplier: 1.35,
+    aadhaar_verified: true,
+    upi_vpa: 'santosh.hamal@boi',
+    sewa_union_id: 'MH-DCK-9056',
+    last_payout_date: '2024-05-20',
+  },
+  {
+    id: 'BEN-JOD-10088',
+    name: 'Bhanwar Singh',
+    city: 'Jodhpur',
+    trade: 'Mandore Sandstone Quarry Cutter',
+    vulnerability_tier: 'Critical',
+    heat_exposure_multiplier: 1.50,
+    aadhaar_verified: true,
+    upi_vpa: 'bhanwar.stone@sbi',
+    sewa_union_id: 'RJ-QRY-1088',
+    last_payout_date: '2024-05-29',
+  },
 ];
 
 export const CohortRegistry: React.FC = () => {
@@ -188,10 +272,17 @@ export const CohortRegistry: React.FC = () => {
             value={selectedCity}
             onChange={(e) => setSelectedCity(e.target.value)}
           >
-            <option value="all">All Cities</option>
+            <option value="all">All Pilot Territories</option>
             <option value="ahmedabad">Ahmedabad</option>
             <option value="kolkata">Kolkata</option>
             <option value="sholapur">Sholapur</option>
+            <option value="delhi ncr">Delhi NCR</option>
+            <option value="nagpur">Nagpur</option>
+            <option value="chennai">Chennai</option>
+            <option value="surat">Surat</option>
+            <option value="bengaluru">Bengaluru</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="jodhpur">Jodhpur</option>
           </select>
 
           <select

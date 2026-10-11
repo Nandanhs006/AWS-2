@@ -7,7 +7,9 @@
       "lat": 23.0225,
       "lon": 72.5714,
       "station_name": "Sardar Vallabhbhai Patel Airport (VAAH / IMD)",
-      "climate_type": "Semi-arid extreme dry-bulb heat"
+      "climate_type": "Semi-arid extreme dry-bulb heat",
+      "cohort_size": 25000,
+      "primary_trades": "Street Vendors, Garment Workers, Construction"
     },
     {
       "id": "kolkata",
@@ -16,7 +18,9 @@
       "lat": 22.5726,
       "lon": 88.3639,
       "station_name": "Netaji Subhash Chandra Bose Airport (VECC / IMD)",
-      "climate_type": "Gangetic delta lethal humid-heat"
+      "climate_type": "Gangetic delta lethal humid-heat",
+      "cohort_size": 22000,
+      "primary_trades": "Wholesale Headload Porters, Rickshaw Pullers, Hawkers"
     },
     {
       "id": "sholapur",
@@ -25,7 +29,152 @@
       "lat": 17.6599,
       "lon": 75.9064,
       "station_name": "Sholapur Airport Weather Station (VASL / IMD)",
-      "climate_type": "Deccan plateau arid-to-humid transition"
+      "climate_type": "Deccan plateau arid-to-humid transition",
+      "cohort_size": 18000,
+      "primary_trades": "Powerloom Shed Operators, Agricultural Day Laborers"
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi NCR",
+      "state": "National Capital Region",
+      "lat": 28.6139,
+      "lon": 77.209,
+      "station_name": "Indira Gandhi International Airport (VIDP / IMD)",
+      "climate_type": "Northern plains continental extreme furnace heat",
+      "cohort_size": 35000,
+      "primary_trades": "Gig Couriers, Metro Construction, Street Vendors"
+    },
+    {
+      "id": "nagpur",
+      "name": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1458,
+      "lon": 79.0882,
+      "station_name": "Dr. Babasaheb Ambedkar International Airport (VANP / IMD)",
+      "climate_type": "Vidarbha central dry-core heatwave zone (45\u00b0C+)",
+      "cohort_size": 20000,
+      "primary_trades": "Cotton Harvesters, Brick Kiln Workers, Stone Cutters"
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "lat": 13.0827,
+      "lon": 80.2707,
+      "station_name": "Chennai International Airport (VOMM / IMD)",
+      "climate_type": "Coromandel coast tropical maritime humid-heat",
+      "cohort_size": 24000,
+      "primary_trades": "Port Headload Laborers, Auto Drivers, Fisherfolk"
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "lat": 26.9124,
+      "lon": 75.7873,
+      "station_name": "Jaipur International Airport (VIJP / IMD)",
+      "climate_type": "Thar desert fringe solar insolation",
+      "cohort_size": 19000,
+      "primary_trades": "Stone Artisans, Brick Kiln Laborers, Tourism Hawkers"
+    },
+    {
+      "id": "surat",
+      "name": "Surat",
+      "state": "Gujarat",
+      "lat": 21.1702,
+      "lon": 72.8311,
+      "station_name": "Surat Airport (VASU / IMD)",
+      "climate_type": "South Gujarat coastal textile belt humid heat",
+      "cohort_size": 28000,
+      "primary_trades": "Textile Dyeing Laborers, Diamond Polishers, Vendors"
+    },
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.385,
+      "lon": 78.4867,
+      "station_name": "Rajiv Gandhi International Airport (VOHS / IMD)",
+      "climate_type": "Deccan rocky plateau semi-arid heat",
+      "cohort_size": 21000,
+      "primary_trades": "App Delivery Riders, Scaffolding Laborers, Porters"
+    },
+    {
+      "id": "bhubaneswar",
+      "name": "Bhubaneswar",
+      "state": "Odisha",
+      "lat": 20.2961,
+      "lon": 85.8245,
+      "station_name": "Biju Patnaik International Airport (VEBS / IMD)",
+      "climate_type": "Eastern coastal delta heatwave corridor",
+      "cohort_size": 17000,
+      "primary_trades": "Pavement Vendors, Rickshaw Pullers, Construction"
+    },
+    {
+      "id": "patna",
+      "name": "Patna",
+      "state": "Bihar",
+      "lat": 25.5941,
+      "lon": 85.1376,
+      "station_name": "Jay Prakash Narayan Airport (VEPT / IMD)",
+      "climate_type": "Indo-Gangetic agrarian basin humid-heat",
+      "cohort_size": 23000,
+      "primary_trades": "Agricultural Day Laborers, Cart Pullers, Hawkers"
+    },
+    {
+      "id": "lucknow",
+      "name": "Lucknow",
+      "state": "Uttar Pradesh",
+      "lat": 26.8467,
+      "lon": 80.9462,
+      "station_name": "Chaudhary Charan Singh Airport (VILK / IMD)",
+      "climate_type": "Central Gangetic urban heat island",
+      "cohort_size": 21000,
+      "primary_trades": "Chikan Embroidery Home-Workers, Street Vendors"
+    },
+    {
+      "id": "bengaluru",
+      "name": "Bengaluru",
+      "state": "Karnataka",
+      "lat": 12.9716,
+      "lon": 77.5946,
+      "station_name": "Kempegowda International Airport (VOBL / IMD)",
+      "climate_type": "Southern Deccan urban plateau & gig courier fleet",
+      "cohort_size": 26000,
+      "primary_trades": "Gig Delivery Riders, Urban Construction, Domestic Workers"
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "state": "Maharashtra",
+      "lat": 19.076,
+      "lon": 72.8777,
+      "station_name": "Chhatrapati Shivaji Maharaj Airport (VABB / IMD)",
+      "climate_type": "Konkan coastal mega-metro high-humidity maritime heat",
+      "cohort_size": 36000,
+      "primary_trades": "Dabbawalas, Dock Porters, Street Hawkers, Sanitation Workers"
+    },
+    {
+      "id": "varanasi",
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "lat": 25.3176,
+      "lon": 82.9739,
+      "station_name": "Lal Bahadur Shastri Airport (VEBN / IMD)",
+      "climate_type": "Middle Ganges artisan & outdoor riverfront porters",
+      "cohort_size": 16000,
+      "primary_trades": "Silk Weavers, River Ghat Boatmen, Temple Hawkers"
+    },
+    {
+      "id": "jodhpur",
+      "name": "Jodhpur",
+      "state": "Rajasthan",
+      "lat": 26.2389,
+      "lon": 73.0243,
+      "station_name": "Jodhpur Air Base & Civil Enclave (VIJO / IMD)",
+      "climate_type": "Western Thar desert sandstone quarries (48\u00b0C+ peaks)",
+      "cohort_size": 15000,
+      "primary_trades": "Sandstone Quarry Cutters, Handicraft Artisans, Salt Workers"
     }
   ],
   "evaluations": {
@@ -204,7 +353,7 @@
         "template": {
           "id": "wet_bulb_standard",
           "family": "wet_bulb",
-          "label": "Stull Wet-Bulb Physiological Stress Index (29.5\u00b0C / 30.5\u00b0C)",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
           "consecutive_days": 1,
           "tiers": [
             {
@@ -289,7 +438,7 @@
         "template": {
           "id": "hybrid_dual_metric",
           "family": "hybrid",
-          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Heat Spikes)",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
           "consecutive_days": 2,
           "dry_bulb_threshold_c": 43.2,
           "wet_bulb_threshold_c": 30.2,
@@ -549,7 +698,7 @@
         "template": {
           "id": "wet_bulb_standard",
           "family": "wet_bulb",
-          "label": "Stull Wet-Bulb Physiological Stress Index (29.5\u00b0C / 30.5\u00b0C)",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
           "consecutive_days": 1,
           "tiers": [
             {
@@ -631,7 +780,7 @@
         "template": {
           "id": "hybrid_dual_metric",
           "family": "hybrid",
-          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Heat Spikes)",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
           "consecutive_days": 2,
           "dry_bulb_threshold_c": 43.2,
           "wet_bulb_threshold_c": 30.2,
@@ -890,7 +1039,7 @@
         "template": {
           "id": "wet_bulb_standard",
           "family": "wet_bulb",
-          "label": "Stull Wet-Bulb Physiological Stress Index (29.5\u00b0C / 30.5\u00b0C)",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
           "consecutive_days": 1,
           "tiers": [
             {
@@ -975,7 +1124,7 @@
         "template": {
           "id": "hybrid_dual_metric",
           "family": "hybrid",
-          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Heat Spikes)",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
           "consecutive_days": 2,
           "dry_bulb_threshold_c": 43.2,
           "wet_bulb_threshold_c": 30.2,
@@ -1055,6 +1204,4418 @@
           "headline_notes": [
             "Recent warming trend: Test period (2016-2025) exhibits over 30% higher payout frequency than historical baseline (1991-2015).",
             "Basis risk alert: Trigger failed to fire on 77 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "delhi": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "delhi",
+          "city_name": "Delhi NCR",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1341,
+            "payout_frequency_pct": 14.69,
+            "annual_payout_events_mean": 53.64,
+            "annual_expected_payout_inr": 41264.0,
+            "indicative_premium_inr": 49516.8,
+            "bad_year_misses": 866,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13728.9
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 569,
+            "payout_frequency_pct": 15.58,
+            "annual_payout_events_mean": 56.9,
+            "annual_expected_payout_inr": 43280.0,
+            "indicative_premium_inr": 51936.0,
+            "bad_year_misses": 352,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13666.2
+          },
+          "combined_indicative_premium_inr": 50726.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 352 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "delhi",
+          "city_name": "Delhi NCR",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1834,
+            "payout_frequency_pct": 20.09,
+            "annual_payout_events_mean": 73.36,
+            "annual_expected_payout_inr": 49084.0,
+            "indicative_premium_inr": 58900.8,
+            "bad_year_misses": 652,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10686.56
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 757,
+            "payout_frequency_pct": 20.72,
+            "annual_payout_events_mean": 75.7,
+            "annual_expected_payout_inr": 50995.0,
+            "indicative_premium_inr": 61194.0,
+            "bad_year_misses": 272,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10777.7
+          },
+          "combined_indicative_premium_inr": 60047.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 272 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "delhi",
+          "city_name": "Delhi NCR",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1282,
+            "payout_frequency_pct": 14.04,
+            "annual_payout_events_mean": 51.28,
+            "annual_expected_payout_inr": 35216.0,
+            "indicative_premium_inr": 42259.2,
+            "bad_year_misses": 642,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13604.44
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 554,
+            "payout_frequency_pct": 15.17,
+            "annual_payout_events_mean": 55.4,
+            "annual_expected_payout_inr": 37040.0,
+            "indicative_premium_inr": 44448.0,
+            "bad_year_misses": 245,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13387.45
+          },
+          "combined_indicative_premium_inr": 43353.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 245 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "delhi",
+          "city_name": "Delhi NCR",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1760,
+            "payout_frequency_pct": 19.27,
+            "annual_payout_events_mean": 70.4,
+            "annual_expected_payout_inr": 51948.0,
+            "indicative_premium_inr": 62337.6,
+            "bad_year_misses": 636,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10620.18
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 729,
+            "payout_frequency_pct": 19.96,
+            "annual_payout_events_mean": 72.9,
+            "annual_expected_payout_inr": 53775.0,
+            "indicative_premium_inr": 64530.0,
+            "bad_year_misses": 257,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10664.35
+          },
+          "combined_indicative_premium_inr": 63433.8,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 257 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "nagpur": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "nagpur",
+          "city_name": "Nagpur",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1378,
+            "payout_frequency_pct": 15.09,
+            "annual_payout_events_mean": 55.12,
+            "annual_expected_payout_inr": 41936.0,
+            "indicative_premium_inr": 50323.2,
+            "bad_year_misses": 877,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13641.1
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 543,
+            "payout_frequency_pct": 14.86,
+            "annual_payout_events_mean": 54.3,
+            "annual_expected_payout_inr": 41360.0,
+            "indicative_premium_inr": 49632.0,
+            "bad_year_misses": 359,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13429.65
+          },
+          "combined_indicative_premium_inr": 49977.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 359 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "nagpur",
+          "city_name": "Nagpur",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1839,
+            "payout_frequency_pct": 20.14,
+            "annual_payout_events_mean": 73.56,
+            "annual_expected_payout_inr": 49462.0,
+            "indicative_premium_inr": 59354.4,
+            "bad_year_misses": 661,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10722.04
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 716,
+            "payout_frequency_pct": 19.6,
+            "annual_payout_events_mean": 71.6,
+            "annual_expected_payout_inr": 48195.0,
+            "indicative_premium_inr": 57834.0,
+            "bad_year_misses": 287,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10795.25
+          },
+          "combined_indicative_premium_inr": 58594.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 287 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "nagpur",
+          "city_name": "Nagpur",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1298,
+            "payout_frequency_pct": 14.22,
+            "annual_payout_events_mean": 51.92,
+            "annual_expected_payout_inr": 34624.0,
+            "indicative_premium_inr": 41548.8,
+            "bad_year_misses": 630,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13670.94
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 477,
+            "payout_frequency_pct": 13.06,
+            "annual_payout_events_mean": 47.7,
+            "annual_expected_payout_inr": 32280.0,
+            "indicative_premium_inr": 38736.0,
+            "bad_year_misses": 264,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 14109.45
+          },
+          "combined_indicative_premium_inr": 40142.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 264 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "nagpur",
+          "city_name": "Nagpur",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1780,
+            "payout_frequency_pct": 19.49,
+            "annual_payout_events_mean": 71.2,
+            "annual_expected_payout_inr": 52056.0,
+            "indicative_premium_inr": 62467.2,
+            "bad_year_misses": 651,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10696.24
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 677,
+            "payout_frequency_pct": 18.53,
+            "annual_payout_events_mean": 67.7,
+            "annual_expected_payout_inr": 49590.0,
+            "indicative_premium_inr": 59508.0,
+            "bad_year_misses": 289,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10970.25
+          },
+          "combined_indicative_premium_inr": 60987.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 289 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "chennai": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "chennai",
+          "city_name": "Chennai",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 6,
+            "payout_frequency_pct": 0.07,
+            "annual_payout_events_mean": 0.24,
+            "annual_expected_payout_inr": 144.0,
+            "indicative_premium_inr": 172.8,
+            "bad_year_misses": 2656,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 28219.18
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 0,
+            "payout_frequency_pct": 0.0,
+            "annual_payout_events_mean": 0.0,
+            "annual_expected_payout_inr": 0.0,
+            "indicative_premium_inr": 0.0,
+            "bad_year_misses": 1035,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27542.6
+          },
+          "combined_indicative_premium_inr": 86.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1035 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "chennai",
+          "city_name": "Chennai",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 21,
+            "payout_frequency_pct": 0.23,
+            "annual_payout_events_mean": 0.84,
+            "annual_expected_payout_inr": 476.0,
+            "indicative_premium_inr": 571.2,
+            "bad_year_misses": 2635,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 28079.18
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 9,
+            "payout_frequency_pct": 0.25,
+            "annual_payout_events_mean": 0.9,
+            "annual_expected_payout_inr": 455.0,
+            "indicative_premium_inr": 546.0,
+            "bad_year_misses": 1021,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27322.9
+          },
+          "combined_indicative_premium_inr": 558.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1021 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "chennai",
+          "city_name": "Chennai",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3738,
+            "payout_frequency_pct": 40.94,
+            "annual_payout_events_mean": 149.52,
+            "annual_expected_payout_inr": 105072.0,
+            "indicative_premium_inr": 126086.4,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2910.66
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1431,
+            "payout_frequency_pct": 39.17,
+            "annual_payout_events_mean": 143.1,
+            "annual_expected_payout_inr": 100720.0,
+            "indicative_premium_inr": 120864.0,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 3195.15
+          },
+          "combined_indicative_premium_inr": 123475.2,
+          "headline_notes": []
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "chennai",
+          "city_name": "Chennai",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3354,
+            "payout_frequency_pct": 36.73,
+            "annual_payout_events_mean": 134.16,
+            "annual_expected_payout_inr": 120744.0,
+            "indicative_premium_inr": 144892.8,
+            "bad_year_misses": 25,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4991.62
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1291,
+            "payout_frequency_pct": 35.34,
+            "annual_payout_events_mean": 129.1,
+            "annual_expected_payout_inr": 116190.0,
+            "indicative_premium_inr": 139428.0,
+            "bad_year_misses": 18,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 5098.9
+          },
+          "combined_indicative_premium_inr": 142160.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 18 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "jaipur": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jaipur",
+          "city_name": "Jaipur",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1378,
+            "payout_frequency_pct": 15.09,
+            "annual_payout_events_mean": 55.12,
+            "annual_expected_payout_inr": 41936.0,
+            "indicative_premium_inr": 50323.2,
+            "bad_year_misses": 877,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13641.1
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 543,
+            "payout_frequency_pct": 14.86,
+            "annual_payout_events_mean": 54.3,
+            "annual_expected_payout_inr": 41360.0,
+            "indicative_premium_inr": 49632.0,
+            "bad_year_misses": 359,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13429.65
+          },
+          "combined_indicative_premium_inr": 49977.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 359 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jaipur",
+          "city_name": "Jaipur",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1839,
+            "payout_frequency_pct": 20.14,
+            "annual_payout_events_mean": 73.56,
+            "annual_expected_payout_inr": 49462.0,
+            "indicative_premium_inr": 59354.4,
+            "bad_year_misses": 661,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10722.04
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 716,
+            "payout_frequency_pct": 19.6,
+            "annual_payout_events_mean": 71.6,
+            "annual_expected_payout_inr": 48195.0,
+            "indicative_premium_inr": 57834.0,
+            "bad_year_misses": 287,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10795.25
+          },
+          "combined_indicative_premium_inr": 58594.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 287 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jaipur",
+          "city_name": "Jaipur",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1298,
+            "payout_frequency_pct": 14.22,
+            "annual_payout_events_mean": 51.92,
+            "annual_expected_payout_inr": 34624.0,
+            "indicative_premium_inr": 41548.8,
+            "bad_year_misses": 630,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13670.94
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 477,
+            "payout_frequency_pct": 13.06,
+            "annual_payout_events_mean": 47.7,
+            "annual_expected_payout_inr": 32280.0,
+            "indicative_premium_inr": 38736.0,
+            "bad_year_misses": 264,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 14109.45
+          },
+          "combined_indicative_premium_inr": 40142.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 264 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jaipur",
+          "city_name": "Jaipur",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1780,
+            "payout_frequency_pct": 19.49,
+            "annual_payout_events_mean": 71.2,
+            "annual_expected_payout_inr": 52056.0,
+            "indicative_premium_inr": 62467.2,
+            "bad_year_misses": 651,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10696.24
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 677,
+            "payout_frequency_pct": 18.53,
+            "annual_payout_events_mean": 67.7,
+            "annual_expected_payout_inr": 49590.0,
+            "indicative_premium_inr": 59508.0,
+            "bad_year_misses": 289,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10970.25
+          },
+          "combined_indicative_premium_inr": 60987.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 289 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "surat": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "surat",
+          "city_name": "Surat",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3,
+            "payout_frequency_pct": 0.03,
+            "annual_payout_events_mean": 0.12,
+            "annual_expected_payout_inr": 64.0,
+            "indicative_premium_inr": 76.8,
+            "bad_year_misses": 2633,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27882.82
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 0,
+            "payout_frequency_pct": 0.0,
+            "annual_payout_events_mean": 0.0,
+            "annual_expected_payout_inr": 0.0,
+            "indicative_premium_inr": 0.0,
+            "bad_year_misses": 1093,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 28126.95
+          },
+          "combined_indicative_premium_inr": 38.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1093 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "surat",
+          "city_name": "Surat",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 15,
+            "payout_frequency_pct": 0.16,
+            "annual_payout_events_mean": 0.6,
+            "annual_expected_payout_inr": 336.0,
+            "indicative_premium_inr": 403.2,
+            "bad_year_misses": 2618,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27768.84
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 6,
+            "payout_frequency_pct": 0.16,
+            "annual_payout_events_mean": 0.6,
+            "annual_expected_payout_inr": 280.0,
+            "indicative_premium_inr": 336.0,
+            "bad_year_misses": 1084,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27988.6
+          },
+          "combined_indicative_premium_inr": 369.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1084 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "surat",
+          "city_name": "Surat",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3690,
+            "payout_frequency_pct": 40.41,
+            "annual_payout_events_mean": 147.6,
+            "annual_expected_payout_inr": 103488.0,
+            "indicative_premium_inr": 124185.6,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2806.54
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1501,
+            "payout_frequency_pct": 41.09,
+            "annual_payout_events_mean": 150.1,
+            "annual_expected_payout_inr": 106360.0,
+            "indicative_premium_inr": 127632.0,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2558.8
+          },
+          "combined_indicative_premium_inr": 125908.8,
+          "headline_notes": []
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "surat",
+          "city_name": "Surat",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3311,
+            "payout_frequency_pct": 36.26,
+            "annual_payout_events_mean": 132.44,
+            "annual_expected_payout_inr": 119196.0,
+            "indicative_premium_inr": 143035.2,
+            "bad_year_misses": 29,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4855.12
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1345,
+            "payout_frequency_pct": 36.82,
+            "annual_payout_events_mean": 134.5,
+            "annual_expected_payout_inr": 121050.0,
+            "indicative_premium_inr": 145260.0,
+            "bad_year_misses": 9,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4676.9
+          },
+          "combined_indicative_premium_inr": 144147.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 9 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "hyderabad": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "hyderabad",
+          "city_name": "Hyderabad",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 205,
+            "payout_frequency_pct": 2.25,
+            "annual_payout_events_mean": 8.2,
+            "annual_expected_payout_inr": 5712.0,
+            "indicative_premium_inr": 6854.4,
+            "bad_year_misses": 1935,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 22187.68
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 73,
+            "payout_frequency_pct": 2.0,
+            "annual_payout_events_mean": 7.3,
+            "annual_expected_payout_inr": 5200.0,
+            "indicative_premium_inr": 6240.0,
+            "bad_year_misses": 781,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 21967.9
+          },
+          "combined_indicative_premium_inr": 6547.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 781 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "hyderabad",
+          "city_name": "Hyderabad",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 513,
+            "payout_frequency_pct": 5.62,
+            "annual_payout_events_mean": 20.52,
+            "annual_expected_payout_inr": 12544.0,
+            "indicative_premium_inr": 15052.8,
+            "bad_year_misses": 1663,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19809.32
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 177,
+            "payout_frequency_pct": 4.85,
+            "annual_payout_events_mean": 17.7,
+            "annual_expected_payout_inr": 10955.0,
+            "indicative_premium_inr": 13146.0,
+            "bad_year_misses": 675,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19979.25
+          },
+          "combined_indicative_premium_inr": 14099.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 675 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "hyderabad",
+          "city_name": "Hyderabad",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1977,
+            "payout_frequency_pct": 21.65,
+            "annual_payout_events_mean": 79.08,
+            "annual_expected_payout_inr": 54064.0,
+            "indicative_premium_inr": 64876.8,
+            "bad_year_misses": 95,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9265.62
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 754,
+            "payout_frequency_pct": 20.64,
+            "annual_payout_events_mean": 75.4,
+            "annual_expected_payout_inr": 50720.0,
+            "indicative_premium_inr": 60864.0,
+            "bad_year_misses": 52,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9625.2
+          },
+          "combined_indicative_premium_inr": 62870.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 52 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "hyderabad",
+          "city_name": "Hyderabad",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1765,
+            "payout_frequency_pct": 19.33,
+            "annual_payout_events_mean": 70.6,
+            "annual_expected_payout_inr": 63000.0,
+            "indicative_premium_inr": 75600.0,
+            "bad_year_misses": 508,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10592.72
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 662,
+            "payout_frequency_pct": 18.12,
+            "annual_payout_events_mean": 66.2,
+            "annual_expected_payout_inr": 59130.0,
+            "indicative_premium_inr": 70956.0,
+            "bad_year_misses": 232,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 11074.9
+          },
+          "combined_indicative_premium_inr": 73278.0,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 232 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "bhubaneswar": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bhubaneswar",
+          "city_name": "Bhubaneswar",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 0,
+            "payout_frequency_pct": 0.0,
+            "annual_payout_events_mean": 0.0,
+            "annual_expected_payout_inr": 0.0,
+            "indicative_premium_inr": 0.0,
+            "bad_year_misses": 2681,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 28037.3
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1,
+            "payout_frequency_pct": 0.03,
+            "annual_payout_events_mean": 0.1,
+            "annual_expected_payout_inr": 80.0,
+            "indicative_premium_inr": 96.0,
+            "bad_year_misses": 1053,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27653.05
+          },
+          "combined_indicative_premium_inr": 48.0,
+          "headline_notes": [
+            "Recent warming trend: Test period (2016-2025) exhibits over 30% higher payout frequency than historical baseline (1991-2015).",
+            "Basis risk alert: Trigger failed to fire on 1053 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bhubaneswar",
+          "city_name": "Bhubaneswar",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 13,
+            "payout_frequency_pct": 0.14,
+            "annual_payout_events_mean": 0.52,
+            "annual_expected_payout_inr": 252.0,
+            "indicative_premium_inr": 302.4,
+            "bad_year_misses": 2665,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27910.7
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 12,
+            "payout_frequency_pct": 0.33,
+            "annual_payout_events_mean": 1.2,
+            "annual_expected_payout_inr": 665.0,
+            "indicative_premium_inr": 798.0,
+            "bad_year_misses": 1046,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27393.15
+          },
+          "combined_indicative_premium_inr": 550.2,
+          "headline_notes": [
+            "Recent warming trend: Test period (2016-2025) exhibits over 30% higher payout frequency than historical baseline (1991-2015).",
+            "Basis risk alert: Trigger failed to fire on 1046 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bhubaneswar",
+          "city_name": "Bhubaneswar",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3723,
+            "payout_frequency_pct": 40.77,
+            "annual_payout_events_mean": 148.92,
+            "annual_expected_payout_inr": 104832.0,
+            "indicative_premium_inr": 125798.4,
+            "bad_year_misses": 1,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2704.56
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1471,
+            "payout_frequency_pct": 40.27,
+            "annual_payout_events_mean": 147.1,
+            "annual_expected_payout_inr": 104400.0,
+            "indicative_premium_inr": 125280.0,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2655.1
+          },
+          "combined_indicative_premium_inr": 125539.2,
+          "headline_notes": []
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bhubaneswar",
+          "city_name": "Bhubaneswar",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3374,
+            "payout_frequency_pct": 36.95,
+            "annual_payout_events_mean": 134.96,
+            "annual_expected_payout_inr": 121464.0,
+            "indicative_premium_inr": 145756.8,
+            "bad_year_misses": 27,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4601.38
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1326,
+            "payout_frequency_pct": 36.3,
+            "annual_payout_events_mean": 132.6,
+            "annual_expected_payout_inr": 119340.0,
+            "indicative_premium_inr": 143208.0,
+            "bad_year_misses": 8,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4630.35
+          },
+          "combined_indicative_premium_inr": 144482.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 8 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "patna": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "patna",
+          "city_name": "Patna",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3,
+            "payout_frequency_pct": 0.03,
+            "annual_payout_events_mean": 0.12,
+            "annual_expected_payout_inr": 64.0,
+            "indicative_premium_inr": 76.8,
+            "bad_year_misses": 2633,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27882.82
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 0,
+            "payout_frequency_pct": 0.0,
+            "annual_payout_events_mean": 0.0,
+            "annual_expected_payout_inr": 0.0,
+            "indicative_premium_inr": 0.0,
+            "bad_year_misses": 1093,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 28126.95
+          },
+          "combined_indicative_premium_inr": 38.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1093 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "patna",
+          "city_name": "Patna",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 15,
+            "payout_frequency_pct": 0.16,
+            "annual_payout_events_mean": 0.6,
+            "annual_expected_payout_inr": 336.0,
+            "indicative_premium_inr": 403.2,
+            "bad_year_misses": 2618,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27768.84
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 6,
+            "payout_frequency_pct": 0.16,
+            "annual_payout_events_mean": 0.6,
+            "annual_expected_payout_inr": 280.0,
+            "indicative_premium_inr": 336.0,
+            "bad_year_misses": 1084,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27988.6
+          },
+          "combined_indicative_premium_inr": 369.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1084 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "patna",
+          "city_name": "Patna",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3690,
+            "payout_frequency_pct": 40.41,
+            "annual_payout_events_mean": 147.6,
+            "annual_expected_payout_inr": 103488.0,
+            "indicative_premium_inr": 124185.6,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2806.54
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1501,
+            "payout_frequency_pct": 41.09,
+            "annual_payout_events_mean": 150.1,
+            "annual_expected_payout_inr": 106360.0,
+            "indicative_premium_inr": 127632.0,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2558.8
+          },
+          "combined_indicative_premium_inr": 125908.8,
+          "headline_notes": []
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "patna",
+          "city_name": "Patna",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3311,
+            "payout_frequency_pct": 36.26,
+            "annual_payout_events_mean": 132.44,
+            "annual_expected_payout_inr": 119196.0,
+            "indicative_premium_inr": 143035.2,
+            "bad_year_misses": 29,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4855.12
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1345,
+            "payout_frequency_pct": 36.82,
+            "annual_payout_events_mean": 134.5,
+            "annual_expected_payout_inr": 121050.0,
+            "indicative_premium_inr": 145260.0,
+            "bad_year_misses": 9,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4676.9
+          },
+          "combined_indicative_premium_inr": 144147.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 9 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "lucknow": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "lucknow",
+          "city_name": "Lucknow",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 183,
+            "payout_frequency_pct": 2.0,
+            "annual_payout_events_mean": 7.32,
+            "annual_expected_payout_inr": 5296.0,
+            "indicative_premium_inr": 6355.2,
+            "bad_year_misses": 1970,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 22174.22
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 82,
+            "payout_frequency_pct": 2.24,
+            "annual_payout_events_mean": 8.2,
+            "annual_expected_payout_inr": 5760.0,
+            "indicative_premium_inr": 6912.0,
+            "bad_year_misses": 743,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 21415.9
+          },
+          "combined_indicative_premium_inr": 6633.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 743 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "lucknow",
+          "city_name": "Lucknow",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 473,
+            "payout_frequency_pct": 5.18,
+            "annual_payout_events_mean": 18.92,
+            "annual_expected_payout_inr": 11536.0,
+            "indicative_premium_inr": 13843.2,
+            "bad_year_misses": 1685,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19970.6
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 200,
+            "payout_frequency_pct": 5.47,
+            "annual_payout_events_mean": 20.0,
+            "annual_expected_payout_inr": 12460.0,
+            "indicative_premium_inr": 14952.0,
+            "bad_year_misses": 656,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19200.7
+          },
+          "combined_indicative_premium_inr": 14397.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 656 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "lucknow",
+          "city_name": "Lucknow",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1917,
+            "payout_frequency_pct": 20.99,
+            "annual_payout_events_mean": 76.68,
+            "annual_expected_payout_inr": 52176.0,
+            "indicative_premium_inr": 62611.2,
+            "bad_year_misses": 121,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9574.94
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 761,
+            "payout_frequency_pct": 20.83,
+            "annual_payout_events_mean": 76.1,
+            "annual_expected_payout_inr": 51520.0,
+            "indicative_premium_inr": 61824.0,
+            "bad_year_misses": 41,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9167.0
+          },
+          "combined_indicative_premium_inr": 62217.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 41 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "lucknow",
+          "city_name": "Lucknow",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1687,
+            "payout_frequency_pct": 18.48,
+            "annual_payout_events_mean": 67.48,
+            "annual_expected_payout_inr": 60372.0,
+            "indicative_premium_inr": 72446.4,
+            "bad_year_misses": 570,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 11017.74
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 660,
+            "payout_frequency_pct": 18.07,
+            "annual_payout_events_mean": 66.0,
+            "annual_expected_payout_inr": 59040.0,
+            "indicative_premium_inr": 70848.0,
+            "bad_year_misses": 217,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10736.25
+          },
+          "combined_indicative_premium_inr": 71647.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 217 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "bengaluru": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bengaluru",
+          "city_name": "Bengaluru",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 205,
+            "payout_frequency_pct": 2.25,
+            "annual_payout_events_mean": 8.2,
+            "annual_expected_payout_inr": 5712.0,
+            "indicative_premium_inr": 6854.4,
+            "bad_year_misses": 1935,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 22187.68
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 73,
+            "payout_frequency_pct": 2.0,
+            "annual_payout_events_mean": 7.3,
+            "annual_expected_payout_inr": 5200.0,
+            "indicative_premium_inr": 6240.0,
+            "bad_year_misses": 781,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 21967.9
+          },
+          "combined_indicative_premium_inr": 6547.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 781 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bengaluru",
+          "city_name": "Bengaluru",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 513,
+            "payout_frequency_pct": 5.62,
+            "annual_payout_events_mean": 20.52,
+            "annual_expected_payout_inr": 12544.0,
+            "indicative_premium_inr": 15052.8,
+            "bad_year_misses": 1663,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19809.32
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 177,
+            "payout_frequency_pct": 4.85,
+            "annual_payout_events_mean": 17.7,
+            "annual_expected_payout_inr": 10955.0,
+            "indicative_premium_inr": 13146.0,
+            "bad_year_misses": 675,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19979.25
+          },
+          "combined_indicative_premium_inr": 14099.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 675 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bengaluru",
+          "city_name": "Bengaluru",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1977,
+            "payout_frequency_pct": 21.65,
+            "annual_payout_events_mean": 79.08,
+            "annual_expected_payout_inr": 54064.0,
+            "indicative_premium_inr": 64876.8,
+            "bad_year_misses": 95,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9265.62
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 754,
+            "payout_frequency_pct": 20.64,
+            "annual_payout_events_mean": 75.4,
+            "annual_expected_payout_inr": 50720.0,
+            "indicative_premium_inr": 60864.0,
+            "bad_year_misses": 52,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9625.2
+          },
+          "combined_indicative_premium_inr": 62870.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 52 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "bengaluru",
+          "city_name": "Bengaluru",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1765,
+            "payout_frequency_pct": 19.33,
+            "annual_payout_events_mean": 70.6,
+            "annual_expected_payout_inr": 63000.0,
+            "indicative_premium_inr": 75600.0,
+            "bad_year_misses": 508,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10592.72
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 662,
+            "payout_frequency_pct": 18.12,
+            "annual_payout_events_mean": 66.2,
+            "annual_expected_payout_inr": 59130.0,
+            "indicative_premium_inr": 70956.0,
+            "bad_year_misses": 232,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 11074.9
+          },
+          "combined_indicative_premium_inr": 73278.0,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 232 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "mumbai": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "mumbai",
+          "city_name": "Mumbai",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1,
+            "payout_frequency_pct": 0.01,
+            "annual_payout_events_mean": 0.04,
+            "annual_expected_payout_inr": 32.0,
+            "indicative_premium_inr": 38.4,
+            "bad_year_misses": 2644,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27949.6
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 0,
+            "payout_frequency_pct": 0.0,
+            "annual_payout_events_mean": 0.0,
+            "annual_expected_payout_inr": 0.0,
+            "indicative_premium_inr": 0.0,
+            "bad_year_misses": 1057,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27902.75
+          },
+          "combined_indicative_premium_inr": 19.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1057 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "mumbai",
+          "city_name": "Mumbai",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 16,
+            "payout_frequency_pct": 0.18,
+            "annual_payout_events_mean": 0.64,
+            "annual_expected_payout_inr": 350.0,
+            "indicative_premium_inr": 420.0,
+            "bad_year_misses": 2630,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27811.48
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 5,
+            "payout_frequency_pct": 0.14,
+            "annual_payout_events_mean": 0.5,
+            "annual_expected_payout_inr": 175.0,
+            "indicative_premium_inr": 210.0,
+            "bad_year_misses": 1053,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 27793.15
+          },
+          "combined_indicative_premium_inr": 315.0,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 1053 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "mumbai",
+          "city_name": "Mumbai",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3701,
+            "payout_frequency_pct": 40.53,
+            "annual_payout_events_mean": 148.04,
+            "annual_expected_payout_inr": 104960.0,
+            "indicative_premium_inr": 125952.0,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 2754.08
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1469,
+            "payout_frequency_pct": 40.21,
+            "annual_payout_events_mean": 146.9,
+            "annual_expected_payout_inr": 103560.0,
+            "indicative_premium_inr": 124272.0,
+            "bad_year_misses": 0,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 3047.75
+          },
+          "combined_indicative_premium_inr": 125112.0,
+          "headline_notes": []
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "mumbai",
+          "city_name": "Mumbai",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 3347,
+            "payout_frequency_pct": 36.66,
+            "annual_payout_events_mean": 133.88,
+            "annual_expected_payout_inr": 120492.0,
+            "indicative_premium_inr": 144590.4,
+            "bad_year_misses": 33,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4687.02
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 1333,
+            "payout_frequency_pct": 36.49,
+            "annual_payout_events_mean": 133.3,
+            "annual_expected_payout_inr": 119970.0,
+            "indicative_premium_inr": 143964.0,
+            "bad_year_misses": 15,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 4890.65
+          },
+          "combined_indicative_premium_inr": 144277.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 15 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "varanasi": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "varanasi",
+          "city_name": "Varanasi",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 200,
+            "payout_frequency_pct": 2.19,
+            "annual_payout_events_mean": 8.0,
+            "annual_expected_payout_inr": 5696.0,
+            "indicative_premium_inr": 6835.2,
+            "bad_year_misses": 1970,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 22156.66
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 70,
+            "payout_frequency_pct": 1.92,
+            "annual_payout_events_mean": 7.0,
+            "annual_expected_payout_inr": 5080.0,
+            "indicative_premium_inr": 6096.0,
+            "bad_year_misses": 758,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 22013.85
+          },
+          "combined_indicative_premium_inr": 6465.6,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 758 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "varanasi",
+          "city_name": "Varanasi",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 512,
+            "payout_frequency_pct": 5.61,
+            "annual_payout_events_mean": 20.48,
+            "annual_expected_payout_inr": 12628.0,
+            "indicative_premium_inr": 15153.6,
+            "bad_year_misses": 1677,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19723.08
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 202,
+            "payout_frequency_pct": 5.53,
+            "annual_payout_events_mean": 20.2,
+            "annual_expected_payout_inr": 12355.0,
+            "indicative_premium_inr": 14826.0,
+            "bad_year_misses": 650,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 19465.05
+          },
+          "combined_indicative_premium_inr": 14989.8,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 650 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "varanasi",
+          "city_name": "Varanasi",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1978,
+            "payout_frequency_pct": 21.66,
+            "annual_payout_events_mean": 79.12,
+            "annual_expected_payout_inr": 53904.0,
+            "indicative_premium_inr": 64684.8,
+            "bad_year_misses": 116,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9261.86
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 761,
+            "payout_frequency_pct": 20.83,
+            "annual_payout_events_mean": 76.1,
+            "annual_expected_payout_inr": 52440.0,
+            "indicative_premium_inr": 62928.0,
+            "bad_year_misses": 43,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 9394.95
+          },
+          "combined_indicative_premium_inr": 63806.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 43 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "varanasi",
+          "city_name": "Varanasi",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1749,
+            "payout_frequency_pct": 19.15,
+            "annual_payout_events_mean": 69.96,
+            "annual_expected_payout_inr": 62622.0,
+            "indicative_premium_inr": 75146.4,
+            "bad_year_misses": 553,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10707.18
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 682,
+            "payout_frequency_pct": 18.67,
+            "annual_payout_events_mean": 68.2,
+            "annual_expected_payout_inr": 61110.0,
+            "indicative_premium_inr": 73332.0,
+            "bad_year_misses": 214,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10637.6
+          },
+          "combined_indicative_premium_inr": 74239.2,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 214 dangerous labor loss days in recent seasons."
+          ]
+        }
+      }
+    },
+    "jodhpur": {
+      "dry_bulb_sewa_pilot": {
+        "template": {
+          "id": "dry_bulb_sewa_pilot",
+          "family": "dry_bulb_two_day",
+          "label": "Published SEWA 2-Day Dry-Bulb Pilot (43.6\u00b0C / 44.1\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 42.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.6,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 44.1,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jodhpur",
+          "city_name": "Jodhpur",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_sewa_pilot",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 42.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.6,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 44.1,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1351,
+            "payout_frequency_pct": 14.8,
+            "annual_payout_events_mean": 54.04,
+            "annual_expected_payout_inr": 41184.0,
+            "indicative_premium_inr": 49420.8,
+            "bad_year_misses": 897,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13829.9
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 546,
+            "payout_frequency_pct": 14.95,
+            "annual_payout_events_mean": 54.6,
+            "annual_expected_payout_inr": 41600.0,
+            "indicative_premium_inr": 49920.0,
+            "bad_year_misses": 341,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13268.7
+          },
+          "combined_indicative_premium_inr": 49670.4,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 341 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "dry_bulb_lowered_2026": {
+        "template": {
+          "id": "dry_bulb_lowered_2026",
+          "family": "dry_bulb_two_day",
+          "label": "Revised Gujarat 2026 Standard (42.74\u00b0C)",
+          "consecutive_days": 2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 41.5,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 42.0,
+              "payout_inr": 350.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 42.74,
+              "payout_inr": 700.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jodhpur",
+          "city_name": "Jodhpur",
+          "trigger_config": {
+            "trigger_id": "dry_bulb_lowered_2026",
+            "family": "dry_bulb_two_day",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 41.5,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 42.0,
+                "payout_inr": 350.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 42.74,
+                "payout_inr": 700.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1904,
+            "payout_frequency_pct": 20.85,
+            "annual_payout_events_mean": 76.16,
+            "annual_expected_payout_inr": 50680.0,
+            "indicative_premium_inr": 60816.0,
+            "bad_year_misses": 623,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10403.42
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 729,
+            "payout_frequency_pct": 19.96,
+            "annual_payout_events_mean": 72.9,
+            "annual_expected_payout_inr": 49210.0,
+            "indicative_premium_inr": 59052.0,
+            "bad_year_misses": 250,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10359.1
+          },
+          "combined_indicative_premium_inr": 59934.0,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 250 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "wet_bulb_standard": {
+        "template": {
+          "id": "wet_bulb_standard",
+          "family": "wet_bulb",
+          "label": "Stull Wet-Bulb Physiological Stress Index (29.8\u00b0C / 30.8\u00b0C)",
+          "consecutive_days": 1,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 29.0,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 29.8,
+              "payout_inr": 400.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.8,
+              "payout_inr": 800.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jodhpur",
+          "city_name": "Jodhpur",
+          "trigger_config": {
+            "trigger_id": "wet_bulb_standard",
+            "family": "wet_bulb",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 29.0,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 29.8,
+                "payout_inr": 400.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.8,
+                "payout_inr": 800.0
+              }
+            ],
+            "consecutive_days": 1,
+            "dry_bulb_threshold_c": null,
+            "wet_bulb_threshold_c": null,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1287,
+            "payout_frequency_pct": 14.09,
+            "annual_payout_events_mean": 51.48,
+            "annual_expected_payout_inr": 34480.0,
+            "indicative_premium_inr": 41376.0,
+            "bad_year_misses": 613,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13752.02
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 503,
+            "payout_frequency_pct": 13.77,
+            "annual_payout_events_mean": 50.3,
+            "annual_expected_payout_inr": 33560.0,
+            "indicative_premium_inr": 40272.0,
+            "bad_year_misses": 248,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 13447.1
+          },
+          "combined_indicative_premium_inr": 40824.0,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 248 dangerous labor loss days in recent seasons."
+          ]
+        }
+      },
+      "hybrid_dual_metric": {
+        "template": {
+          "id": "hybrid_dual_metric",
+          "family": "hybrid",
+          "label": "Mausam Dhaal Hybrid (Extreme Dry Heat OR Humid Spikes)",
+          "consecutive_days": 2,
+          "dry_bulb_threshold_c": 43.2,
+          "wet_bulb_threshold_c": 30.2,
+          "tiers": [
+            {
+              "name": "Advisory",
+              "threshold_value": 28.8,
+              "payout_inr": 0.0
+            },
+            {
+              "name": "Partial",
+              "threshold_value": 43.2,
+              "payout_inr": 450.0
+            },
+            {
+              "name": "Full",
+              "threshold_value": 30.2,
+              "payout_inr": 900.0
+            }
+          ],
+          "loading_factor": 0.2
+        },
+        "result": {
+          "city_id": "jodhpur",
+          "city_name": "Jodhpur",
+          "trigger_config": {
+            "trigger_id": "hybrid_dual_metric",
+            "family": "hybrid",
+            "tiers": [
+              {
+                "name": "Advisory",
+                "threshold_value": 28.8,
+                "payout_inr": 0.0
+              },
+              {
+                "name": "Partial",
+                "threshold_value": 43.2,
+                "payout_inr": 450.0
+              },
+              {
+                "name": "Full",
+                "threshold_value": 30.2,
+                "payout_inr": 900.0
+              }
+            ],
+            "consecutive_days": 2,
+            "dry_bulb_threshold_c": 43.2,
+            "wet_bulb_threshold_c": 30.2,
+            "wbgt_threshold_c": null,
+            "loading_factor": 0.2
+          },
+          "train_metrics": {
+            "period_label": "Train (1991\u20132015)",
+            "total_days": 9131,
+            "payout_days_count": 1760,
+            "payout_frequency_pct": 19.27,
+            "annual_payout_events_mean": 70.4,
+            "annual_expected_payout_inr": 51570.0,
+            "indicative_premium_inr": 61884.0,
+            "bad_year_misses": 667,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10829.24
+          },
+          "test_metrics": {
+            "period_label": "Test (2016\u20132025)",
+            "total_days": 3653,
+            "payout_days_count": 698,
+            "payout_frequency_pct": 19.11,
+            "annual_payout_events_mean": 69.8,
+            "annual_expected_payout_inr": 50850.0,
+            "indicative_premium_inr": 61020.0,
+            "bad_year_misses": 252,
+            "false_payouts": 0,
+            "uncompensated_wage_loss_inr": 10412.2
+          },
+          "combined_indicative_premium_inr": 61452.0,
+          "headline_notes": [
+            "Basis risk alert: Trigger failed to fire on 252 dangerous labor loss days in recent seasons."
           ]
         }
       }
@@ -1338,6 +5899,1256 @@
         "indicative_premium_inr": 401.15,
         "funding_gap_inr": 0.0,
         "payout_frequency_pct": 0.28,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "delhi": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 24644.57,
+        "funding_gap_inr": 24394.57,
+        "payout_frequency_pct": 11.19,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 24644.57,
+        "funding_gap_inr": 24244.57,
+        "payout_frequency_pct": 11.19,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 24644.57,
+        "funding_gap_inr": 24044.57,
+        "payout_frequency_pct": 11.19,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 24644.57,
+        "funding_gap_inr": 23844.57,
+        "payout_frequency_pct": 11.19,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "nagpur": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22841.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22691.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22491.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22291.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "chennai": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 20.57,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.02,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 20.57,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.02,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 20.57,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.02,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 20.57,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.02,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "jaipur": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22841.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22691.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22491.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23091.43,
+        "funding_gap_inr": 22291.43,
+        "payout_frequency_pct": 10.54,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "surat": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "hyderabad": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2969.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2819.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2619.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2419.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "bhubaneswar": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "patna": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 10.28,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.01,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "lucknow": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3209.15,
+        "funding_gap_inr": 2959.15,
+        "payout_frequency_pct": 1.36,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3209.15,
+        "funding_gap_inr": 2809.15,
+        "payout_frequency_pct": 1.36,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3209.15,
+        "funding_gap_inr": 2609.15,
+        "payout_frequency_pct": 1.36,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3209.15,
+        "funding_gap_inr": 2409.15,
+        "payout_frequency_pct": 1.36,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "bengaluru": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2969.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2819.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2619.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 3219.43,
+        "funding_gap_inr": 2419.43,
+        "payout_frequency_pct": 1.38,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "mumbai": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 0.0,
+        "funding_gap_inr": 0.0,
+        "payout_frequency_pct": 0.0,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "varanasi": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 2910.85,
+        "funding_gap_inr": 2660.85,
+        "payout_frequency_pct": 1.25,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 2910.85,
+        "funding_gap_inr": 2510.85,
+        "payout_frequency_pct": 1.25,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 2910.85,
+        "funding_gap_inr": 2310.85,
+        "payout_frequency_pct": 1.25,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "dry_bulb_two_day",
+        "recommended_tiers": [
+          {
+            "name": "Partial",
+            "threshold_value": 43.6,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 44.1,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 2910.85,
+        "funding_gap_inr": 2110.85,
+        "payout_frequency_pct": 1.25,
+        "coverage_score_pct": 10.0
+      }
+    },
+    "jodhpur": {
+      "250": {
+        "target_budget_per_member_inr": 250.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 150.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23245.72,
+        "funding_gap_inr": 22995.72,
+        "payout_frequency_pct": 10.64,
+        "coverage_score_pct": 10.0
+      },
+      "400": {
+        "target_budget_per_member_inr": 400.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 300.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23245.72,
+        "funding_gap_inr": 22845.72,
+        "payout_frequency_pct": 10.64,
+        "coverage_score_pct": 10.0
+      },
+      "600": {
+        "target_budget_per_member_inr": 600.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 500.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23245.72,
+        "funding_gap_inr": 22645.72,
+        "payout_frequency_pct": 10.64,
+        "coverage_score_pct": 10.0
+      },
+      "800": {
+        "target_budget_per_member_inr": 800.0,
+        "worker_contribution_inr": 100.0,
+        "sponsor_contribution_inr": 700.0,
+        "recommended_family": "wet_bulb",
+        "recommended_tiers": [
+          {
+            "name": "Advisory",
+            "threshold_value": 29.5,
+            "payout_inr": 0.0
+          },
+          {
+            "name": "Partial",
+            "threshold_value": 30.5,
+            "payout_inr": 300.0
+          },
+          {
+            "name": "Full",
+            "threshold_value": 31.5,
+            "payout_inr": 600.0
+          }
+        ],
+        "indicative_premium_inr": 23245.72,
+        "funding_gap_inr": 22445.72,
+        "payout_frequency_pct": 10.64,
         "coverage_score_pct": 10.0
       }
     }

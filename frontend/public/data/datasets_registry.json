@@ -1,0 +1,187 @@
+{
+  "catalog_title": "Freely Available Open Climate & Worker Datasets",
+  "description": "Exhaustive registry of open-access public meteorological, satellite, and labour datasets ingested by Mausam Dhaal.",
+  "last_synced": "2026-10-11T10:31:00.862547+00:00",
+  "datasets": [
+    {
+      "id": "copernicus-era5-land",
+      "name": "Copernicus ERA5-Land Climate Reanalysis",
+      "institution": "ECMWF / Copernicus Climate Change Service (C3S)",
+      "spatial_resolution": "0.1\u00b0 x 0.1\u00b0 (~9 km grid)",
+      "temporal_coverage": "1950 to present (hourly & daily)",
+      "parameters": [
+        "2m Temperature (T_max, T_min)",
+        "2m Dewpoint Temperature",
+        "Surface Solar Radiation",
+        "Surface Pressure",
+        "Total Precipitation"
+      ],
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "api_access": "Open-Meteo Historical Archive / Copernicus CDS API (No API key required)",
+      "source_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+      "role_in_engine": "Forms the 35-year historical backbone (1991\u20132025; 12,784 records/city) to calculate Stull wet-bulb, burning costs, and empirical payout frequency.",
+      "sample_record": {
+        "date": "2024-05-24",
+        "t_max_c": 44.2,
+        "t_min_c": 31.8,
+        "rh_pct": 34.2,
+        "tw_max_c": 29.84,
+        "wbgt_max_c": 34.15
+      }
+    },
+    {
+      "id": "imd-pune-gridded",
+      "name": "IMD Pune Gridded Daily Temperature Records",
+      "institution": "India Meteorological Department (IMD) / Ministry of Earth Sciences",
+      "spatial_resolution": "0.5\u00b0 x 0.5\u00b0 and 1.0\u00b0 x 1.0\u00b0 gridded",
+      "temporal_coverage": "1969 to present (daily)",
+      "parameters": [
+        "Daily Maximum Temperature",
+        "Daily Minimum Temperature",
+        "Daily Heatwave Anomaly"
+      ],
+      "license": "Open Government Data (OGD) License India (data.gov.in)",
+      "api_access": "IMD Pune CMPG Archive & Python imdlib package",
+      "source_url": "https://imdpune.gov.in/",
+      "role_in_engine": "Ground-truth meteorological baseline used to audit station-to-reanalysis discrepancy and basis risk in Data Trust.",
+      "sample_record": {
+        "station_code": "VAAH",
+        "station_name": "Sardar Vallabhbhai Patel Airport",
+        "date": "2024-05-24",
+        "t_max_c": 44.8,
+        "anomaly_c": "+3.4\u00b0C (Severe Heatwave)"
+      }
+    },
+    {
+      "id": "nasa-power-meteorology",
+      "name": "NASA POWER Agroclimatology & Solar Radiation",
+      "institution": "NASA Langley Research Center",
+      "spatial_resolution": "0.5\u00b0 x 0.625\u00b0 global grid (MERRA-2)",
+      "temporal_coverage": "1981 to present (daily & hourly)",
+      "parameters": [
+        "All-Sky Surface Downward Solar Irradiance (MJ/m\u00b2/day)",
+        "Surface Skin Temperature",
+        "Relative Humidity at 2m",
+        "Wind Speed at 10m"
+      ],
+      "license": "NASA Public Domain / Unrestricted Open Data",
+      "api_access": "NASA POWER REST API (Free, rate-limit friendly)",
+      "source_url": "https://power.larc.nasa.gov/",
+      "role_in_engine": "Provides solar radiation insolation data to evaluate direct radiant heat loads on unshaded informal construction workers.",
+      "sample_record": {
+        "allsky_sfc_sw_dwn_mj_m2": 26.4,
+        "surface_temp_c": 47.8,
+        "rh2m_pct": 31.5
+      }
+    },
+    {
+      "id": "eshram-worker-registry",
+      "name": "e-Shram National Unorganised Worker Database",
+      "institution": "Ministry of Labour & Employment, Government of India",
+      "spatial_resolution": "District and State-level aggregates",
+      "temporal_coverage": "2021 to present (295M+ workers enrolled)",
+      "parameters": [
+        "Trade Classification (BOCW Construction, Hawkers, Agriculture)",
+        "Gender Distribution",
+        "Aadhaar / Jan Dhan Account Linkage",
+        "District Density"
+      ],
+      "license": "Open Government Data (OGD) License India",
+      "api_access": "e-Shram Public Analytics Dashboard & MoLE Portal",
+      "source_url": "https://eshram.gov.in/",
+      "role_in_engine": "Calibrates cohort sizing, daily wage benchmarks (\u20b9350\u2013\u20b9500/day), and UPI payment delivery channels across 16 pilot cities.",
+      "sample_record": {
+        "total_enrolled": 298410290,
+        "women_pct": 52.8,
+        "primary_trade": "Building & Other Construction Workers (BOCW)",
+        "bank_linked_pct": 98.4
+      }
+    },
+    {
+      "id": "mht-sewa-heat-sensors",
+      "name": "MHT & SEWA Slum Microclimate Logger Telemetry",
+      "institution": "Mahila Housing Trust (MHT) & SEWA Union",
+      "spatial_resolution": "Ward & Informal Settlement Microclimate (120 Homes)",
+      "temporal_coverage": "2022 to 2025 Summer Heat Seasons",
+      "parameters": [
+        "Tin/Asbestos Roof Surface Temp",
+        "Indoor Air Temp",
+        "Indoor Relative Humidity",
+        "Self-Reported Heat Days Lost"
+      ],
+      "license": "Open Action Research / CC BY-NC-SA 4.0",
+      "api_access": "MHT Climate Resilience Research Publications & NRDC Reports",
+      "source_url": "https://mahilahousingtrust.org/",
+      "role_in_engine": "Provides empirical evidence that informal tin-roof homes run +3.5\u00b0C to +5.2\u00b0C hotter than airport thermometers, justifying lowered trigger thresholds.",
+      "sample_record": {
+        "roof_type": "Corrugated Galvanized Iron (GI)",
+        "outdoor_ambient_c": 43.6,
+        "indoor_tin_roof_c": 48.9,
+        "heat_loss_reported_inr": 450.0
+      }
+    },
+    {
+      "id": "isro-bhuvan-lst",
+      "name": "ISRO Bhuvan & Landsat-8/9 Urban Heat Island (UHI) Index",
+      "institution": "National Remote Sensing Centre (NRSC) / ISRO & USGS",
+      "spatial_resolution": "30m - 100m Thermal Infrared (TIR)",
+      "temporal_coverage": "2013 to present",
+      "parameters": [
+        "Land Surface Temperature (LST)",
+        "Normalized Difference Vegetation Index (NDVI)",
+        "Urban Thermal Anomaly (\u00b0C)"
+      ],
+      "license": "ISRO Bhuvan Open Data / USGS Public Domain",
+      "api_access": "Bhuvan Geoportal / USGS EarthExplorer",
+      "source_url": "https://bhuvan.nrsc.gov.in/",
+      "role_in_engine": "Calculates ward-level thermal anomaly offsets to correct airport weather station basis risk for informal settlement neighborhoods.",
+      "sample_record": {
+        "ward_id": "AMD-W14",
+        "ward_name": "Behrampura Informal Cluster",
+        "lst_anomaly_c": "+4.1\u00b0C vs SVPI Airport",
+        "impervious_surface_pct": 94.2
+      }
+    },
+    {
+      "id": "lancet-labor-capacity",
+      "name": "Lancet Countdown Heat-Health & Labor Loss Coefficients",
+      "institution": "Lancet Countdown on Health and Climate Change",
+      "spatial_resolution": "National and Sub-national Heat Exposure",
+      "temporal_coverage": "2000 to present",
+      "parameters": [
+        "Potential Labor Hours Lost",
+        "WBGT Ergonomic Capacity Curve",
+        "Heat-Attributable Economic Loss"
+      ],
+      "license": "Open Scientific Literature (CC BY 4.0)",
+      "api_access": "Lancet Countdown Data Explorer",
+      "source_url": "https://www.lancetcountdown.org/",
+      "role_in_engine": "Provides the physiological labor productivity curve: 2.5% loss per 1.0\u00b0C WBGT above 20.0\u00b0C.",
+      "sample_record": {
+        "india_hours_lost_2021_billions": 167.2,
+        "gdp_equivalent_loss_pct": 5.4,
+        "threshold_wbgt_start_c": 20.0
+      }
+    },
+    {
+      "id": "ndma-heat-guidelines",
+      "name": "NDMA National Heat Wave Management Framework",
+      "institution": "National Disaster Management Authority (NDMA), Govt of India",
+      "spatial_resolution": "District and Municipal Corporation Level",
+      "temporal_coverage": "National Heat Action Plan (HAP) Framework",
+      "parameters": [
+        "Color-Coded Heat Alerts (Yellow, Orange, Red)",
+        "Thresholds by Terrain (Plains >=40\u00b0C, Coastal >=37\u00b0C, Hills >=30\u00b0C)",
+        "Departmental Action Protocols"
+      ],
+      "license": "Government Open Document",
+      "api_access": "NDMA Portal",
+      "source_url": "https://ndma.gov.in/",
+      "role_in_engine": "Aligns Mausam Dhaal operational triggers with municipal Heat Action Plan alert protocols and inter-departmental checklists.",
+      "sample_record": {
+        "alert_level": "Red Alert (Severe Heatwave)",
+        "action_required": "Activate municipal cooling centres, suspend outdoor work 12-4 PM, initiate relief cash disbursement"
+      }
+    }
+  ]
+}

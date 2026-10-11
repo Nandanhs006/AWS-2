@@ -62,17 +62,22 @@ export const DataTrust: React.FC = () => {
           <span className="badge badge-observed">Observed Ground Stations</span>
         </div>
 
-        <div style={{ display: 'flex', gap: '12px' }}>
-          {cities.map((city) => (
-            <button
-              key={city.city_id}
-              type="button"
-              className={selectedCityId === city.city_id ? 'btn-primary' : 'btn-secondary'}
-              onClick={() => setSelectedCityId(city.city_id)}
-            >
-              {city.city_name} (Basis Risk: {city.basis_risk_score_pct}%)
-            </button>
-          ))}
+        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', alignItems: 'center' }}>
+          <select
+            className="form-select"
+            value={selectedCityId}
+            onChange={(e) => setSelectedCityId(e.target.value)}
+            style={{ minWidth: '320px', fontSize: '13px', padding: '6px 12px' }}
+          >
+            {cities.map((city) => (
+              <option key={city.city_id} value={city.city_id}>
+                {city.city_name} — Basis Risk: {city.basis_risk_score_pct}% ({city.station_name.split('(')[0]})
+              </option>
+            ))}
+          </select>
+          <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+            Auditing {cities.length} primary meteorological stations against ERA5 reanalysis
+          </span>
         </div>
       </div>
 
@@ -193,6 +198,67 @@ export const DataTrust: React.FC = () => {
                       }}
                     >
                       {row.status}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* 16-City Basis Risk Leaderboard Table */}
+      <div className="panel">
+        <div className="panel-header">
+          <div>
+            <h3 className="panel-title">Nationwide 16-City Station Basis Risk Leaderboard</h3>
+            <p className="panel-subtitle">Comparative audit ranking all 16 Indian hubs by trigger disagreement rate</p>
+          </div>
+        </div>
+
+        <div className="table-container">
+          <table className="data-table">
+            <thead>
+              <tr>
+                <th>Territory Hub</th>
+                <th>Primary Weather Station</th>
+                <th>Station Temp Mean</th>
+                <th>Reanalysis Mean</th>
+                <th>Temp Bias (Δ)</th>
+                <th>RMSE</th>
+                <th>Missed Days</th>
+                <th>Basis Risk Disagreement</th>
+              </tr>
+            </thead>
+            <tbody>
+              {cities.map((city) => (
+                <tr
+                  key={city.city_id}
+                  style={{
+                    backgroundColor: city.city_id === selectedCityId ? 'rgba(255, 153, 0, 0.08)' : undefined,
+                    cursor: 'pointer',
+                  }}
+                  onClick={() => setSelectedCityId(city.city_id)}
+                >
+                  <td style={{ fontWeight: 600, color: 'var(--text-primary)' }}>{city.city_name}</td>
+                  <td>{city.station_name}</td>
+                  <td>{city.station_temp_mean_c.toFixed(1)}°C</td>
+                  <td>{city.reanalysis_temp_mean_c.toFixed(1)}°C</td>
+                  <td>{city.mean_temp_diff_c > 0 ? `+${city.mean_temp_diff_c}` : city.mean_temp_diff_c}°C</td>
+                  <td>{city.rmse_temp_c.toFixed(2)}°C</td>
+                  <td style={{ color: city.missed_pay_days_count > 20 ? '#D13212' : undefined, fontWeight: 600 }}>
+                    {city.missed_pay_days_count}
+                  </td>
+                  <td>
+                    <span
+                      className="badge"
+                      style={{
+                        backgroundColor: city.basis_risk_score_pct >= 25 ? 'rgba(209, 50, 18, 0.15)' : 'rgba(9, 114, 211, 0.15)',
+                        color: city.basis_risk_score_pct >= 25 ? '#D13212' : '#0972D3',
+                        fontWeight: 700,
+                      }}
+                    >
+                      {city.basis_risk_score_pct}%
                     </span>
                   </td>
                 </tr>

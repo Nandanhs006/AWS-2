@@ -22,6 +22,8 @@ export const TopBar: React.FC<TopBarProps> = ({
     { id: 'studio', label: 'Trigger Studio' },
     { id: 'distress', label: 'Distress Map' },
     { id: 'datatrust', label: 'Data Trust' },
+    { id: 'datasets', label: 'Open Datasets' },
+    { id: 'microclimate', label: 'Ward Heat Islands' },
     { id: 'replay', label: 'Season Replay' },
     { id: 'desk', label: 'Heat-Day Desk' },
     { id: 'cohorts', label: 'Cohort Registry' },

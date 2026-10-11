@@ -74,9 +74,19 @@ export const SeasonReplay: React.FC = () => {
               value={selectedCity}
               onChange={(e) => setSelectedCity(e.target.value)}
             >
-              <option value="ahmedabad">Ahmedabad (SEWA Pilot Epicenter)</option>
-              <option value="kolkata">Kolkata</option>
-              <option value="sholapur">Sholapur</option>
+              {data.cities ? (
+                Object.keys(data.cities).map((cid) => (
+                  <option key={cid} value={cid}>
+                    {cid.charAt(0).toUpperCase() + cid.slice(1)} Hub (Historical Evaluation)
+                  </option>
+                ))
+              ) : (
+                <>
+                  <option value="ahmedabad">Ahmedabad (SEWA Pilot Epicenter)</option>
+                  <option value="kolkata">Kolkata</option>
+                  <option value="sholapur">Sholapur</option>
+                </>
+              )}
             </select>
           </div>
 

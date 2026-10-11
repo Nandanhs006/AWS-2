@@ -12,6 +12,8 @@ import { ActuarialStressStudio } from './components/screens/ActuarialStressStudi
 import { DisbursementSandbox } from './components/screens/DisbursementSandbox';
 import { DecisionRecord } from './components/screens/DecisionRecord';
 import { PolicyContractSchedule } from './components/screens/PolicyContractSchedule';
+import { DatasetCatalog } from './components/screens/DatasetCatalog';
+import { UrbanMicroclimateAudit } from './components/screens/UrbanMicroclimateAudit';
 import { LoginPage } from './components/screens/LoginPage';
 
 const MainWorkbench: React.FC = () => {
@@ -32,6 +34,10 @@ const MainWorkbench: React.FC = () => {
         return <DistressMap />;
       case 'datatrust':
         return <DataTrust />;
+      case 'datasets':
+        return <DatasetCatalog />;
+      case 'microclimate':
+        return <UrbanMicroclimateAudit />;
       case 'replay':
         return <SeasonReplay />;
       case 'desk':

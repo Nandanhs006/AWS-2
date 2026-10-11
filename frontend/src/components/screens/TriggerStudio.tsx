@@ -118,9 +118,19 @@ export const TriggerStudio: React.FC = () => {
               value={selectedCity}
               onChange={(e) => setSelectedCity(e.target.value)}
             >
-              <option value="ahmedabad">Ahmedabad (Hero / Semi-Arid Heat)</option>
-              <option value="kolkata">Kolkata (Humid-Heat Delta)</option>
-              <option value="sholapur">Sholapur (Transition Plateau)</option>
+              {data.cities && data.cities.length > 0 ? (
+                data.cities.map((c: any) => (
+                  <option key={c.id} value={c.id}>
+                    {c.name} ({c.state}) — {c.climate_type}
+                  </option>
+                ))
+              ) : (
+                <>
+                  <option value="ahmedabad">Ahmedabad (Hero / Semi-Arid Heat)</option>
+                  <option value="kolkata">Kolkata (Humid-Heat Delta)</option>
+                  <option value="sholapur">Sholapur (Transition Plateau)</option>
+                </>
+              )}
             </select>
           </div>
 

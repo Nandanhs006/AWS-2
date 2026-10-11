@@ -39,11 +39,11 @@ def evaluate_daily_series(
     # Pre-extract sorted tiers (descending threshold order for proper priority)
     sorted_tiers = sorted(config.tiers, key=lambda t: t.threshold_value, reverse=True)
 
-    for _, row in df_sorted.iterrows():
-        date_str = str(row["date"])[:10]
-        t_max = float(row["t_max_c"])
-        tw_max = float(row["tw_max_c"])
-        wbgt_max = float(row["wbgt_max_c"])
+    for row in df_sorted.itertuples(index=False):
+        date_str = str(getattr(row, "date"))[:10]
+        t_max = float(getattr(row, "t_max_c"))
+        tw_max = float(getattr(row, "tw_max_c"))
+        wbgt_max = float(getattr(row, "wbgt_max_c"))
 
         # Modelled productivity loss proxy: 2.5% per °C of WBGT above 20°C
         wbgt_excess = max(0.0, wbgt_max - 20.0)
@@ -103,7 +103,7 @@ def evaluate_daily_series(
         is_false_payout = (tier_triggered is not None) and (work_loss_pct < 15.0)
 
         records.append(
-            DayEvaluation(
+            DayEvaluation.model_construct(
                 date=date_str,
                 t_max_c=t_max,
                 tw_max_c=tw_max,

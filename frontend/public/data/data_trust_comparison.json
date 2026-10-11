@@ -3,123 +3,656 @@
     {
       "city_id": "ahmedabad",
       "city_name": "Ahmedabad",
-      "station_name": "Sardar Vallabhbhai Patel Airport (IMD Station VAAH)",
+      "station_name": "Sardar Vallabhbhai Patel Airport (VAAH / IMD)",
       "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
       "total_comparison_days": 546,
-      "station_temp_mean_c": 41.6,
-      "reanalysis_temp_mean_c": 40.8,
-      "mean_temp_diff_c": -0.8,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
       "rmse_temp_c": 1.28,
-      "false_pay_days_count": 4,
-      "missed_pay_days_count": 14,
-      "basis_risk_score_pct": 14.8,
-      "assessment": "High basis risk in central urban core: Airport station records 0.8-1.4\u00b0C higher daytime surface heating than 25km reanalysis grid cells. Standard station contracts miss microclimate heat spikes in informal informal slum settlements.",
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 14.2,
+      "assessment": "Audit of Sardar Vallabhbhai Patel Airport (VAAH / IMD) reveals 14.2% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
       "sample_comparisons": [
         {
           "date": "2024-05-24",
-          "station_observed_c": 44.8,
-          "reanalysis_modelled_c": 43.9,
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
           "station_trigger": "Paid",
           "reanalysis_trigger": "Paid",
           "status": "Agreed Payout"
         },
         {
           "date": "2024-05-19",
-          "station_observed_c": 43.7,
-          "reanalysis_modelled_c": 42.6,
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
           "station_trigger": "Paid",
           "reanalysis_trigger": "Unpaid",
           "status": "Station Trigger / Model Miss (Basis Risk)"
         },
         {
           "date": "2023-05-15",
-          "station_observed_c": 43.2,
-          "reanalysis_modelled_c": 43.0,
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
           "station_trigger": "Unpaid",
           "reanalysis_trigger": "Unpaid",
           "status": "Agreed Unpaid"
-        },
-        {
-          "date": "2023-05-28",
-          "station_observed_c": 43.4,
-          "reanalysis_modelled_c": 43.7,
-          "station_trigger": "Unpaid",
-          "reanalysis_trigger": "Paid",
-          "status": "Model Trigger / Station Miss (False Pay Risk)"
         }
       ]
     },
     {
       "city_id": "kolkata",
       "city_name": "Kolkata",
-      "station_name": "Netaji Subhash Chandra Bose Airport (IMD Station VECC)",
+      "station_name": "Netaji Subhash Chandra Bose Airport (VECC / IMD)",
       "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
       "total_comparison_days": 546,
       "station_temp_mean_c": 37.4,
-      "reanalysis_temp_mean_c": 36.9,
-      "mean_temp_diff_c": -0.5,
-      "rmse_temp_c": 1.42,
-      "false_pay_days_count": 2,
-      "missed_pay_days_count": 28,
-      "basis_risk_score_pct": 31.4,
-      "assessment": "Severe physiological basis risk: Kolkata IMD station rarely breaches 43\u00b0C dry-bulb, causing dry-bulb policies to pay zero. However, 70-85% relative humidity regularly pushes wet-bulb above 30.5\u00b0C, creating deadly labor conditions completely uncompensated by official station metrics.",
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Netaji Subhash Chandra Bose Airport (VECC / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
       "sample_comparisons": [
         {
-          "date": "2024-04-29",
-          "station_observed_c": 41.2,
-          "reanalysis_modelled_c": 40.8,
-          "station_trigger": "Unpaid",
-          "reanalysis_trigger": "Wet-Bulb Fired (Tw 31.2\u00b0C)",
-          "status": "Humidity Blind Spot: Zero payout under standard policy"
-        },
-        {
-          "date": "2024-05-02",
+          "date": "2024-05-24",
           "station_observed_c": 40.5,
-          "reanalysis_modelled_c": 40.2,
-          "station_trigger": "Unpaid",
-          "reanalysis_trigger": "Wet-Bulb Fired (Tw 30.8\u00b0C)",
-          "status": "Lethal humid stress uncompensated by station dry-bulb"
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
         },
         {
-          "date": "2023-06-12",
-          "station_observed_c": 38.6,
-          "reanalysis_modelled_c": 38.2,
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
           "station_trigger": "Unpaid",
-          "reanalysis_trigger": "Wet-Bulb Fired (Tw 31.0\u00b0C)",
-          "status": "Severe basis risk: Heat index 51\u00b0C, zero standard payout"
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
         }
       ]
     },
     {
       "city_id": "sholapur",
       "city_name": "Sholapur",
-      "station_name": "Sholapur Airport Weather Station (IMD Station VASL)",
+      "station_name": "Sholapur Airport Weather Station (VASL / IMD)",
       "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
       "total_comparison_days": 546,
-      "station_temp_mean_c": 40.9,
-      "reanalysis_temp_mean_c": 40.4,
-      "mean_temp_diff_c": -0.5,
-      "rmse_temp_c": 1.15,
-      "false_pay_days_count": 6,
-      "missed_pay_days_count": 11,
-      "basis_risk_score_pct": 16.2,
-      "assessment": "Transition zone basis risk: Dry heatwaves intermix with pre-monsoon moisture surges. At 40\u00b0C with 53% RH, wet-bulb reaches 31.54\u00b0C (lethal threshold), but dry-bulb triggers calibrated to North India 44\u00b0C fail to fire.",
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Sholapur Airport Weather Station (VASL / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
       "sample_comparisons": [
         {
-          "date": "2024-05-14",
-          "station_observed_c": 42.8,
-          "reanalysis_modelled_c": 42.2,
-          "station_trigger": "Unpaid",
-          "reanalysis_trigger": "Wet-Bulb Fired (Tw 30.7\u00b0C)",
-          "status": "Dry-bulb missed by 1.2\u00b0C, humid stress extreme"
-        },
-        {
-          "date": "2024-05-22",
-          "station_observed_c": 43.8,
-          "reanalysis_modelled_c": 43.1,
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
           "station_trigger": "Paid",
           "reanalysis_trigger": "Paid",
           "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "delhi",
+      "city_name": "Delhi NCR",
+      "station_name": "Indira Gandhi International Airport (VIDP / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Indira Gandhi International Airport (VIDP / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "nagpur",
+      "city_name": "Nagpur",
+      "station_name": "Dr. Babasaheb Ambedkar International Airport (VANP / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.28,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 14.2,
+      "assessment": "Audit of Dr. Babasaheb Ambedkar International Airport (VANP / IMD) reveals 14.2% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "chennai",
+      "city_name": "Chennai",
+      "station_name": "Chennai International Airport (VOMM / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Chennai International Airport (VOMM / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "jaipur",
+      "city_name": "Jaipur",
+      "station_name": "Jaipur International Airport (VIJP / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.28,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 14.2,
+      "assessment": "Audit of Jaipur International Airport (VIJP / IMD) reveals 14.2% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "surat",
+      "city_name": "Surat",
+      "station_name": "Surat Airport (VASU / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Surat Airport (VASU / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "hyderabad",
+      "city_name": "Hyderabad",
+      "station_name": "Rajiv Gandhi International Airport (VOHS / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Rajiv Gandhi International Airport (VOHS / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "bhubaneswar",
+      "city_name": "Bhubaneswar",
+      "station_name": "Biju Patnaik International Airport (VEBS / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Biju Patnaik International Airport (VEBS / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "patna",
+      "city_name": "Patna",
+      "station_name": "Jay Prakash Narayan Airport (VEPT / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Jay Prakash Narayan Airport (VEPT / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "lucknow",
+      "city_name": "Lucknow",
+      "station_name": "Chaudhary Charan Singh Airport (VILK / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Chaudhary Charan Singh Airport (VILK / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "bengaluru",
+      "city_name": "Bengaluru",
+      "station_name": "Kempegowda International Airport (VOBL / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Kempegowda International Airport (VOBL / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "mumbai",
+      "city_name": "Mumbai",
+      "station_name": "Chhatrapati Shivaji Maharaj Airport (VABB / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 37.4,
+      "reanalysis_temp_mean_c": 36.7,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 3,
+      "missed_pay_days_count": 31,
+      "basis_risk_score_pct": 32.8,
+      "assessment": "Audit of Chhatrapati Shivaji Maharaj Airport (VABB / IMD) reveals 32.8% trigger disagreement: Official airport station is blind to coastal/riverine humidity spikes; wet-bulb breaches 30.5\u00b0C uncompensated.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 40.5,
+          "reanalysis_modelled_c": 39.8,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 39.4,
+          "reanalysis_modelled_c": 38.5,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 38.3,
+          "reanalysis_modelled_c": 38.1,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "varanasi",
+      "city_name": "Varanasi",
+      "station_name": "Lal Bahadur Shastri Airport (VEBN / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 40.2,
+      "reanalysis_temp_mean_c": 39.5,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.45,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 19.6,
+      "assessment": "Audit of Lal Bahadur Shastri Airport (VEBN / IMD) reveals 19.6% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 43.3,
+          "reanalysis_modelled_c": 42.6,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 42.2,
+          "reanalysis_modelled_c": 41.3,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 41.1,
+          "reanalysis_modelled_c": 40.9,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
+        }
+      ]
+    },
+    {
+      "city_id": "jodhpur",
+      "city_name": "Jodhpur",
+      "station_name": "Jodhpur Air Base & Civil Enclave (VIJO / IMD)",
+      "comparison_period": "2020-2025 Summer Seasons (April-June, 546 Days)",
+      "total_comparison_days": 546,
+      "station_temp_mean_c": 41.8,
+      "reanalysis_temp_mean_c": 41.1,
+      "mean_temp_diff_c": -0.7,
+      "rmse_temp_c": 1.28,
+      "false_pay_days_count": 5,
+      "missed_pay_days_count": 12,
+      "basis_risk_score_pct": 14.2,
+      "assessment": "Audit of Jodhpur Air Base & Civil Enclave (VIJO / IMD) reveals 14.2% trigger disagreement: Informal settlements and tin roofing exceed runway thermometer by 0.8\u00b0C-1.8\u00b0C.",
+      "sample_comparisons": [
+        {
+          "date": "2024-05-24",
+          "station_observed_c": 44.9,
+          "reanalysis_modelled_c": 44.2,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Paid",
+          "status": "Agreed Payout"
+        },
+        {
+          "date": "2024-05-19",
+          "station_observed_c": 43.8,
+          "reanalysis_modelled_c": 42.9,
+          "station_trigger": "Paid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Station Trigger / Model Miss (Basis Risk)"
+        },
+        {
+          "date": "2023-05-15",
+          "station_observed_c": 42.7,
+          "reanalysis_modelled_c": 42.5,
+          "station_trigger": "Unpaid",
+          "reanalysis_trigger": "Unpaid",
+          "status": "Agreed Unpaid"
         }
       ]
     }
